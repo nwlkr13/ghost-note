@@ -25,7 +25,7 @@ In place. The archive still renders the same 15 kits.
 
 ### Phase 1 (May 2026)
 
-Scaffold complete. The visual archive rendered 15 kits with a vinyl-record card and one illustration (Ludwig Classic Maple, kit #1). Component files existed as stubs; the markup lived in `GhostNote.jsx`.
+Scaffold complete. The visual archive rendered 15 kits with a vinyl-record card and one illustration (the Ludwig kit, then mislabeled Classic Maple). Component files existed as stubs; the markup lived in `GhostNote.jsx`. The catalog names and specs are corrected in `src/data/kits.js`, with sources in `docs/illustration-references.md`.
 
 ## Roadmap
 

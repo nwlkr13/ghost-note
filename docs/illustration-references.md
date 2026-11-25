@@ -1,27 +1,26 @@
 # Illustration references
 
-Each SVG in `src/assets/illustrations/` is an original isometric drawing. It is informed by the catalog entry in `src/data/kits.js` and by the public sources below. Nothing is traced from a photograph.
+Sources for the corrected entries in `src/data/kits.js`. Drawings are original vectors. Badge outlines have no lettering and no logo artwork. Nothing is traced from a photograph.
 
-Badge outlines are empty shapes. There is no lettering, wordmark, script, or logo artwork.
+The data pass corrected names, years, materials, and sizes. Drawings were not restyled. The only drawing edits are the ones the new piece count required: the Ludwig 12-inch tom came out, and the Yamaha 10-inch tom and 14-inch floor came out. The Mapex drawing still shows the old four-piece. The Yamaha bass is still drawn at the old 22-inch width. A new illustration approach is separate.
 
-Where the catalog wording and the period record disagree, the note says which one the drawing follows.
+Uncertain fields are marked in each kit's `references` array. They are not filled with a guess.
 
-## Ludwig Classic Maple (1965)
+## Ludwig Super Classic (1965)
 
-Drawn as a mid-1960s Chicago oyster-black-pearl outfit in the catalog sizes: 14×22 bass, 8×12 and 9×13 racks, 16×16 floor, plus the metal snare that shipped with a Super Classic. Long imperial lugs with a center boss, triple-flange hoops on the toms and snare, wood bass hoops with an inlay stripe and claw hooks, calfskin heads, and an empty keystone outline on the shell.
+Corrected from "Classic Maple." The outfit is 14×22, 9×13, and 16×16 in Oyster Black Pearl, with 3-ply mahogany/poplar/mahogany shells, imperial lugs, triple-flange tom hoops, and wood bass hoops with claws. Coated heads were standard by the mid-1960s; calfskin was the earlier head.
 
-The three-piece Super Classic outfit of the period was usually 22×14, 13×9, and 16×16. This drawing adds the catalog's 12×8. Shells of that date were commonly 3-ply mahogany/poplar; the catalog lists maple. The wrap pattern is an invented oyster vein, not a copy of a particular drum.
+The February 1964 Ed Sullivan kit was the Downbeat: 14×20, 8×12, 14×14. The Super Classic arrived at the end of May 1964.
 
 Sources:
 
-- [1964 Ludwig Oyster Black Pearl Super Classic](https://www.ringosbeatlekits.com/1964-ludwig-super-classic) — sizes, 3-ply shells, keystone badges, chrome-over-brass hoops, inlaid bass hoop.
+- [1964 Ludwig Oyster Black Pearl Downbeat](https://www.ringosbeatlekits.com/1964-ludwig-downbeat) — the February 1964 Sullivan kit: 14×20, 8×12, 14×14, mahogany/poplar.
+- [1964 Ludwig Oyster Black Pearl Super Classic](https://www.ringosbeatlekits.com/1964-ludwig-super-classic) — from 31 May 1964: 14×22, 9×13, 16×16, same shell layup.
 - [Ludwig Super Classic outfit notes](https://drums.allbutnew.com/drum/ludwig-super-classic) — 22×14 / 13×9 / 16×16, imperial-era hardware, oyster finishes.
 
-## Gretsch Round Badge (1957)
+## Gretsch Progressive Jazz (1957)
 
-Drawn as the late-1950s Progressive Jazz set the catalog sizes match: 20×14 bass, 12×8 rack, 14×14 floor, shallow snare. Die-cast hoops, short slim lugs, a rail mount, copper-mist sparkle, calfskin, and a plain round badge on the shell. The snare has an angled side throw. No name and no center emblem.
-
-Copper Mist was a rare nitron (lacquer, sometimes under a clear wrap). Round-badge sets of this size were the jazz outfit introduced in the mid-1950s.
+Round badge is the era. The model is the small jazz outfit: 14×20, 8×12, 14×14, Copper Mist nitron, 3-ply maple/poplar in the 1950s catalogs, separate-tension streamlined lugs, flanged metal hoops, Micro-Sensitive strainer. Six-ply shells were phasing in by the late 1950s, so a 1957 shell is not certain. Die-cast hoops are the 1960s norm, not this year. The Lightning throw-off is on the 1971 catalog.
 
 Sources:
 
@@ -29,18 +28,19 @@ Sources:
 - [D.J. Fontana's copper-mist Gretsch](https://scottymoore.net/gretschdrums.html) — 20×14, 12×8, 14×14, calfskin bass head, 1950s rail mount.
 - [1956–1959 round-badge Copper Mist](https://badgesdrumshop.com/products/vintage-1956-1959-gretsch-round-badge-6ply-name-band-outfit-in-copper-mist-14x22-9x13-14x14) — Copper Mist as lacquer, often under a clear wrap; bass hoops carried an inlay.
 
-## Pearl Free-Floating Piccolo (1982)
+## Pearl Free-Floating Piccolo (1983)
 
-Drawn as a 3×14 steel piccolo. The shell is a plain chrome cylinder with no lugs and no badge. A die-cast bottom chassis carries the throw-off, and short lugs bridge that chassis to a thick die-cast top hoop. Later production is often 3.5 inches with ten rods; this drawing uses the catalog depth and eight rods, which matches many early free-floating piccolos.
+Pearl's 2016 catalog dates the Free-Floating snare to 1983. A Japanese account says about 1984. The documented steel piccolo is 14×3.5, not 3 inches. The shell has no hardware. Whether the first steel shells were mirror chrome or a plainer plate was not pinned. The drawing's depth was not rebuilt.
 
 Sources:
 
+- [Pearl 2016 catalog timeline](https://pearldrum.com/sites/default/files/image_folder/SUPPORT/GENERAL%26SPARE%20PARTS%20CATALOG/PRODUCT%20CATALOG/GENERAL%20DRUM%20SET/2016-general-catalog-.pdf) — Free-Floating snare launched 1983.
 - [Pearl Free Floating explanation](https://testabeatdrums.com/2018/03/23/pearl-ffs/) — hardware lives on the edge ring; the shell slides out; piccolo lugs are short.
 - [Pearl stainless piccolo spec](https://pearldrum.com/en/products/snares/free-floating/stainless-steel-piccolo-snare) — die-cast chassis, shell contacted only by the batter head.
 
-## DW Collector's Series Maple (1991)
+## DW Collector's Series (1990)
 
-Drawn to the catalog sizes: 18×22 bass, 10×12 and 12×14 racks, 16 floor. Black ground with a pin-speckle galaxy wrap, turret lugs at each hoop, triple-flange hoops, coated heads, and an empty oval badge. The 1991 catalog line used these turret lugs and True-Pitch rods; Black Galaxy is a FinishPly speckle wrap.
+The first DW drum catalog is 1990. Shells are North American maple. Lugs are turrets. True-Pitch rods were patented in 1995, so the old "half-turn" claim is not this entry: the rods use finer threads, and they are later. Black Galaxy is a known FinishPly and was not confirmed in the 1990 catalog. The deep 22×18 layout is one custom set, not a standard pack.
 
 Sources:
 
@@ -49,7 +49,7 @@ Sources:
 
 ## Sonor Phonic (1978)
 
-Drawn to the catalog sizes, including both floors: 14×22 bass, 8×12, 9×13, 14×14, 16×16. Red-stained beech, long square-section lugs, triple-flange hoops, an empty oblong badge, and prism blocks where the legs meet the shell. The 1975–79 Phonic is 9-ply beech with a 45° edge. The catalog finish "Red Satin" is drawn as a stained red mahogany, which is the wood finish in the Phonic line, not a sparkle wrap.
+Nine-ply beech, 45-degree edge from the 1975 launch, Red Mahogany stain, long Phonic lugs, ferro-manganese hoops. "Red Satin" and "Sonor Square" were not catalog names found for this drum. The five-piece uses sizes the line offered. It is a large outfit, not the only one. Made in West Germany by Johs. Link.
 
 Sources:
 
@@ -58,26 +58,22 @@ Sources:
 
 ## Tama Superstar (1976)
 
-Drawn as a 1976 birch Superstar in cherry-sunburst lacquer: 14×22 bass, 10×13 and 11×14 racks, 16 floor. Cast lugs with a center block, triple-flange tom hoops, a die-cast snare hoop, and plain rectangular tom brackets. No crest and no lettering.
-
-The catalog says "Star-Cast" and "fiberglass/maple hybrid." Tama's own history puts birch Superstar in the 1976 catalog and the fiberglass shells on the separate Fibrestar line (1977). The named Star-Cast hoop system is a later part. The drawing follows the 1976 birch lacquer drum and the cast lug, not a star painted on the head.
+Japanese birch, 1976 catalog, cast lugs shared with Imperialstar. Fiberglass is Fibrestar (1977). Star-Cast is a later mount. A 1976 price list and a 1976 cherry-sunburst finish were not found, so the sizes stay general and the finish is "lacquer." Billy Cobham was an early endorser. The drawing still shows a sunburst and was not recolored.
 
 Sources:
 
 - [Tama history book](https://www.hoshinogakki.co.jp/pdf/tama/catalog/TAMA_historyBook.pdf) — Superstar debut 1976, Japanese birch, Fibrestar as the fiberglass line, Omni-Sphere mount later (about 1980).
 - [Tama 1970s lug casings](https://tamarchive.tripod.com/tamalugs1.htm) — Superstar shared the cast lug with Imperialstar and Fibrestar; badges of that era carried a crest, which is not drawn.
 
-## Zildjian A Series cymbal set
+## Zildjian A Zildjian (1929)
 
-Drawn as three traditional lathed cymbals in the catalog sizes: 14 inch hi-hats, 17 inch crash, 20 inch ride. Concentric tone grooves and a raised bell. No stamp, no letter, no script. The catalog year 1623 is the company's founding, not a cymbal's manufacture date. "A" is a trade name and is not lettered on the bronze.
+The A line is the American cymbal, from the Avedis Zildjian Company incorporated in Quincy in 1929. Zildjian dates the Constantinople foundry to 1623. That date is not this entry. The alloy is copper and tin; the exact mix is unpublished, so 80/20 is not stated as their formula. A 14-inch pair, a 17-inch crash, and a 20-inch ride is a representative traditional set, not a 1929 invoice. Crash, ride, and hi-hat are names from Avedis's work with jazz drummers.
 
-The drawing uses the ordinary traditional profile: a lathed gold-brown cymbal, darker than a brilliant finish, with the ride the largest and the hi-hats a pair.
+## Yamaha 9000 (1976)
 
-## Yamaha Recording Custom (1975)
+The entry is the YD-9000, real-wood birch, separate mini lugs, on the market in 1976. Recording Custom is the 1982 9000RA name, with the long lug. Early tom sizes cited are 12×8, 13×9, 14×10, and 15×12, with 18- and 20-inch basses. The catalog now uses 14×20, 8×12, 9×13, and a 16×16 floor. That floor was not in the list above. The old six-piece 22-inch layout is withdrawn. The 10-inch tom and the 14-inch floor were removed from the drawing. The bass is still drawn at the old 22-inch width.
 
-Drawn to the catalog sizes: 14×22 bass, racks 8×10, 9×12, and 10×13, floors 14 and 16. Natural birch, separate mini lugs (the early 9000 "Einzelböckchen," which the catalog calls mini-timbale), wood bass hoops, triple-flange tom hoops, and an empty rounded-rectangle badge.
-
-The first 9000s (about 1976) were real-wood birch with individual lugs; full-length lugs arrived alongside them by 1978 and became the only high-end lug by 1982. Steve Gadd's later recorded kit was often a smaller 20 inch bass. This drawing keeps the catalog's larger studio layout and the early separate lugs.
+Gadd's "50 Ways" (1975) was not this kit. Accounts of "Aja" (1977) point at a rented Ludwig, and Gadd himself has said he was not sure. His later Yamaha kits are a different instrument.
 
 Sources:
 
@@ -85,20 +81,16 @@ Sources:
 
 ## Mapex Armory (2014)
 
-Drawn to the catalog sizes: 18×22 bass, 10×10 and 12×14 toms, 14×16 floor, plus a steel snare. Green-to-black rainforest burst, sharp tube lugs, thicker hoops, and a pale inner lip for the rounded SONIClear edge. Empty rectangular badge. Chrome hardware.
-
-The 2014 Armory shell Mapex published is birch/maple/birch. The catalog says maple/walnut. The drawing follows the published Rainforest Burst look, the tube lug, and the SONIClear lip, at the catalog's piece sizes.
+Six-ply birch/maple/birch. Armory tube lugs. SONIClear is the edge and the mount, not the lug. Rainforest Burst is a 2014 finish. The Studioease short pack is 18×22, 7×10, 8×12, 12×14, 14×16, and a 5.5×14 steel snare. The drawing still shows the previous four-piece.
 
 Sources:
 
 - [2014 Armory catalogue](https://www.mapexblackpanther.com/images/catalogues/2014_Mapex_Armory_Catalogue.pdf) — SONIClear edge, Rainforest Burst, tube lugs, Studioease sizes.
 - [MusicRadar Armory review, April 2014](https://www.musicradar.com/reviews/drums/mapex-armory-series-kit-598815) — 6-ply birch/maple/birch, rounded SONIClear edge, sharp-edged tube lugs.
 
-## Noble & Cooley Horizon (2003)
+## Noble & Cooley Horizon (1980s)
 
-Drawn to the catalog: 16×22 bass, 7×10 and 8×12 toms, 14 floor, walnut gloss, brass tube lugs, one seam, empty hex badge.
-
-The current factory Horizon page describes a maple/mahogany horizontal-ply shell, with brass tube lugs as an option, and says the horizontal ply was meant to behave like a steam-bent shell. The 2003 catalog entry says steam-bent solid maple and walnut gloss. The drawing follows that entry (dark walnut, one seam, brass tubes, small jazz toms on a 22 inch bass).
+The factory says the Horizon was introduced in the 1980s and does not give a year, so the entry year is the string "1980s" rather than a guessed number. The shell is horizontal-ply maple and mahogany, meant to move more like a steam-bent shell. It is not steam-bent solid maple and it is not a walnut shell. Standard lugs are chrome castings; brass tubes are an option. A current example is 16×22, 9×12, 16×16. The 1980s size list was not found. 2003 is not a documented introduction.
 
 Sources:
 
@@ -111,32 +103,31 @@ Drawn as a 6.5×14 jarrah snare: deep red-brown shell, horizontal plies, one sea
 
 Sources:
 
+- [Brady timeline, via Jedistar](https://jedistar.com/brady/) — solid jarrah snare 1980; jarrah ply from 1989.
 - [Brady handmade snare review](https://www.musicradar.com/reviews/drums/brady-handmade-snare-26771) — 14×6.5, ten brass tube lugs, horizontal plies, triple-flange hoops, jarrah described.
 - [Brady Jarrah ply spec](https://www.soundpure.com/p/brady-65x14-elm-burl-satin-jarrah-ply-snare-drum/11001) — ten double-ended tube lugs, horizontal plies, 45° edges.
 
-## Craviotto Solid Maple (1996)
+## Craviotto Solid Maple (1990s)
 
-Drawn as three snares, 5.5, 6, and 7 by 14, which is the size list in the catalog. Each shell is one steam-bent plank: a single scarf joint and reinforcing rings, curly maple, satin oil, diamond tube lugs, triple-flange hoops. Not a stave drum. The catalog's "solid stave" wording is the solid-shell claim; Craviotto's own description is one board, steam-bent, with solid maple rings.
+One maple board, steam-bent, with solid maple reinforcing rings, natural satin oil, and chrome-plated brass tube lugs. Not a stave shell and not carved. Depths include 5.5×14, 6.5×14, and 7×14. A specific 1996 first-catalog date and a two-year waiting list were not verified, so the year is "1990s."
 
 Sources:
 
 - [Craviotto custom shop](https://www.craviottodrums.com/craviotto-custom-shop) — one solid board, steam-bent.
 - [Craviotto maple snare spec](https://www.soundpure.com/p/craviotto-7x14-maple-custom-snare-drum-inlay-8-lug/25367) — chrome-over-brass diamond tube lugs, reinforcing rings, triple-flange or die-cast hoops, natural satin.
 
-## Rogers Dyna-Sonic (1958)
+## Rogers Dyna-Sonic (1961)
 
-Drawn as a 5×14 chrome-over-brass snare: brass shell with five engraved lines, ten beavertail lugs, tall hoops, an empty oval badge, and the floating snare frame with one center screw and a side lever. The parallel frame is the part that keeps the wires off the head. Beavertail is the Swiv-O-Matic lug of this era. Calfskin, as the catalog says.
+A November 1961 Down Beat ad calls the Dyna-Sonic new. One current Rogers page says 1962. The entry uses 1961. It is a 5×14 chrome-over-brass snare. The wires sit on a frame; lengthwise tension is separate from the pressure on the bottom head. They are not tensioned from inside the shell. The first lugs are the Bread and Butter. Beavertail examples are cited from about 1965. The drawing shows the later lug and was not restyled.
 
 Sources:
 
 - [Rogers Dyna-Sonic, from the 1967 catalog text](https://goodhandsdrumshop.com/products/rogers-5x14-dynasonic-chrome-over-brass-snare-drum-1960s-5-line) — floating snare frame, one tension screw, 5-line chrome-over-brass, beavertail lugs.
 - [1960s 5×14 Dyna-Sonic COB](https://www.nelsondrumshop.com/products/1960s-rogers-7-line-dynastic-cob-5x14) — ten double-ended lugs, parallel mechanism, tall hoops.
 
-## Leedy Broadway (1928)
+## Leedy Broadway Standard (1930)
 
-Drawn as a late-1920s Leedy professional snare: 5×14 nickel-over-brass shell with a center bead, eight separate-tension tube lugs, extended flange hoops, calfskin, a side throw, and an empty oval badge. No claw hooks. Claw-hook wood hoops show up later, on other makers' swing models.
-
-The Broadway name is the catalog model. Published Leedy catalogs introduce the Broadway Standard, Parallel, and Dual in 1930; a 1928 professional Leedy snare is the Multi-Model / pre-Broadway drum with this same hardware family (nickel brass, separate tension, tube lugs, extended flange). The drawing uses that 1928 hardware rather than the 1930 parallel gate.
+The Broadway Standard, Parallel, and Dual are in the 1930 catalog. The name is kept and the year moves from 1928 to 1930. A 1928 professional snare would be the Multi-Model. This entry is the Broadway Standard: nickel-plated brass, separate-tension tube lugs, extended-flange hoops, calfskin. Other depths were catalogued. Claw hooks are not this drum. The year the Leedy name passed to Slingerland was not pinned. Gene Krupa's early kit is not documented here as Leedy.
 
 Sources:
 
@@ -146,7 +137,7 @@ Sources:
 
 ## Slingerland Radio King (1936)
 
-Drawn as a 5×14 steam-bent maple snare: one scarf joint, reinforcing rings, eight double-ended streamline (cigar) lugs, double-flange nickel hoops, calfskin, a three-point side strainer, and a cloud-shaped badge with no lettering. The catalog finish line "chrome over brass" describes hoop plating of some shells; the 1936 snare shell is solid maple, which is what is drawn.
+One-piece steam-bent maple with reinforcing rings, nickel hardware, calfskin, eight streamline lugs, and the three-point strainer. The shell is natural maple, not chrome over brass. Depths of 5.5, 6.5, and 7 inches are the ones the sources list; a 5-inch shell was not confirmed, so the entry is 5.5×14. It was sold as the Gene Krupa model. That he helped design it was not independently documented. The drawing depth was not rebuilt.
 
 Sources:
 

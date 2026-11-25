@@ -33,7 +33,7 @@
     </linearGradient>
   </defs>
   <ellipse cx="240" cy="318" rx="170" ry="14" fill="url(#pf-floor)"/>
-  <!-- free-floating 3 x 14 -->
+  <!-- free-floating 3.5 x 14. Depth was not redrawn; the data depth is 3.5 inches. -->
     <g>
       <line x1="198" y1="188" x2="52" y2="336" stroke="#d8d8d8" stroke-width="1.6"/>
       <line x1="240" y1="190" x2="240" y2="336" stroke="#d8d8d8" stroke-width="1.6"/>

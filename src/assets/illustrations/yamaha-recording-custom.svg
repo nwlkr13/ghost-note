@@ -54,35 +54,6 @@
       <ellipse cx="430" cy="135" rx="6" ry="2" fill="#2a1c0c" stroke="#6a4a20" stroke-width="0.6"/>
       <ellipse cx="430" cy="135" rx="2" ry="1" fill="#c4a15a"/>
     </g>
-  <!-- 14 floor -->
-    <g>
-      <line x1="66" y1="258" x2="55" y2="336" stroke="#d8d8d8" stroke-width="1.6"/>
-      <line x1="118" y1="258" x2="129" y2="336" stroke="#d8d8d8" stroke-width="1.6"/>
-      <path d="M50 210 L50 258 A42 11 0 0 0 134 258 L134 210 Z" fill="url(#ya-shell)" stroke="#4a341c" stroke-width="1.15"/>
-      <clipPath id="ya-floor-l"><path d="M50 210 L50 258 A42 11 0 0 0 134 258 L134 210 Z"/></clipPath>
-      <g clip-path="url(#ya-floor-l)">
-        <path d="M58 216 Q92 222 126 217" fill="none" stroke="#5a3c22" stroke-width="1.15" opacity="0.45"/>
-        <path d="M58 225 Q92 231 126 226" fill="none" stroke="#5a3c22" stroke-width="1.15" opacity="0.45"/>
-        <path d="M58 234 Q92 240 126 235" fill="none" stroke="#5a3c22" stroke-width="1.15" opacity="0.45"/>
-        <path d="M58 243 Q92 249 126 244" fill="none" stroke="#5a3c22" stroke-width="1.15" opacity="0.45"/>
-      </g>
-      <rect x="60" y="212" width="4" height="7" fill="#d8d8d8"/>
-      <rect x="60" y="249" width="4" height="7" fill="#d8d8d8"/>
-      <rect x="72" y="212" width="4" height="7" fill="#d8d8d8"/>
-      <rect x="72" y="249" width="4" height="7" fill="#d8d8d8"/>
-      <rect x="84" y="212" width="4" height="7" fill="#d8d8d8"/>
-      <rect x="84" y="249" width="4" height="7" fill="#d8d8d8"/>
-      <rect x="96" y="212" width="4" height="7" fill="#d8d8d8"/>
-      <rect x="96" y="249" width="4" height="7" fill="#d8d8d8"/>
-      <rect x="108" y="212" width="4" height="7" fill="#d8d8d8"/>
-      <rect x="108" y="249" width="4" height="7" fill="#d8d8d8"/>
-      <rect x="120" y="212" width="4" height="7" fill="#d8d8d8"/>
-      <rect x="120" y="249" width="4" height="7" fill="#d8d8d8"/>
-      <rect x="76" y="230" width="32" height="10" fill="none" stroke="#e6e6e6" stroke-width="1.4"/>
-      <ellipse cx="92" cy="210" rx="42" ry="11" fill="#101010" stroke="#d8d8d8" stroke-width="1.3"/>
-      <ellipse cx="92" cy="210" rx="39" ry="10" fill="none" stroke="#d8d8d8" stroke-width="0.7" opacity="0.7"/>
-      <ellipse cx="92" cy="210" rx="34" ry="9" fill="#f4ead8" stroke="#3a3228" stroke-width="0.55"/>
-    </g>
   <!-- 16 floor -->
     <g>
       <line x1="377" y1="258" x2="364" y2="336" stroke="#d8d8d8" stroke-width="1.6"/>
@@ -116,7 +87,7 @@
       <ellipse cx="408" cy="204" rx="47" ry="12" fill="none" stroke="#d8d8d8" stroke-width="0.7" opacity="0.7"/>
       <ellipse cx="408" cy="204" rx="42" ry="11" fill="#f4ead8" stroke="#3a3228" stroke-width="0.55"/>
     </g>
-  <!-- 14 x 22 bass, wood hoops -->
+  <!-- bass drawn at the old 22-inch width; catalog bass is 20-inch -->
     <g>
       <path d="M148 214 L148 264 A100 26 0 0 0 348 264 L348 214 Z" fill="url(#ya-shell)" stroke="#4a341c" stroke-width="1.15"/>
       <clipPath id="ya-bass"><path d="M148 214 L148 264 A100 26 0 0 0 348 264 L348 214 Z"/></clipPath>
@@ -150,28 +121,6 @@
       <rect x="234" y="296" width="28" height="6" fill="#161616" stroke="#3a3a3a" stroke-width="0.5"/>
     </g>
   <line x1="248" y1="214" x2="248" y2="146" stroke="#8a8a8a" stroke-width="1.4"/>
-  <!-- 8 x 10 -->
-    <g>
-      <path d="M148 156 L148 182 A28 7 0 0 0 204 182 L204 156 Z" fill="url(#ya-shell)" stroke="#4a341c" stroke-width="1.15"/>
-      <clipPath id="ya-t10"><path d="M148 156 L148 182 A28 7 0 0 0 204 182 L204 156 Z"/></clipPath>
-      <g clip-path="url(#ya-t10)">
-        <path d="M156 162 Q176 168 196 163" fill="none" stroke="#5a3c22" stroke-width="1.15" opacity="0.45"/>
-        <path d="M156 166 Q176 172 196 167" fill="none" stroke="#5a3c22" stroke-width="1.15" opacity="0.45"/>
-        <path d="M156 169 Q176 175 196 170" fill="none" stroke="#5a3c22" stroke-width="1.15" opacity="0.45"/>
-        <path d="M156 173 Q176 179 196 174" fill="none" stroke="#5a3c22" stroke-width="1.15" opacity="0.45"/>
-      </g>
-      <rect x="154" y="158" width="4" height="7" fill="#d8d8d8"/>
-      <rect x="154" y="173" width="4" height="7" fill="#d8d8d8"/>
-      <rect x="167" y="158" width="4" height="7" fill="#d8d8d8"/>
-      <rect x="167" y="173" width="4" height="7" fill="#d8d8d8"/>
-      <rect x="181" y="158" width="4" height="7" fill="#d8d8d8"/>
-      <rect x="181" y="173" width="4" height="7" fill="#d8d8d8"/>
-      <rect x="194" y="158" width="4" height="7" fill="#d8d8d8"/>
-      <rect x="194" y="173" width="4" height="7" fill="#d8d8d8"/>
-      <ellipse cx="176" cy="156" rx="28" ry="7" fill="#101010" stroke="#d8d8d8" stroke-width="1.3"/>
-      <ellipse cx="176" cy="156" rx="25" ry="6" fill="none" stroke="#d8d8d8" stroke-width="0.7" opacity="0.7"/>
-      <ellipse cx="176" cy="156" rx="20" ry="5" fill="#f4ead8" stroke="#3a3228" stroke-width="0.55"/>
-    </g>
   <!-- 9 x 12 -->
     <g>
       <path d="M206 146 L206 176 A34 9 0 0 0 274 176 L274 146 Z" fill="url(#ya-shell)" stroke="#4a341c" stroke-width="1.15"/>

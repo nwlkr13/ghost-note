@@ -4,13 +4,13 @@
 
 ## Status
 
-Phase 2. Fifteen kits, from the Leedy Broadway (1928) to the Mapex Armory (2014). Each kit has an isometric illustration. Filters and the inline detail panel behave as they did in Phase 1.
+Phase 2. Fifteen kits, from the Leedy Broadway Standard (1930) to the Mapex Armory (2014). Each kit has an isometric illustration. Filters and the inline detail panel behave as they did in Phase 1.
 
 - Dark monochrome palette (`#0a0a0a` background, `#c0392b` blood-red accent)
 - Monospace typography (`Courier New`)
 - Vinyl record card as the fallback visual; every current kit overrides it with an isometric SVG
 
-Phase 1 (May 2026) was the scaffold: the gallery, the kit catalog, and one illustration (Ludwig Classic Maple). Card, filter, and detail markup lived inline in `GhostNote.jsx`.
+Phase 1 (May 2026) was the scaffold: the gallery, the kit catalog, and one illustration (the Ludwig kit). Card, filter, and detail markup lived inline in `GhostNote.jsx`.
 
 ## Stack
 
