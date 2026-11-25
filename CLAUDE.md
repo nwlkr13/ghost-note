@@ -20,7 +20,7 @@ Push order: local → git commit → git push origin main → upload changed fil
 In place. The archive still renders the same 15 kits.
 
 - `KitCard`, `FilterBar`, and `KitModal` are implemented in `src/components/`. `GhostNote.jsx` composes the card and the filter bar. The detail panel still opens inside the card, as it did in Phase 1.
-- Each kit has an isometric SVG in `src/assets/illustrations/`, referenced by `illustration` in `src/data/kits.js`. The vinyl record remains the fallback when `illustration` is absent.
+- Each kit has an isometric SVG in `src/assets/illustrations/`, referenced by `illustration` in `src/data/kits.js`. The gallery card shows a still of the parametric 3D model. Opening a card mounts one orbit viewer (`src/components/KitViewer.jsx`, lazy-loaded). The SVG is the fallback when WebGL is unavailable or the still is missing. The vinyl record remains the fallback when `illustration` is absent.
 - Sample files are not part of this phase.
 
 ### Phase 1 (May 2026)
@@ -50,7 +50,9 @@ The bucket list, fidelity claim, and sourcing notes above are unchanged. Wiring 
 
 Drawings aim at the likeness of the historical instrument named in `kits.js`: piece count, sizes, lug shape and count, hoop type, badge shape and where it sits, strainer, finish, and the mounts of that model and era. Sources and the places the catalog and the factory record disagree are in `docs/illustration-references.md`.
 
-Do not reproduce brand logos, wordmarks, script names, or badge text or artwork. Badge outlines and shapes only, with no lettering and no logo graphics. Do not trace or copy photographs. Draw original vectors informed by those sources. Generic hardware shapes, finishes, and sizes are fine.
+Do not reproduce brand logos, wordmarks, script names, or badge text or artwork. Badge outlines and shapes only, with no lettering and no logo graphics. Do not trace or copy photographs, and do not copy commercial 3D models. Draw original vectors and original procedural geometry informed by those sources. Generic hardware shapes, finishes, and sizes are fine.
+
+The interactive view is a three.js model generated from `src/data/builds.js` (piece count, diameters, depths, shell, finish, lug type and count, hoop, strainer, heads, mounts). Licenses and the limits of that realism are in `docs/3d-models.md`. The same blank-badge rule applies to the 3D badges.
 
 ## Design rules (enforced)
 

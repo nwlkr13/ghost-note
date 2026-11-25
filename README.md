@@ -4,7 +4,7 @@
 
 ## Status
 
-Phase 2. Fifteen kits, from the Leedy Broadway Standard (1930) to the Mapex Armory (2014). Each kit has an isometric illustration. Filters and the inline detail panel behave as they did in Phase 1.
+Phase 2. Fifteen kits, from the Leedy Broadway Standard (1930) to the Mapex Armory (2014). Each card shows a still of a parametric 3D model. Opening a kit mounts one orbit viewer. The isometric SVG remains when WebGL is unavailable. Filters and the inline detail panel behave as they did in Phase 1.
 
 - Dark monochrome palette (`#0a0a0a` background, `#c0392b` blood-red accent)
 - Monospace typography (`Courier New`)
@@ -35,16 +35,25 @@ ghost-note/
 ├── package.json
 ├── vite.config.js
 ├── docs/
-│   └── illustration-references.md      # Sources for each kit drawing
+│   ├── illustration-references.md      # Sources for each kit drawing
+│   └── 3d-models.md                    # How the 3D kits are built, and their licenses
 ├── src/
 │   ├── main.jsx                        # React mount
 │   ├── GhostNote.jsx                   # Archive view: header, grid, footer
+│   ├── ShotPage.jsx                    # Full-frame viewer for stills (?shot=)
 │   ├── components/
 │   │   ├── KitCard.jsx                 # Card visual and meta
+│   │   ├── KitViewer.jsx               # One orbit viewer, lazy-loaded
 │   │   ├── FilterBar.jsx               # Era, origin, and search
 │   │   └── KitModal.jsx                # Inline kit detail panel
 │   ├── data/
-│   │   └── kits.js                     # Kit catalog
+│   │   ├── kits.js                     # Kit catalog
+│   │   ├── builds.js                   # Piece sizes and hardware for the 3D generator
+│   │   └── previews.js                 # Still images for the gallery cards
+│   ├── three/
+│   │   ├── kitFactory.js               # Parametric shells, lugs, hoops, hardware
+│   │   ├── materials.js                # Procedural PBR finishes
+│   │   └── webgl.js                    # WebGL availability check
 │   └── assets/
 │       └── illustrations/              # One isometric SVG per kit
 │           ├── ludwig-classic-maple.svg
@@ -66,7 +75,7 @@ ghost-note/
 
 ## Roadmap
 
-- **Phase 2** — Done. Lift KitCard, FilterBar, and KitModal out of `GhostNote.jsx`. Isometric SVG illustrations for all 15 kits.
+- **Phase 2** — Done. Lift KitCard, FilterBar, and KitModal out of `GhostNote.jsx`. Isometric SVG illustrations for all 15 kits, kept as the WebGL fallback. Opening a kit shows a rotatable three.js model driven by `src/data/builds.js`.
 - **Phase 3** — Playable kits. A drum-pad UI on each card, triggered with the Web Audio API or Tone.js. Sample sets come from the character buckets in the sound roadmap. Plus a play-along mode: the user loads a local audio file (MP3, WAV, and the like) and plays the kit over it. The file stays on the device and is never uploaded.
 - **Phase 4** — Achievements and gamification: kits played, eras unlocked, streaks, play-along challenges. Stored in the browser with `localStorage`. No accounts. No tracking.
 - **Later / exploratory** — A streaming-service partnership (Spotify or similar). Spotify's developer terms currently prohibit mixing or syncing Spotify audio with other audio, and the Web Playback SDK requires Premium. This is a business-development goal once the app has traction, not something to build against now.

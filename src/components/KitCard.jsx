@@ -1,7 +1,13 @@
 // Ghost Note — KitCard
-// Vinyl record, or the kit illustration when one is set. Detail opens inline.
+// Still of the 3D model, or the SVG, or the vinyl record. Detail opens inline.
+// The orbit viewer mounts only while this card is open.
 
+import { Suspense, lazy } from "react";
 import KitModal from "./KitModal.jsx";
+import { previewSrc } from "../data/previews.js";
+import { canUseWebGL } from "../three/webgl.js";
+
+const KitViewer = lazy(() => import("./KitViewer.jsx"));
 
 export default function KitCard({ kit, selected, onSelect, onClose, index }) {
   return (
@@ -14,7 +20,26 @@ export default function KitCard({ kit, selected, onSelect, onClose, index }) {
       }}
       onClick={onSelect}
     >
-      {kit.illustration ? (
+      {selected && canUseWebGL() ? (
+        <div
+          style={styles.viewerWrap}
+          onClick={(event) => event.stopPropagation()}
+          onPointerDown={(event) => event.stopPropagation()}
+        >
+          <Suspense fallback={<div style={styles.viewerFallback}>LOADING</div>}>
+            <KitViewer kit={kit} />
+          </Suspense>
+        </div>
+      ) : previewSrc(kit.id) ? (
+        <div style={styles.illustrationWrap}>
+          <img
+            src={previewSrc(kit.id)}
+            alt={`${kit.make} ${kit.model}`}
+            className="kit-illustration"
+            style={styles.illustration}
+          />
+        </div>
+      ) : kit.illustration ? (
         <div style={styles.illustrationWrap}>
           <img
             src={kit.illustration}
@@ -124,6 +149,21 @@ const styles = {
     borderRadius: "50%",
     background: "rgba(0,0,0,0.6)",
     filter: "blur(10px)",
+  },
+  viewerWrap: {
+    height: 320,
+    background: "#0a0a0a",
+  },
+  viewerFallback: {
+    height: 320,
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    background: "#0a0a0a",
+    border: "1px solid #1f1f1f",
+    color: "#555",
+    letterSpacing: "0.22em",
+    fontSize: 11,
   },
   illustrationWrap: {
     display: "flex",
