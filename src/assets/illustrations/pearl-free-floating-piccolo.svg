@@ -1,55 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  Ghost Note — Pearl Free-Floating Piccolo (1982)
-  Isometric, geometric, dark aesthetic.
-  3 x 14 steel piccolo. Mirror chrome. The shell is inset from the hoop cage: Pearl free-floating hardware bridges the hoops and does not touch the shell. Blue accent from the catalog color.
+  Ghost Note — Pearl Free-Floating piccolo (early 1980s)
+  Original isometric vector. Badge shapes only: no lettering, no logo artwork.
+  3 x 14 steel piccolo. Shell has no lugs and no badge. It sits in a die-cast chassis; short lugs bridge the bottom ring to the top die-cast hoop. Throw-off is on the chassis.
 -->
-<svg viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg" fill="none" role="img" aria-label="Pearl Free-Floating Piccolo snare, isometric view">
+<svg viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg" fill="none" role="img" aria-label="Chrome free-floating piccolo snare, isometric view">
   <defs>
-    <radialGradient id="pf-cymbal" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#d4ad57"/>
-      <stop offset="0.55" stop-color="#8a6627"/>
-      <stop offset="1" stop-color="#3d2c11"/>
+    <radialGradient id="pf-cymbal" cx="0.5" cy="0.45" r="0.55">
+      <stop offset="0" stop-color="#c4a15a"/>
+      <stop offset="0.45" stop-color="#7a5a28"/>
+      <stop offset="1" stop-color="#3a2810"/>
     </radialGradient>
     <radialGradient id="pf-floor" cx="0.5" cy="0.4" r="0.6">
       <stop offset="0" stop-color="#000" stop-opacity="0.55"/>
       <stop offset="1" stop-color="#000" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="pf-chrome" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#4a4a4a"/>
-      <stop offset="1" stop-color="#0d0d0d"/>
+      <stop offset="0" stop-color="#e8eaec"/>
+      <stop offset="0.45" stop-color="#8e949c"/>
+      <stop offset="1" stop-color="#2a2e32"/>
+    </linearGradient>
+    <linearGradient id="pf-brass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0d7a0"/>
+      <stop offset="0.45" stop-color="#b8883c"/>
+      <stop offset="1" stop-color="#5a3c18"/>
     </linearGradient>
     <linearGradient id="pf-shell" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#f7f8f9"/>
+      <stop offset="0" stop-color="#f7f8f8"/>
       <stop offset="0.35" stop-color="#c5ccd2"/>
-      <stop offset="0.68" stop-color="#6d767e"/>
-      <stop offset="1" stop-color="#2a3138"/>
+      <stop offset="0.7" stop-color="#6e767e"/>
+      <stop offset="1" stop-color="#2c3238"/>
     </linearGradient>
   </defs>
-  <ellipse cx="240" cy="318" rx="180" ry="16" fill="url(#pf-floor)"/>
-  <!-- piccolo snare 3 x 14, free-floating cage -->
+  <ellipse cx="240" cy="318" rx="170" ry="14" fill="url(#pf-floor)"/>
+  <!-- free-floating 3 x 14 -->
     <g>
-      <line x1="190" y1="196" x2="48" y2="334" stroke="#d5d5d5" stroke-width="1.5"/>
-      <line x1="240" y1="198" x2="240" y2="334" stroke="#d5d5d5" stroke-width="1.5"/>
-      <line x1="290" y1="196" x2="432" y2="334" stroke="#d5d5d5" stroke-width="1.5"/>
-      <line x1="98" y1="128" x2="98" y2="219" stroke="#f7f7f7" stroke-width="3.4"/>
-      <line x1="102" y1="128" x2="102" y2="219" stroke="#f7f7f7" stroke-width="3.4"/>
-      <line x1="378" y1="128" x2="378" y2="219" stroke="#f7f7f7" stroke-width="3.4"/>
-      <line x1="382" y1="128" x2="382" y2="219" stroke="#f7f7f7" stroke-width="3.4"/>
-      <path d="M112 141 L112 181 A128 34 0 0 0 368 181 L368 141 Z" fill="url(#pf-shell)" stroke="#f2f4f6" stroke-width="1.15"/>
-      <clipPath id="pf-snare"><path d="M112 141 L112 181 A128 34 0 0 0 368 181 L368 141 Z"/></clipPath>
+      <line x1="198" y1="188" x2="52" y2="336" stroke="#d8d8d8" stroke-width="1.6"/>
+      <line x1="240" y1="190" x2="240" y2="336" stroke="#d8d8d8" stroke-width="1.6"/>
+      <line x1="282" y1="188" x2="428" y2="336" stroke="#d8d8d8" stroke-width="1.6"/>
+      <path d="M90 174 L90 188 A150 39 0 0 0 390 188 L390 174 Z" fill="#b8bec4" stroke="#f4f4f4" stroke-width="1.2"/>
+      <ellipse cx="240" cy="174" rx="150" ry="39" fill="#d5d8dc" stroke="#ffffff" stroke-width="1.4"/>
+      <path d="M112 136 L112 170 A128 33 0 0 0 368 170 L368 136 Z" fill="url(#pf-shell)" stroke="#f4f6f8" stroke-width="1.15"/>
+      <clipPath id="pf-snare"><path d="M112 136 L112 170 A128 33 0 0 0 368 170 L368 136 Z"/></clipPath>
       <g clip-path="url(#pf-snare)">
-        <ellipse cx="212" cy="158" rx="33" ry="12" fill="#ffffff" opacity="0.45"/>
-        <line x1="189" y1="145" x2="263" y2="178" stroke="#2980b9" stroke-width="4" opacity="0.9"/>
       </g>
-      <ellipse cx="240" cy="132" rx="156" ry="41" fill="#0e0805" stroke="#ffffff" stroke-width="2.6"/>
-      <ellipse cx="240" cy="132" rx="150" ry="39" fill="#f4f1ea" stroke="#b8b8b8" stroke-width="0.7"/>
-      <circle cx="240" cy="132" r="2.1" fill="#2980b9"/>
-      <line x1="166" y1="220" x2="314" y2="220" stroke="#d8d8d8" stroke-width="1" opacity="0.95"/>
-      <line x1="171" y1="223" x2="309" y2="223" stroke="#d8d8d8" stroke-width="1" opacity="0.95"/>
-      <line x1="176" y1="226" x2="304" y2="226" stroke="#d8d8d8" stroke-width="1" opacity="0.95"/>
-      <line x1="181" y1="229" x2="299" y2="229" stroke="#d8d8d8" stroke-width="1" opacity="0.95"/>
-      <line x1="186" y1="232" x2="294" y2="232" stroke="#d8d8d8" stroke-width="1" opacity="0.95"/>
-      <line x1="191" y1="235" x2="289" y2="235" stroke="#d8d8d8" stroke-width="1" opacity="0.95"/>
+      <rect x="121" y="126" width="4" height="60" fill="#f4f4f4"/>
+      <rect x="154" y="126" width="4" height="60" fill="#f4f4f4"/>
+      <rect x="188" y="126" width="4" height="60" fill="#f4f4f4"/>
+      <rect x="221" y="126" width="4" height="60" fill="#f4f4f4"/>
+      <rect x="255" y="126" width="4" height="60" fill="#f4f4f4"/>
+      <rect x="288" y="126" width="4" height="60" fill="#f4f4f4"/>
+      <rect x="322" y="126" width="4" height="60" fill="#f4f4f4"/>
+      <rect x="355" y="126" width="4" height="60" fill="#f4f4f4"/>
+      <ellipse cx="240" cy="128" rx="150" ry="39" fill="#121212" stroke="#ffffff" stroke-width="4"/>
+      <ellipse cx="240" cy="128" rx="140" ry="36" fill="#f3f1ea" stroke="#3a3228" stroke-width="0.6"/>
+      <rect x="364" y="151" width="16" height="5" fill="#d8d8d8" stroke="#333" stroke-width="0.4"/>
+      <line x1="380" y1="153" x2="392" y2="143" stroke="#d8d8d8" stroke-width="1.8"/>
     </g>
 </svg>

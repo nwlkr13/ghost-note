@@ -1,153 +1,177 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  Ghost Note — Mapex Armory (2014)
-  Isometric, geometric, dark aesthetic.
-  18 x 22 bass, offset 10 x 10 and 12 x 14 toms, 14 x 16 floor. Rainforest burst. Asymmetric modern layout. Pale inner ring marks the SONIClear bearing edge. Chrome hardware.
+  Ghost Note — Mapex Armory, Rainforest Burst (2014)
+  Original isometric vector. Badge shapes only: no lettering, no logo artwork.
+  Catalog sizes 18x22 bass, 10x10 and 12x14 toms, 14x16 floor. Green-black burst, sharp tube lugs, thicker power hoops, rounded bearing-edge lip. Rectangular badge outline only.
 -->
-<svg viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg" fill="none" role="img" aria-label="Mapex Armory drum kit, isometric view">
+<svg viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg" fill="none" role="img" aria-label="Rainforest burst hybrid drum kit, isometric view">
   <defs>
-    <radialGradient id="mx-cymbal" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#d4ad57"/>
-      <stop offset="0.55" stop-color="#8a6627"/>
-      <stop offset="1" stop-color="#3d2c11"/>
+    <radialGradient id="mx-cymbal" cx="0.5" cy="0.45" r="0.55">
+      <stop offset="0" stop-color="#c4a15a"/>
+      <stop offset="0.45" stop-color="#7a5a28"/>
+      <stop offset="1" stop-color="#3a2810"/>
     </radialGradient>
     <radialGradient id="mx-floor" cx="0.5" cy="0.4" r="0.6">
       <stop offset="0" stop-color="#000" stop-opacity="0.55"/>
       <stop offset="1" stop-color="#000" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="mx-chrome" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#4a4a4a"/>
-      <stop offset="1" stop-color="#0d0d0d"/>
+      <stop offset="0" stop-color="#e8eaec"/>
+      <stop offset="0.45" stop-color="#8e949c"/>
+      <stop offset="1" stop-color="#2a2e32"/>
+    </linearGradient>
+    <linearGradient id="mx-brass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0d7a0"/>
+      <stop offset="0.45" stop-color="#b8883c"/>
+      <stop offset="1" stop-color="#5a3c18"/>
     </linearGradient>
     <linearGradient id="mx-shell" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#08110e"/>
-      <stop offset="0.24" stop-color="#143828"/>
-      <stop offset="0.5" stop-color="#c8ecd4"/>
-      <stop offset="0.76" stop-color="#143828"/>
-      <stop offset="1" stop-color="#08110e"/>
+      <stop offset="0" stop-color="#102018"/>
+      <stop offset="0.28" stop-color="#1e4a34"/>
+      <stop offset="0.5" stop-color="#b7dcb8"/>
+      <stop offset="0.74" stop-color="#1e4a34"/>
+      <stop offset="1" stop-color="#0c1612"/>
     </linearGradient>
   </defs>
-  <ellipse cx="240" cy="332" rx="210" ry="20" fill="url(#mx-floor)"/>
+  <ellipse cx="240" cy="334" rx="200" ry="18" fill="url(#mx-floor)"/>
   <!-- crash -->
     <g>
-      <line x1="68" y1="123" x2="80" y2="334" stroke="#6a6a6a" stroke-width="1.4"/>
-      <line x1="68" y1="123" x2="68" y2="106" stroke="#6a6a6a" stroke-width="1.1"/>
-      <ellipse cx="68" cy="120" rx="34" ry="8" fill="url(#mx-cymbal)" stroke="#1a1208" stroke-width="1"/>
-      <ellipse cx="68" cy="120" rx="26" ry="6" fill="none" stroke="#5a4118" stroke-width="0.8"/>
-      <ellipse cx="68" cy="120" rx="18" ry="4" fill="none" stroke="#5a4118" stroke-width="0.8"/>
-      <ellipse cx="68" cy="120" rx="5" ry="2" fill="#1a1208"/>
+      <line x1="68" y1="125" x2="80" y2="336" stroke="#6a6a6a" stroke-width="1.5"/>
+      <line x1="68" y1="114" x2="68" y2="124" stroke="#7a7a7a" stroke-width="1.2"/>
+      <ellipse cx="68" cy="122" rx="32" ry="8" fill="url(#mx-cymbal)" stroke="#1a1208" stroke-width="1.1"/>
+      <ellipse cx="68" cy="122" rx="24" ry="6" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="68" cy="122" rx="17" ry="4" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="68" cy="122" rx="9" ry="2" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="68" cy="121" rx="5" ry="2" fill="#2a1c0c" stroke="#6a4a20" stroke-width="0.6"/>
+      <ellipse cx="68" cy="121" rx="2" ry="1" fill="#c4a15a"/>
     </g>
   <!-- ride -->
     <g>
-      <line x1="422" y1="150" x2="408" y2="334" stroke="#6a6a6a" stroke-width="1.4"/>
-      <line x1="422" y1="150" x2="422" y2="129" stroke="#6a6a6a" stroke-width="1.1"/>
-      <ellipse cx="422" cy="146" rx="46" ry="11" fill="url(#mx-cymbal)" stroke="#1a1208" stroke-width="1"/>
-      <ellipse cx="422" cy="146" rx="35" ry="8" fill="none" stroke="#5a4118" stroke-width="0.8"/>
-      <ellipse cx="422" cy="146" rx="24" ry="6" fill="none" stroke="#5a4118" stroke-width="0.8"/>
-      <ellipse cx="422" cy="146" rx="7" ry="2" fill="#1a1208"/>
+      <line x1="420" y1="152" x2="406" y2="336" stroke="#6a6a6a" stroke-width="1.5"/>
+      <line x1="420" y1="137" x2="420" y2="151" stroke="#7a7a7a" stroke-width="1.2"/>
+      <ellipse cx="420" cy="148" rx="44" ry="11" fill="url(#mx-cymbal)" stroke="#1a1208" stroke-width="1.1"/>
+      <ellipse cx="420" cy="148" rx="34" ry="8" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="420" cy="148" rx="23" ry="6" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="420" cy="148" rx="13" ry="3" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="420" cy="147" rx="7" ry="2" fill="#2a1c0c" stroke="#6a4a20" stroke-width="0.6"/>
+      <ellipse cx="420" cy="147" rx="2" ry="1" fill="#c4a15a"/>
     </g>
-  <!-- floor tom 14 x 16 -->
+  <!-- 14 x 16 floor -->
     <g>
-      <line x1="369" y1="272" x2="356" y2="334" stroke="#d5d5d5" stroke-width="1.5"/>
-      <line x1="439" y1="272" x2="452" y2="334" stroke="#d5d5d5" stroke-width="1.5"/>
-      <path d="M348 220 L348 272 A56 15 0 0 0 460 272 L460 220 Z" fill="url(#mx-shell)" stroke="#0c1612" stroke-width="1.15"/>
-      <clipPath id="mx-floor"><path d="M348 220 L348 272 A56 15 0 0 0 460 272 L460 220 Z"/></clipPath>
+      <line x1="369" y1="264" x2="355" y2="336" stroke="#d8d8d8" stroke-width="1.6"/>
+      <line x1="439" y1="264" x2="453" y2="336" stroke="#d8d8d8" stroke-width="1.6"/>
+      <path d="M348 214 L348 264 A56 15 0 0 0 460 264 L460 214 Z" fill="url(#mx-shell)" stroke="#102018" stroke-width="1.15"/>
+      <clipPath id="mx-floor"><path d="M348 214 L348 264 A56 15 0 0 0 460 264 L460 214 Z"/></clipPath>
       <g clip-path="url(#mx-floor)">
       </g>
-      <line x1="361" y1="222" x2="361" y2="270" stroke="#d5d5d5" stroke-width="1.15"/>
-      <line x1="378" y1="222" x2="378" y2="270" stroke="#d5d5d5" stroke-width="1.15"/>
-      <line x1="395" y1="222" x2="395" y2="270" stroke="#d5d5d5" stroke-width="1.15"/>
-      <line x1="413" y1="222" x2="413" y2="270" stroke="#d5d5d5" stroke-width="1.15"/>
-      <line x1="430" y1="222" x2="430" y2="270" stroke="#d5d5d5" stroke-width="1.15"/>
-      <line x1="447" y1="222" x2="447" y2="270" stroke="#d5d5d5" stroke-width="1.15"/>
-      <ellipse cx="404" cy="220" rx="56" ry="15" fill="#0e0805" stroke="#d5d5d5" stroke-width="1.8"/>
-      <ellipse cx="404" cy="220" rx="50" ry="13" fill="#e7e2d6" stroke="#3a2a22" stroke-width="0.7"/>
-      <ellipse cx="404" cy="220" rx="45" ry="12" fill="none" stroke="#f7faf8" stroke-width="1.6"/>
-      <circle cx="404" cy="220" r="2.1" fill="#2e4057"/>
+      <rect x="361" y="217" width="7" height="44" fill="#e8e8e8"/>
+      <rect x="372" y="217" width="7" height="44" fill="#e8e8e8"/>
+      <rect x="384" y="217" width="7" height="44" fill="#e8e8e8"/>
+      <rect x="395" y="217" width="7" height="44" fill="#e8e8e8"/>
+      <rect x="407" y="217" width="7" height="44" fill="#e8e8e8"/>
+      <rect x="418" y="217" width="7" height="44" fill="#e8e8e8"/>
+      <rect x="430" y="217" width="7" height="44" fill="#e8e8e8"/>
+      <rect x="441" y="217" width="7" height="44" fill="#e8e8e8"/>
+      <rect x="388" y="240" width="32" height="10" fill="none" stroke="#e6e6e6" stroke-width="1.4"/>
+      <ellipse cx="404" cy="214" rx="56" ry="15" fill="#101010" stroke="#d8d8d8" stroke-width="1.3"/>
+      <ellipse cx="404" cy="214" rx="53" ry="14" fill="none" stroke="#d8d8d8" stroke-width="0.7" opacity="0.7"/>
+      <ellipse cx="404" cy="214" rx="48" ry="13" fill="#e8e3d8" stroke="#3a3228" stroke-width="0.55"/>
+      <ellipse cx="404" cy="214" rx="44" ry="12" fill="none" stroke="#f4f1ea" stroke-width="1.7" opacity="0.8"/>
     </g>
-  <!-- bass drum 18 x 22 -->
+  <!-- 18 x 22 bass -->
     <g>
-      <path d="M114 196 L114 278 A114 30 0 0 0 342 278 L342 196 Z" fill="url(#mx-shell)" stroke="#0c1612" stroke-width="1.15"/>
-      <clipPath id="mx-bass"><path d="M114 196 L114 278 A114 30 0 0 0 342 278 L342 196 Z"/></clipPath>
+      <path d="M116 196 L116 272 A110 29 0 0 0 336 272 L336 196 Z" fill="url(#mx-shell)" stroke="#102018" stroke-width="1.15"/>
+      <clipPath id="mx-bass"><path d="M116 196 L116 272 A110 29 0 0 0 336 272 L336 196 Z"/></clipPath>
       <g clip-path="url(#mx-bass)">
       </g>
-      <line x1="141" y1="198" x2="141" y2="276" stroke="#d5d5d5" stroke-width="1.15"/>
-      <line x1="166" y1="198" x2="166" y2="276" stroke="#d5d5d5" stroke-width="1.15"/>
-      <line x1="191" y1="198" x2="191" y2="276" stroke="#d5d5d5" stroke-width="1.15"/>
-      <line x1="216" y1="198" x2="216" y2="276" stroke="#d5d5d5" stroke-width="1.15"/>
-      <line x1="240" y1="198" x2="240" y2="276" stroke="#d5d5d5" stroke-width="1.15"/>
-      <line x1="265" y1="198" x2="265" y2="276" stroke="#d5d5d5" stroke-width="1.15"/>
-      <line x1="290" y1="198" x2="290" y2="276" stroke="#d5d5d5" stroke-width="1.15"/>
-      <line x1="315" y1="198" x2="315" y2="276" stroke="#d5d5d5" stroke-width="1.15"/>
-      <ellipse cx="228" cy="196" rx="114" ry="30" fill="#0e0805" stroke="#d5d5d5" stroke-width="2"/>
-      <ellipse cx="228" cy="196" rx="108" ry="28" fill="#e7e2d6" stroke="#3a2a22" stroke-width="0.7"/>
-      <ellipse cx="228" cy="196" rx="103" ry="27" fill="none" stroke="#f7faf8" stroke-width="1.6"/>
-      <circle cx="228" cy="196" r="2.1" fill="#2e4057"/>
-      <line x1="228" y1="278" x2="228" y2="314" stroke="#5a5a5a" stroke-width="1.2"/>
-      <rect x="216" y="314" width="24" height="7" fill="#161616" stroke="#3a3a3a" stroke-width="0.6"/>
+      <rect x="144" y="199" width="7" height="70" fill="#e8e8e8"/>
+      <rect x="162" y="199" width="7" height="70" fill="#e8e8e8"/>
+      <rect x="179" y="199" width="7" height="70" fill="#e8e8e8"/>
+      <rect x="197" y="199" width="7" height="70" fill="#e8e8e8"/>
+      <rect x="214" y="199" width="7" height="70" fill="#e8e8e8"/>
+      <rect x="232" y="199" width="7" height="70" fill="#e8e8e8"/>
+      <rect x="249" y="199" width="7" height="70" fill="#e8e8e8"/>
+      <rect x="267" y="199" width="7" height="70" fill="#e8e8e8"/>
+      <rect x="284" y="199" width="7" height="70" fill="#e8e8e8"/>
+      <rect x="302" y="199" width="7" height="70" fill="#e8e8e8"/>
+      <rect x="210" y="242" width="32" height="10" fill="none" stroke="#e6e6e6" stroke-width="1.4"/>
+      <ellipse cx="226" cy="196" rx="110" ry="29" fill="#101010" stroke="#d8d8d8" stroke-width="1.3"/>
+      <ellipse cx="226" cy="196" rx="107" ry="28" fill="none" stroke="#d8d8d8" stroke-width="0.7" opacity="0.7"/>
+      <ellipse cx="226" cy="196" rx="102" ry="27" fill="#e8e3d8" stroke="#3a3228" stroke-width="0.55"/>
+      <ellipse cx="226" cy="196" rx="98" ry="26" fill="none" stroke="#f4f1ea" stroke-width="1.7" opacity="0.8"/>
+      <line x1="226" y1="272" x2="226" y2="304" stroke="#5a5a5a" stroke-width="1.2"/>
+      <rect x="212" y="304" width="28" height="6" fill="#161616" stroke="#3a3a3a" stroke-width="0.5"/>
     </g>
-  <line x1="200" y1="196" x2="168" y2="150" stroke="#6a6a6a" stroke-width="1.3"/>
-  <line x1="268" y1="196" x2="318" y2="168" stroke="#6a6a6a" stroke-width="1.3"/>
-  <!-- rack tom 10 x 10, offset high -->
+  <line x1="190" y1="196" x2="156" y2="142" stroke="#9a9a9a" stroke-width="1.4"/>
+  <line x1="270" y1="196" x2="324" y2="164" stroke="#9a9a9a" stroke-width="1.4"/>
+  <!-- 10 x 10 high tom -->
     <g>
-      <path d="M128 142 L128 174 A30 8 0 0 0 188 174 L188 142 Z" fill="url(#mx-shell)" stroke="#0c1612" stroke-width="1.15"/>
-      <clipPath id="mx-rack-s"><path d="M128 142 L128 174 A30 8 0 0 0 188 174 L188 142 Z"/></clipPath>
-      <g clip-path="url(#mx-rack-s)">
+      <path d="M122 136 L122 166 A30 8 0 0 0 182 166 L182 136 Z" fill="url(#mx-shell)" stroke="#102018" stroke-width="1.15"/>
+      <clipPath id="mx-small"><path d="M122 136 L122 166 A30 8 0 0 0 182 166 L182 136 Z"/></clipPath>
+      <g clip-path="url(#mx-small)">
       </g>
-      <line x1="135" y1="144" x2="135" y2="172" stroke="#d5d5d5" stroke-width="1.15"/>
-      <line x1="150" y1="144" x2="150" y2="172" stroke="#d5d5d5" stroke-width="1.15"/>
-      <line x1="166" y1="144" x2="166" y2="172" stroke="#d5d5d5" stroke-width="1.15"/>
-      <line x1="181" y1="144" x2="181" y2="172" stroke="#d5d5d5" stroke-width="1.15"/>
-      <ellipse cx="158" cy="142" rx="30" ry="8" fill="#0e0805" stroke="#d5d5d5" stroke-width="1.8"/>
-      <ellipse cx="158" cy="142" rx="24" ry="6" fill="#e7e2d6" stroke="#3a2a22" stroke-width="0.7"/>
-      <ellipse cx="158" cy="142" rx="19" ry="5" fill="none" stroke="#f7faf8" stroke-width="1.6"/>
-      <circle cx="158" cy="142" r="2.1" fill="#2e4057"/>
+      <rect x="127" y="139" width="7" height="24" fill="#e8e8e8"/>
+      <rect x="142" y="139" width="7" height="24" fill="#e8e8e8"/>
+      <rect x="156" y="139" width="7" height="24" fill="#e8e8e8"/>
+      <rect x="171" y="139" width="7" height="24" fill="#e8e8e8"/>
+      <ellipse cx="152" cy="136" rx="30" ry="8" fill="#101010" stroke="#d8d8d8" stroke-width="1.3"/>
+      <ellipse cx="152" cy="136" rx="27" ry="7" fill="none" stroke="#d8d8d8" stroke-width="0.7" opacity="0.7"/>
+      <ellipse cx="152" cy="136" rx="22" ry="6" fill="#e8e3d8" stroke="#3a3228" stroke-width="0.55"/>
+      <ellipse cx="152" cy="136" rx="18" ry="5" fill="none" stroke="#f4f1ea" stroke-width="1.7" opacity="0.8"/>
     </g>
-  <!-- rack tom 12 x 14 -->
+  <!-- 12 x 14 tom -->
     <g>
-      <path d="M274 168 L274 212 A50 13 0 0 0 374 212 L374 168 Z" fill="url(#mx-shell)" stroke="#0c1612" stroke-width="1.15"/>
-      <clipPath id="mx-rack-l"><path d="M274 168 L274 212 A50 13 0 0 0 374 212 L374 168 Z"/></clipPath>
-      <g clip-path="url(#mx-rack-l)">
+      <path d="M274 162 L274 204 A50 13 0 0 0 374 204 L374 162 Z" fill="url(#mx-shell)" stroke="#102018" stroke-width="1.15"/>
+      <clipPath id="mx-mid"><path d="M274 162 L274 204 A50 13 0 0 0 374 204 L374 162 Z"/></clipPath>
+      <g clip-path="url(#mx-mid)">
       </g>
-      <line x1="286" y1="170" x2="286" y2="210" stroke="#d5d5d5" stroke-width="1.15"/>
-      <line x1="301" y1="170" x2="301" y2="210" stroke="#d5d5d5" stroke-width="1.15"/>
-      <line x1="316" y1="170" x2="316" y2="210" stroke="#d5d5d5" stroke-width="1.15"/>
-      <line x1="332" y1="170" x2="332" y2="210" stroke="#d5d5d5" stroke-width="1.15"/>
-      <line x1="347" y1="170" x2="347" y2="210" stroke="#d5d5d5" stroke-width="1.15"/>
-      <line x1="362" y1="170" x2="362" y2="210" stroke="#d5d5d5" stroke-width="1.15"/>
-      <ellipse cx="324" cy="168" rx="50" ry="13" fill="#0e0805" stroke="#d5d5d5" stroke-width="1.8"/>
-      <ellipse cx="324" cy="168" rx="44" ry="11" fill="#e7e2d6" stroke="#3a2a22" stroke-width="0.7"/>
-      <ellipse cx="324" cy="168" rx="39" ry="10" fill="none" stroke="#f7faf8" stroke-width="1.6"/>
-      <circle cx="324" cy="168" r="2.1" fill="#2e4057"/>
+      <rect x="285" y="165" width="7" height="36" fill="#e8e8e8"/>
+      <rect x="299" y="165" width="7" height="36" fill="#e8e8e8"/>
+      <rect x="314" y="165" width="7" height="36" fill="#e8e8e8"/>
+      <rect x="328" y="165" width="7" height="36" fill="#e8e8e8"/>
+      <rect x="343" y="165" width="7" height="36" fill="#e8e8e8"/>
+      <rect x="357" y="165" width="7" height="36" fill="#e8e8e8"/>
+      <rect x="308" y="186" width="32" height="10" fill="none" stroke="#e6e6e6" stroke-width="1.4"/>
+      <ellipse cx="324" cy="162" rx="50" ry="13" fill="#101010" stroke="#d8d8d8" stroke-width="1.3"/>
+      <ellipse cx="324" cy="162" rx="47" ry="12" fill="none" stroke="#d8d8d8" stroke-width="0.7" opacity="0.7"/>
+      <ellipse cx="324" cy="162" rx="42" ry="11" fill="#e8e3d8" stroke="#3a3228" stroke-width="0.55"/>
+      <ellipse cx="324" cy="162" rx="38" ry="10" fill="none" stroke="#f4f1ea" stroke-width="1.7" opacity="0.8"/>
     </g>
-  <!-- snare -->
+  <!-- steel snare -->
     <g>
-      <line x1="81" y1="292" x2="66" y2="334" stroke="#d5d5d5" stroke-width="1.5"/>
-      <line x1="100" y1="294" x2="100" y2="334" stroke="#d5d5d5" stroke-width="1.5"/>
-      <line x1="119" y1="292" x2="134" y2="334" stroke="#d5d5d5" stroke-width="1.5"/>
-      <path d="M62 262 L62 290 A38 10 0 0 0 138 290 L138 262 Z" fill="url(#mx-shell)" stroke="#0c1612" stroke-width="1.15"/>
-      <clipPath id="mx-snare"><path d="M62 262 L62 290 A38 10 0 0 0 138 290 L138 262 Z"/></clipPath>
+      <line x1="84" y1="288" x2="68" y2="336" stroke="#d8d8d8" stroke-width="1.5"/>
+      <line x1="100" y1="290" x2="100" y2="336" stroke="#d8d8d8" stroke-width="1.5"/>
+      <line x1="116" y1="288" x2="132" y2="336" stroke="#d8d8d8" stroke-width="1.5"/>
+      <path d="M64 258 L64 284 A36 9 0 0 0 136 284 L136 258 Z" fill="url(#mx-chrome)" stroke="#ddd" stroke-width="1.15"/>
+      <clipPath id="mx-snare"><path d="M64 258 L64 284 A36 9 0 0 0 136 284 L136 258 Z"/></clipPath>
       <g clip-path="url(#mx-snare)">
       </g>
-      <line x1="71" y1="264" x2="71" y2="288" stroke="#d5d5d5" stroke-width="1.15"/>
-      <line x1="83" y1="264" x2="83" y2="288" stroke="#d5d5d5" stroke-width="1.15"/>
-      <line x1="94" y1="264" x2="94" y2="288" stroke="#d5d5d5" stroke-width="1.15"/>
-      <line x1="106" y1="264" x2="106" y2="288" stroke="#d5d5d5" stroke-width="1.15"/>
-      <line x1="117" y1="264" x2="117" y2="288" stroke="#d5d5d5" stroke-width="1.15"/>
-      <line x1="129" y1="264" x2="129" y2="288" stroke="#d5d5d5" stroke-width="1.15"/>
-      <ellipse cx="100" cy="262" rx="38" ry="10" fill="#0e0805" stroke="#d5d5d5" stroke-width="1.8"/>
-      <ellipse cx="100" cy="262" rx="32" ry="8" fill="#e7e2d6" stroke="#3a2a22" stroke-width="0.7"/>
-      <ellipse cx="100" cy="262" rx="27" ry="7" fill="none" stroke="#f7faf8" stroke-width="1.6"/>
-      <circle cx="100" cy="262" r="2.1" fill="#2e4057"/>
+      <rect x="71" y="261" width="7" height="20" fill="#d8d8d8"/>
+      <rect x="78" y="261" width="7" height="20" fill="#d8d8d8"/>
+      <rect x="86" y="261" width="7" height="20" fill="#d8d8d8"/>
+      <rect x="93" y="261" width="7" height="20" fill="#d8d8d8"/>
+      <rect x="101" y="261" width="7" height="20" fill="#d8d8d8"/>
+      <rect x="108" y="261" width="7" height="20" fill="#d8d8d8"/>
+      <rect x="116" y="261" width="7" height="20" fill="#d8d8d8"/>
+      <rect x="123" y="261" width="7" height="20" fill="#d8d8d8"/>
+      <ellipse cx="100" cy="258" rx="36" ry="9" fill="#101010" stroke="#d8d8d8" stroke-width="1.3"/>
+      <ellipse cx="100" cy="258" rx="33" ry="8" fill="none" stroke="#d8d8d8" stroke-width="0.7" opacity="0.7"/>
+      <ellipse cx="100" cy="258" rx="28" ry="7" fill="#e8e3d8" stroke="#3a3228" stroke-width="0.55"/>
+      <rect x="132" y="270" width="16" height="5" fill="#d8d8d8" stroke="#333" stroke-width="0.4"/>
+      <line x1="148" y1="272" x2="160" y2="262" stroke="#d8d8d8" stroke-width="1.8"/>
     </g>
   <!-- hi-hat -->
     <g>
-      <line x1="38" y1="222" x2="38" y2="334" stroke="#6a6a6a" stroke-width="1.4"/>
-      <ellipse cx="38" cy="225" rx="24" ry="6" fill="url(#mx-cymbal)" stroke="#1a1208" stroke-width="1"/>
-      <ellipse cx="38" cy="225" rx="15" ry="4" fill="none" stroke="#5a4118" stroke-width="0.8"/>
-      <ellipse cx="38" cy="225" rx="4" ry="2" fill="#1a1208"/>
-      <ellipse cx="38" cy="220" rx="24" ry="6" fill="url(#mx-cymbal)" stroke="#1a1208" stroke-width="1"/>
-      <ellipse cx="38" cy="220" rx="15" ry="4" fill="none" stroke="#5a4118" stroke-width="0.8"/>
-      <ellipse cx="38" cy="220" rx="4" ry="2" fill="#1a1208"/>
+      <line x1="36" y1="218" x2="36" y2="336" stroke="#6a6a6a" stroke-width="1.5"/>
+      <ellipse cx="36" cy="221" rx="22" ry="5" fill="url(#mx-cymbal)" stroke="#1a1208" stroke-width="1.1"/>
+      <ellipse cx="36" cy="221" rx="15" ry="3" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="36" cy="221" rx="8" ry="2" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="36" cy="220" rx="5" ry="2" fill="#2a1c0c" stroke="#6a4a20" stroke-width="0.6"/>
+      <ellipse cx="36" cy="220" rx="2" ry="1" fill="#c4a15a"/>
+      <ellipse cx="36" cy="216" rx="22" ry="5" fill="url(#mx-cymbal)" stroke="#1a1208" stroke-width="1.1"/>
+      <ellipse cx="36" cy="216" rx="15" ry="3" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="36" cy="216" rx="8" ry="2" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="36" cy="215" rx="5" ry="2" fill="#2a1c0c" stroke="#6a4a20" stroke-width="0.6"/>
+      <ellipse cx="36" cy="215" rx="2" ry="1" fill="#c4a15a"/>
     </g>
 </svg>

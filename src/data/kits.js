@@ -4,7 +4,10 @@
 // Optional fields:
 //   illustration  — import of an isometric SVG in src/assets/illustrations/.
 //                   Every kit in this catalog has one. KitCard falls back to the
-//                   vinyl record when illustration is absent.
+//                   vinyl record when illustration is absent. Drawings aim at the
+//                   historical instrument. Badge shapes only: no logos or lettering.
+//                   Sources: docs/illustration-references.md
+//   references    — short note plus the sources section for that drawing.
 //   soundProfile  — character bucket for sample mapping (see the sound roadmap).
 //                   Buckets are deliberately honest: they describe sonic *character*,
 //                   not "this is the actual recording of this exact kit." Curated buckets so far:
@@ -51,6 +54,10 @@ export const kits = [
     tags: ["vintage", "rock", "classic"],
     color: "#c0392b",
     illustration: ludwigClassicMaple,
+    references: [
+      "Mid-1960s oyster black pearl: imperial lugs, triple-flange toms, clawed wood bass hoops, empty keystone.",
+      "docs/illustration-references.md#ludwig-classic-maple-1965",
+    ],
     soundProfile: "vintage-maple-warm",
   },
   {
@@ -68,6 +75,10 @@ export const kits = [
     tags: ["vintage", "jazz", "collector"],
     color: "#d4a017",
     illustration: gretschRoundBadge,
+    references: [
+      "Late-1950s Progressive Jazz sizes, die-cast hoops, copper mist, plain round badge on the shell.",
+      "docs/illustration-references.md#gretsch-round-badge-1957",
+    ],
     soundProfile: "vintage-jazz-bronze",
   },
   {
@@ -85,6 +96,10 @@ export const kits = [
     tags: ["snare", "modern", "studio"],
     color: "#2980b9",
     illustration: pearlFreeFloatingPiccolo,
+    references: [
+      "Steel piccolo whose shell carries no hardware; lugs and throw-off live on the die-cast chassis.",
+      "docs/illustration-references.md#pearl-free-floating-piccolo-1982",
+    ],
     soundProfile: "metal-shell-snare",
   },
   {
@@ -102,6 +117,10 @@ export const kits = [
     tags: ["modern", "rock", "professional"],
     color: "#1a1a2e",
     illustration: dwCollectorsMaple,
+    references: [
+      "Black galaxy speckle wrap, turret lugs, catalog sizes including an 18-inch-deep bass.",
+      "docs/illustration-references.md#dw-collectors-series-maple-1991",
+    ],
     soundProfile: "modern-maple-pro",
   },
   {
@@ -119,6 +138,10 @@ export const kits = [
     tags: ["vintage", "studio", "european"],
     color: "#8e1a1a",
     illustration: sonorPhonic,
+    references: [
+      "Red-stained beech, long square-section lugs, both floor toms, prism leg clamps.",
+      "docs/illustration-references.md#sonor-phonic-1978",
+    ],
     soundProfile: "vintage-german-beech",
   },
   {
@@ -136,6 +159,10 @@ export const kits = [
     tags: ["vintage", "rock", "japanese"],
     color: "#6c3483",
     illustration: tamaSuperstar,
+    references: [
+      "1976 birch cherry-sunburst lacquer and cast lugs. Star-Cast hoops and Fibrestar shells are later or separate lines.",
+      "docs/illustration-references.md#tama-superstar-1976",
+    ],
     soundProfile: "vintage-japanese-rock",
   },
   {
@@ -153,6 +180,10 @@ export const kits = [
     tags: ["cymbals", "historic", "legendary"],
     color: "#b7950b",
     illustration: zildjianASeries,
+    references: [
+      "14 inch hats, 17 inch crash, 20 inch ride, traditional lathing. No stamp and no lettering.",
+      "docs/illustration-references.md#zildjian-a-series-cymbal-set",
+    ],
     soundProfile: "cymbals-bell-bronze",
   },
   {
@@ -170,6 +201,10 @@ export const kits = [
     tags: ["studio", "jazz", "legendary"],
     color: "#1e8449",
     illustration: yamahaRecordingCustom,
+    references: [
+      "Early real-wood birch 9000: separate mini lugs, wood bass hoops, the catalog's six-piece layout.",
+      "docs/illustration-references.md#yamaha-recording-custom-1975",
+    ],
     soundProfile: "vintage-japanese-rock",
   },
   {
@@ -187,6 +222,10 @@ export const kits = [
     tags: ["modern", "hybrid", "value"],
     color: "#2e4057",
     illustration: mapexArmory,
+    references: [
+      "Rainforest burst, sharp tube lugs, rounded SONIClear lip, catalog sizes.",
+      "docs/illustration-references.md#mapex-armory-2014",
+    ],
     soundProfile: "modern-hybrid",
   },
   {
@@ -204,6 +243,10 @@ export const kits = [
     tags: ["boutique", "american", "historic"],
     color: "#4a235a",
     illustration: nobleCooleyHorizon,
+    references: [
+      "Catalog 2003 reading: walnut gloss, one seam, brass tube lugs, small toms. Current Horizon pages describe a maple/mahogany ply.",
+      "docs/illustration-references.md#noble--cooley-horizon-2003",
+    ],
     soundProfile: "modern-maple-pro",
   },
   {
@@ -221,6 +264,10 @@ export const kits = [
     tags: ["boutique", "australian", "snare"],
     color: "#922b21",
     illustration: bradyJarrahPly,
+    references: [
+      "6.5x14 jarrah, horizontal plies, ten brass tube lugs.",
+      "docs/illustration-references.md#brady-jarrah-ply-1989",
+    ],
     soundProfile: "exotic-hardwood",
   },
   {
@@ -238,6 +285,10 @@ export const kits = [
     tags: ["boutique", "artisan", "collector"],
     color: "#1a5276",
     illustration: craviottoSolidMaple,
+    references: [
+      "Three steam-bent maple snares, 5.5, 6, and 7 inches, one scarf joint and rings, diamond tube lugs. Not a stave shell.",
+      "docs/illustration-references.md#craviotto-solid-maple-1996",
+    ],
     soundProfile: "vintage-maple-warm",
   },
   {
@@ -255,6 +306,10 @@ export const kits = [
     tags: ["vintage", "snare", "collector"],
     color: "#797d7f",
     illustration: rogersDynasonic,
+    references: [
+      "5x14 chrome-over-brass, ten beavertail lugs, five shell lines, floating snare frame.",
+      "docs/illustration-references.md#rogers-dyna-sonic-1958",
+    ],
     soundProfile: "vintage-brass-snare",
   },
   {
@@ -272,6 +327,10 @@ export const kits = [
     tags: ["antique", "historic", "jazz"],
     color: "#6e2f1a",
     illustration: leedyBroadway,
+    references: [
+      "Late-1920s Leedy: nickel-over-brass, center bead, tube lugs, extended flange. Broadway as a name is the 1930 catalog.",
+      "docs/illustration-references.md#leedy-broadway-1928",
+    ],
     soundProfile: "vintage-brass-snare",
   },
   {
@@ -289,6 +348,10 @@ export const kits = [
     tags: ["antique", "jazz", "legendary"],
     color: "#1c2833",
     illustration: slingerlandRadioKing,
+    references: [
+      "1936 one-piece maple, eight streamline lugs, three-point strainer, cloud outline with no lettering.",
+      "docs/illustration-references.md#slingerland-radio-king-1936",
+    ],
     soundProfile: "vintage-maple-warm",
   },
 ];

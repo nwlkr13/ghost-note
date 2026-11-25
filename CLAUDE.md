@@ -46,6 +46,12 @@ Bucket list (currently in kits.js header):
 
 The bucket list, fidelity claim, and sourcing notes above are unchanged. Wiring those buckets to sample files is Phase 3, together with the drum-pad and play-along work.
 
+## Illustration rules
+
+Drawings aim at the likeness of the historical instrument named in `kits.js`: piece count, sizes, lug shape and count, hoop type, badge shape and where it sits, strainer, finish, and the mounts of that model and era. Sources and the places the catalog and the factory record disagree are in `docs/illustration-references.md`.
+
+Do not reproduce brand logos, wordmarks, script names, or badge text or artwork. Badge outlines and shapes only, with no lettering and no logo graphics. Do not trace or copy photographs. Draw original vectors informed by those sources. Generic hardware shapes, finishes, and sizes are fine.
+
 ## Design rules (enforced)
 
 - Background `#0a0a0a`, accent `#c0392b` (blood red)
