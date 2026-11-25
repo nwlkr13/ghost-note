@@ -34,6 +34,8 @@ ghost-note/
 ├── App.jsx                             # Root component
 ├── package.json
 ├── vite.config.js
+├── docs/
+│   └── illustration-references.md      # Sources for each kit drawing
 ├── src/
 │   ├── main.jsx                        # React mount
 │   ├── GhostNote.jsx                   # Archive view: header, grid, footer
