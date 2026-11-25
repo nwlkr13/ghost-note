@@ -1,10 +1,12 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useRef } from "react";
 import { kits, eras, origins } from "./data/kits.js";
+import FilterBar from "./components/FilterBar.jsx";
+import KitCard from "./components/KitCard.jsx";
 
 export default function GhostNote() {
   const [filter, setFilter] = useState({ era: "All", origin: "All", search: "" });
   const [selected, setSelected] = useState(null);
-  const [revealed, setRevealed] = useState({});
+  const [, setRevealed] = useState({});
   const headerRef = useRef(null);
 
   const filtered = kits.filter(k => {
@@ -28,7 +30,6 @@ export default function GhostNote() {
     <div style={styles.root}>
       <style>{css}</style>
 
-      {/* Header */}
       <header style={styles.header} ref={headerRef}>
         <div style={styles.headerInner}>
           <div style={styles.logoWrap}>
@@ -49,129 +50,23 @@ export default function GhostNote() {
         </div>
       </header>
 
-      {/* Filters */}
-      <div style={styles.filterBar}>
-        <input
-          style={styles.search}
-          placeholder="Search makes, models, builders..."
-          value={filter.search}
-          onChange={e => setFilter(f => ({ ...f, search: e.target.value }))}
-        />
-        <div style={styles.filterGroup}>
-          <span style={styles.filterLabel}>ERA</span>
-          {eras.map(e => (
-            <button
-              key={e}
-              style={{ ...styles.filterBtn, ...(filter.era === e ? styles.filterBtnActive : {}) }}
-              onClick={() => setFilter(f => ({ ...f, era: e }))}
-            >
-              {e}
-            </button>
-          ))}
-        </div>
-        <div style={styles.filterGroup}>
-          <span style={styles.filterLabel}>ORIGIN</span>
-          {origins.map(o => (
-            <button
-              key={o}
-              style={{ ...styles.filterBtn, ...(filter.origin === o ? styles.filterBtnActive : {}) }}
-              onClick={() => setFilter(f => ({ ...f, origin: o }))}
-            >
-              {o}
-            </button>
-          ))}
-        </div>
-      </div>
+      <FilterBar
+        filter={filter}
+        eras={eras}
+        origins={origins}
+        onFilterChange={partial => setFilter(f => ({ ...f, ...partial }))}
+      />
 
-      {/* Grid */}
       <main style={styles.grid}>
         {filtered.map((kit, i) => (
-          <div
+          <KitCard
             key={kit.id}
-            className="kit-card"
-            style={{
-              ...styles.card,
-              animationDelay: `${i * 60}ms`,
-              borderColor: selected === kit.id ? kit.color : "transparent"
-            }}
-            onClick={() => handleReveal(kit.id)}
-          >
-            {/* Visual: illustration if present, else vinyl record */}
-            {kit.illustration ? (
-              <div style={styles.illustrationWrap}>
-                <img
-                  src={kit.illustration}
-                  alt={`${kit.make} ${kit.model} illustration`}
-                  className="kit-illustration"
-                  style={styles.illustration}
-                />
-                <div style={styles.illustrationGlow} />
-              </div>
-            ) : (
-              <div style={styles.recordWrap}>
-                <div className="record" style={styles.record}>
-                  <div style={{ ...styles.recordLabel, background: kit.color }}>
-                    <div style={styles.recordMake}>{kit.make}</div>
-                    <div style={styles.recordModel}>{kit.model}</div>
-                    <div style={styles.recordYear}>{kit.year}</div>
-                  </div>
-                  <div style={styles.recordHole} />
-                </div>
-                <div className="record-shadow" style={styles.recordShadow} />
-              </div>
-            )}
-
-            {/* Info */}
-            <div style={styles.cardBody}>
-              <div style={styles.cardMake}>{kit.make}</div>
-              <div style={styles.cardModel}>{kit.model}</div>
-              <div style={styles.cardMeta}>
-                <span style={{ color: kit.color }}>{kit.year}</span>
-                <span style={styles.dot}>·</span>
-                <span>{kit.origin}</span>
-              </div>
-              <div style={styles.tags}>
-                {kit.tags.map(t => (
-                  <span key={t} style={{ ...styles.tag, borderColor: kit.color + "55", color: kit.color }}>
-                    {t}
-                  </span>
-                ))}
-              </div>
-            </div>
-
-            {/* Expanded */}
-            {selected === kit.id && (
-              <div className="expand-panel" style={styles.expandPanel}>
-                <div style={styles.expandSection}>
-                  <div style={styles.expandLabel}>BUILDER</div>
-                  <div style={styles.expandValue}>{kit.builder}</div>
-                </div>
-                <div style={styles.expandSection}>
-                  <div style={styles.expandLabel}>MATERIALS</div>
-                  <div style={styles.expandValue}>{kit.materials.join(", ")}</div>
-                </div>
-                <div style={styles.expandSection}>
-                  <div style={styles.expandLabel}>SPECS</div>
-                  {Object.entries(kit.specs).map(([k, v]) => (
-                    <div key={k} style={styles.specRow}>
-                      <span style={styles.specKey}>{k.toUpperCase()}</span>
-                      <span style={styles.specVal}>{v}</span>
-                    </div>
-                  ))}
-                </div>
-                <div style={styles.expandSection}>
-                  <div style={styles.expandLabel}>FUN FACT</div>
-                  <div style={{ ...styles.expandValue, ...styles.funFact }}>{kit.funFact}</div>
-                </div>
-                <button
-                  style={styles.closeBtn}
-                  onClick={e => { e.stopPropagation(); setSelected(null); }}
-                >
-                  CLOSE
-                </button>
-              </div>
-            )}
-          </div>
+            kit={kit}
+            index={i}
+            selected={selected === kit.id}
+            onSelect={() => handleReveal(kit.id)}
+            onClose={() => setSelected(null)}
+          />
         ))}
       </main>
 
@@ -236,56 +131,6 @@ const styles = {
     letterSpacing: "0.3em",
     color: "#444",
   },
-  filterBar: {
-    padding: "20px 40px",
-    borderBottom: "1px solid #111",
-    maxWidth: 1400,
-    margin: "0 auto",
-    display: "flex",
-    flexDirection: "column",
-    gap: 12,
-  },
-  search: {
-    background: "#111",
-    border: "1px solid #222",
-    color: "#e8e0d0",
-    padding: "10px 16px",
-    fontSize: 12,
-    letterSpacing: "0.05em",
-    fontFamily: "'Courier New', monospace",
-    outline: "none",
-    width: "100%",
-    maxWidth: 400,
-    boxSizing: "border-box",
-  },
-  filterGroup: {
-    display: "flex",
-    alignItems: "center",
-    gap: 8,
-    flexWrap: "wrap",
-  },
-  filterLabel: {
-    fontSize: 9,
-    letterSpacing: "0.3em",
-    color: "#444",
-    marginRight: 4,
-  },
-  filterBtn: {
-    background: "transparent",
-    border: "1px solid #1f1f1f",
-    color: "#555",
-    padding: "4px 10px",
-    fontSize: 10,
-    letterSpacing: "0.1em",
-    cursor: "pointer",
-    fontFamily: "'Courier New', monospace",
-    transition: "all 0.2s",
-  },
-  filterBtnActive: {
-    background: "#c0392b",
-    border: "1px solid #c0392b",
-    color: "#fff",
-  },
   grid: {
     display: "grid",
     gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))",
@@ -293,144 +138,6 @@ const styles = {
     padding: "1px",
     maxWidth: 1400,
     margin: "0 auto",
-  },
-  card: {
-    background: "#0d0d0d",
-    border: "1px solid transparent",
-    cursor: "pointer",
-    padding: "32px 24px 24px",
-    display: "flex",
-    flexDirection: "column",
-    gap: 20,
-    transition: "all 0.3s ease",
-    animation: "fadeSlideUp 0.5s ease both",
-    position: "relative",
-    overflow: "hidden",
-  },
-  recordWrap: {
-    display: "flex",
-    justifyContent: "center",
-    position: "relative",
-    height: 160,
-  },
-  record: {
-    width: 150,
-    height: 150,
-    borderRadius: "50%",
-    background: "#111",
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-    position: "relative",
-    boxShadow: "0 0 0 1px #222, 0 0 0 8px #111, 0 0 0 9px #1a1a1a, 0 0 0 20px #111, 0 0 0 21px #1a1a1a",
-    flexShrink: 0,
-    transition: "transform 0.4s ease",
-    backgroundImage: `repeating-radial-gradient(circle at center, transparent 0px, transparent 4px, rgba(255,255,255,0.015) 4px, rgba(255,255,255,0.015) 5px)`,
-  },
-  recordLabel: {
-    width: 70,
-    height: 70,
-    borderRadius: "50%",
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
-    justifyContent: "center",
-    padding: 4,
-    textAlign: "center",
-  },
-  recordMake: { fontSize: 7, fontWeight: "bold", letterSpacing: "0.1em", color: "rgba(255,255,255,0.9)", lineHeight: 1 },
-  recordModel: { fontSize: 6, color: "rgba(255,255,255,0.7)", lineHeight: 1.2, marginTop: 2 },
-  recordYear: { fontSize: 8, color: "rgba(255,255,255,0.9)", marginTop: 3, fontWeight: "bold" },
-  recordHole: {
-    position: "absolute",
-    width: 10,
-    height: 10,
-    borderRadius: "50%",
-    background: "#0a0a0a",
-    border: "1px solid #333",
-  },
-  recordShadow: {
-    position: "absolute",
-    bottom: -8,
-    width: 130,
-    height: 20,
-    borderRadius: "50%",
-    background: "rgba(0,0,0,0.6)",
-    filter: "blur(10px)",
-  },
-  illustrationWrap: {
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    position: "relative",
-    height: 160,
-    overflow: "hidden",
-  },
-  illustration: {
-    width: "100%",
-    maxWidth: 280,
-    height: 160,
-    objectFit: "contain",
-    transition: "transform 0.4s ease",
-    filter: "drop-shadow(0 8px 20px rgba(192,57,43,0.15))",
-  },
-  illustrationGlow: {
-    position: "absolute",
-    bottom: -10,
-    left: "50%",
-    transform: "translateX(-50%)",
-    width: 200,
-    height: 24,
-    borderRadius: "50%",
-    background: "radial-gradient(ellipse, rgba(192,57,43,0.25) 0%, transparent 70%)",
-    filter: "blur(8px)",
-    pointerEvents: "none",
-  },
-  cardBody: { display: "flex", flexDirection: "column", gap: 6 },
-  cardMake: { fontSize: 10, letterSpacing: "0.3em", color: "#555", textTransform: "uppercase" },
-  cardModel: { fontSize: 18, fontWeight: "bold", letterSpacing: "0.05em", color: "#e8e0d0", lineHeight: 1.2 },
-  cardMeta: { fontSize: 11, color: "#555", letterSpacing: "0.1em", display: "flex", gap: 8, alignItems: "center" },
-  dot: { color: "#333" },
-  tags: { display: "flex", flexWrap: "wrap", gap: 6, marginTop: 4 },
-  tag: {
-    fontSize: 9,
-    letterSpacing: "0.2em",
-    border: "1px solid",
-    padding: "2px 8px",
-    textTransform: "uppercase",
-  },
-  expandPanel: {
-    borderTop: "1px solid #1a1a1a",
-    paddingTop: 20,
-    display: "flex",
-    flexDirection: "column",
-    gap: 16,
-    animation: "expandIn 0.3s ease",
-  },
-  expandSection: { display: "flex", flexDirection: "column", gap: 6 },
-  expandLabel: { fontSize: 9, letterSpacing: "0.3em", color: "#444" },
-  expandValue: { fontSize: 12, color: "#aaa", lineHeight: 1.6 },
-  specRow: { display: "flex", gap: 12, alignItems: "baseline" },
-  specKey: { fontSize: 9, letterSpacing: "0.2em", color: "#444", minWidth: 60 },
-  specVal: { fontSize: 11, color: "#888" },
-  funFact: {
-    borderLeft: "2px solid #c0392b",
-    paddingLeft: 12,
-    fontStyle: "italic",
-    color: "#888",
-  },
-  closeBtn: {
-    alignSelf: "flex-start",
-    background: "transparent",
-    border: "1px solid #222",
-    color: "#444",
-    padding: "6px 16px",
-    fontSize: 9,
-    letterSpacing: "0.3em",
-    cursor: "pointer",
-    fontFamily: "'Courier New', monospace",
-    marginTop: 4,
-    transition: "all 0.2s",
   },
   footer: {
     borderTop: "1px solid #111",

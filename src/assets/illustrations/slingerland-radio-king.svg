@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Ghost Note — Slingerland Radio King (1936)
+  Isometric, geometric, dark aesthetic.
+  5 x 14 one-piece maple snare. Smooth amber shell, no stave seams. Calfskin head, nickel hardware, dark badge plate on the shell.
+-->
+<svg viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg" fill="none" role="img" aria-label="Slingerland Radio King snare, isometric view">
+  <defs>
+    <radialGradient id="sl-cymbal" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#d4ad57"/>
+      <stop offset="0.55" stop-color="#8a6627"/>
+      <stop offset="1" stop-color="#3d2c11"/>
+    </radialGradient>
+    <radialGradient id="sl-floor" cx="0.5" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#000" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sl-chrome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a4a4a"/>
+      <stop offset="1" stop-color="#0d0d0d"/>
+    </linearGradient>
+    <linearGradient id="sl-shell" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8c48a"/>
+      <stop offset="0.45" stop-color="#b07840"/>
+      <stop offset="1" stop-color="#4a3018"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="240" cy="320" rx="180" ry="16" fill="url(#sl-floor)"/>
+  <!-- radio king snare 5 x 14 -->
+    <g>
+      <line x1="191" y1="228" x2="48" y2="334" stroke="#9a9a9a" stroke-width="1.5"/>
+      <line x1="240" y1="230" x2="240" y2="334" stroke="#9a9a9a" stroke-width="1.5"/>
+      <line x1="289" y1="228" x2="432" y2="334" stroke="#9a9a9a" stroke-width="1.5"/>
+      <path d="M88 120 L88 222 A152 40 0 0 0 392 222 L392 120 Z" fill="url(#sl-shell)" stroke="#3a2414" stroke-width="1.15"/>
+      <clipPath id="sl-snare"><path d="M88 120 L88 222 A152 40 0 0 0 392 222 L392 120 Z"/></clipPath>
+      <g clip-path="url(#sl-snare)">
+        <path d="M98 128 Q240 136 382 130" fill="none" stroke="#4a3018" stroke-width="1.2" opacity="0.35"/>
+        <path d="M98 150 Q240 158 382 152" fill="none" stroke="#4a3018" stroke-width="1.2" opacity="0.35"/>
+        <path d="M98 171 Q240 179 382 173" fill="none" stroke="#4a3018" stroke-width="1.2" opacity="0.35"/>
+        <path d="M98 193 Q240 201 382 195" fill="none" stroke="#4a3018" stroke-width="1.2" opacity="0.35"/>
+      </g>
+      <line x1="124" y1="122" x2="124" y2="220" stroke="#e0e0e0" stroke-width="1.15"/>
+      <line x1="157" y1="122" x2="157" y2="220" stroke="#e0e0e0" stroke-width="1.15"/>
+      <line x1="190" y1="122" x2="190" y2="220" stroke="#e0e0e0" stroke-width="1.15"/>
+      <line x1="223" y1="122" x2="223" y2="220" stroke="#e0e0e0" stroke-width="1.15"/>
+      <line x1="257" y1="122" x2="257" y2="220" stroke="#e0e0e0" stroke-width="1.15"/>
+      <line x1="290" y1="122" x2="290" y2="220" stroke="#e0e0e0" stroke-width="1.15"/>
+      <line x1="323" y1="122" x2="323" y2="220" stroke="#e0e0e0" stroke-width="1.15"/>
+      <line x1="356" y1="122" x2="356" y2="220" stroke="#e0e0e0" stroke-width="1.15"/>
+      <rect x="211" y="161" width="58" height="16" fill="#1c2833" stroke="#d8d8d8" stroke-width="0.8"/>
+      <ellipse cx="240" cy="120" rx="152" ry="40" fill="#0e0805" stroke="#d8d8d8" stroke-width="2.3"/>
+      <ellipse cx="240" cy="120" rx="146" ry="38" fill="#ecdcb8" stroke="#6a5030" stroke-width="0.7"/>
+      <ellipse cx="240" cy="120" rx="80" ry="21" fill="none" stroke="#c2b08a" stroke-width="0.8" opacity="0.85"/>
+      <circle cx="240" cy="120" r="2.1" fill="#1c2833"/>
+      <line x1="149" y1="267" x2="331" y2="267" stroke="#d8d8d8" stroke-width="1" opacity="0.95"/>
+      <line x1="154" y1="270" x2="326" y2="270" stroke="#d8d8d8" stroke-width="1" opacity="0.95"/>
+      <line x1="159" y1="273" x2="321" y2="273" stroke="#d8d8d8" stroke-width="1" opacity="0.95"/>
+      <line x1="164" y1="276" x2="316" y2="276" stroke="#d8d8d8" stroke-width="1" opacity="0.95"/>
+      <line x1="169" y1="279" x2="311" y2="279" stroke="#d8d8d8" stroke-width="1" opacity="0.95"/>
+      <line x1="174" y1="282" x2="306" y2="282" stroke="#d8d8d8" stroke-width="1" opacity="0.95"/>
+    </g>
+</svg>

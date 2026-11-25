@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Ghost Note — Brady Jarrah Ply (1989)
+  Isometric, geometric, dark aesthetic.
+  6.5 x 14 Western Australian jarrah snare. Deep red hardwood, brass tube lugs, two ply lines near the edges. Heavier and deeper than the other portrait snares.
+-->
+<svg viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg" fill="none" role="img" aria-label="Brady Jarrah Ply snare, isometric view">
+  <defs>
+    <radialGradient id="br-cymbal" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#d4ad57"/>
+      <stop offset="0.55" stop-color="#8a6627"/>
+      <stop offset="1" stop-color="#3d2c11"/>
+    </radialGradient>
+    <radialGradient id="br-floor" cx="0.5" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#000" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="br-chrome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a4a4a"/>
+      <stop offset="1" stop-color="#0d0d0d"/>
+    </linearGradient>
+    <linearGradient id="br-shell" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c25848"/>
+      <stop offset="0.4" stop-color="#7a2c22"/>
+      <stop offset="1" stop-color="#2a0e0a"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="240" cy="322" rx="170" ry="16" fill="url(#br-floor)"/>
+  <!-- jarrah snare 6.5 x 14 -->
+    <g>
+      <line x1="192" y1="246" x2="48" y2="334" stroke="#8a7040" stroke-width="1.5"/>
+      <line x1="240" y1="248" x2="240" y2="334" stroke="#8a7040" stroke-width="1.5"/>
+      <line x1="288" y1="246" x2="432" y2="334" stroke="#8a7040" stroke-width="1.5"/>
+      <path d="M90 112 L90 240 A150 39 0 0 0 390 240 L390 112 Z" fill="url(#br-shell)" stroke="#2a0c0a" stroke-width="1.15"/>
+      <clipPath id="br-snare"><path d="M90 112 L90 240 A150 39 0 0 0 390 240 L390 112 Z"/></clipPath>
+      <g clip-path="url(#br-snare)">
+        <path d="M100 120 Q240 128 380 122" fill="none" stroke="#2a0a08" stroke-width="1.2" opacity="0.4"/>
+        <path d="M100 148 Q240 156 380 150" fill="none" stroke="#2a0a08" stroke-width="1.2" opacity="0.4"/>
+        <path d="M100 176 Q240 184 380 178" fill="none" stroke="#2a0a08" stroke-width="1.2" opacity="0.4"/>
+        <path d="M100 204 Q240 212 380 206" fill="none" stroke="#2a0a08" stroke-width="1.2" opacity="0.4"/>
+        <line x1="94" y1="120" x2="386" y2="120" stroke="#2a0c0a" stroke-width="1.7" opacity="0.6"/>
+        <line x1="94" y1="232" x2="386" y2="232" stroke="#2a0c0a" stroke-width="1.7" opacity="0.6"/>
+      </g>
+      <rect x="122" y="115" width="8" height="122" fill="#d4b15e"/>
+      <rect x="155" y="115" width="8" height="122" fill="#d4b15e"/>
+      <rect x="187" y="115" width="8" height="122" fill="#d4b15e"/>
+      <rect x="220" y="115" width="8" height="122" fill="#d4b15e"/>
+      <rect x="252" y="115" width="8" height="122" fill="#d4b15e"/>
+      <rect x="285" y="115" width="8" height="122" fill="#d4b15e"/>
+      <rect x="317" y="115" width="8" height="122" fill="#d4b15e"/>
+      <rect x="350" y="115" width="8" height="122" fill="#d4b15e"/>
+      <ellipse cx="240" cy="112" rx="150" ry="39" fill="#0e0805" stroke="#d4b15e" stroke-width="2.4"/>
+      <ellipse cx="240" cy="112" rx="144" ry="37" fill="#d8c4a4" stroke="#5a3828" stroke-width="0.7"/>
+      <circle cx="240" cy="112" r="2.1" fill="#f0d0c4"/>
+      <line x1="150" y1="284" x2="330" y2="284" stroke="#d8d8d8" stroke-width="1" opacity="0.95"/>
+      <line x1="155" y1="287" x2="325" y2="287" stroke="#d8d8d8" stroke-width="1" opacity="0.95"/>
+      <line x1="160" y1="290" x2="320" y2="290" stroke="#d8d8d8" stroke-width="1" opacity="0.95"/>
+      <line x1="165" y1="293" x2="315" y2="293" stroke="#d8d8d8" stroke-width="1" opacity="0.95"/>
+      <line x1="170" y1="296" x2="310" y2="296" stroke="#d8d8d8" stroke-width="1" opacity="0.95"/>
+      <line x1="175" y1="299" x2="305" y2="299" stroke="#d8d8d8" stroke-width="1" opacity="0.95"/>
+    </g>
+</svg>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Ghost Note — Tama Superstar (1976)
+  Isometric, geometric, dark aesthetic.
+  14 x 22 bass, 10 x 13 and 11 x 14 rack toms, 16 x 16 floor. Cherry sunburst shells. Star-Cast mounts drawn as stars on the rack toms. Chrome hardware.
+-->
+<svg viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg" fill="none" role="img" aria-label="Tama Superstar drum kit, isometric view">
+  <defs>
+    <radialGradient id="tm-cymbal" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#d4ad57"/>
+      <stop offset="0.55" stop-color="#8a6627"/>
+      <stop offset="1" stop-color="#3d2c11"/>
+    </radialGradient>
+    <radialGradient id="tm-floor" cx="0.5" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#000" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="tm-chrome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a4a4a"/>
+      <stop offset="1" stop-color="#0d0d0d"/>
+    </linearGradient>
+    <linearGradient id="tm-shell" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#100408"/>
+      <stop offset="0.22" stop-color="#5a1828"/>
+      <stop offset="0.5" stop-color="#f0a0aa"/>
+      <stop offset="0.78" stop-color="#5a1828"/>
+      <stop offset="1" stop-color="#100408"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="240" cy="332" rx="210" ry="20" fill="url(#tm-floor)"/>
+  <!-- crash -->
+    <g>
+      <line x1="70" y1="129" x2="82" y2="334" stroke="#6a6a6a" stroke-width="1.4"/>
+      <line x1="70" y1="129" x2="70" y2="111" stroke="#6a6a6a" stroke-width="1.1"/>
+      <ellipse cx="70" cy="126" rx="36" ry="9" fill="url(#tm-cymbal)" stroke="#1a1208" stroke-width="1"/>
+      <ellipse cx="70" cy="126" rx="27" ry="7" fill="none" stroke="#5a4118" stroke-width="0.8"/>
+      <ellipse cx="70" cy="126" rx="19" ry="5" fill="none" stroke="#5a4118" stroke-width="0.8"/>
+      <ellipse cx="70" cy="126" rx="5" ry="2" fill="#1a1208"/>
+    </g>
+  <!-- ride -->
+    <g>
+      <line x1="420" y1="154" x2="406" y2="334" stroke="#6a6a6a" stroke-width="1.4"/>
+      <line x1="420" y1="154" x2="420" y2="132" stroke="#6a6a6a" stroke-width="1.1"/>
+      <ellipse cx="420" cy="150" rx="48" ry="12" fill="url(#tm-cymbal)" stroke="#1a1208" stroke-width="1"/>
+      <ellipse cx="420" cy="150" rx="36" ry="9" fill="none" stroke="#5a4118" stroke-width="0.8"/>
+      <ellipse cx="420" cy="150" rx="25" ry="6" fill="none" stroke="#5a4118" stroke-width="0.8"/>
+      <ellipse cx="420" cy="150" rx="7" ry="2" fill="#1a1208"/>
+    </g>
+  <!-- floor tom 16 x 16 -->
+    <g>
+      <line x1="364" y1="280" x2="350" y2="334" stroke="#d5d5d5" stroke-width="1.5"/>
+      <line x1="436" y1="280" x2="450" y2="334" stroke="#d5d5d5" stroke-width="1.5"/>
+      <path d="M342 226 L342 280 A58 15 0 0 0 458 280 L458 226 Z" fill="url(#tm-shell)" stroke="#1a080c" stroke-width="1.15"/>
+      <clipPath id="tm-floor"><path d="M342 226 L342 280 A58 15 0 0 0 458 280 L458 226 Z"/></clipPath>
+      <g clip-path="url(#tm-floor)">
+      </g>
+      <line x1="356" y1="228" x2="356" y2="278" stroke="#d5d5d5" stroke-width="1.15"/>
+      <line x1="374" y1="228" x2="374" y2="278" stroke="#d5d5d5" stroke-width="1.15"/>
+      <line x1="391" y1="228" x2="391" y2="278" stroke="#d5d5d5" stroke-width="1.15"/>
+      <line x1="409" y1="228" x2="409" y2="278" stroke="#d5d5d5" stroke-width="1.15"/>
+      <line x1="426" y1="228" x2="426" y2="278" stroke="#d5d5d5" stroke-width="1.15"/>
+      <line x1="444" y1="228" x2="444" y2="278" stroke="#d5d5d5" stroke-width="1.15"/>
+      <ellipse cx="400" cy="226" rx="58" ry="15" fill="#0e0805" stroke="#d5d5d5" stroke-width="1.8"/>
+      <ellipse cx="400" cy="226" rx="52" ry="13" fill="#e7e2d6" stroke="#3a2a22" stroke-width="0.7"/>
+      <circle cx="400" cy="226" r="2.1" fill="#6c3483"/>
+    </g>
+  <!-- bass drum 14 x 22 -->
+    <g>
+      <path d="M124 214 L124 274 A116 30 0 0 0 356 274 L356 214 Z" fill="url(#tm-shell)" stroke="#1a080c" stroke-width="1.15"/>
+      <clipPath id="tm-bass"><path d="M124 214 L124 274 A116 30 0 0 0 356 274 L356 214 Z"/></clipPath>
+      <g clip-path="url(#tm-bass)">
+      </g>
+      <line x1="152" y1="216" x2="152" y2="272" stroke="#d5d5d5" stroke-width="1.15"/>
+      <line x1="177" y1="216" x2="177" y2="272" stroke="#d5d5d5" stroke-width="1.15"/>
+      <line x1="202" y1="216" x2="202" y2="272" stroke="#d5d5d5" stroke-width="1.15"/>
+      <line x1="227" y1="216" x2="227" y2="272" stroke="#d5d5d5" stroke-width="1.15"/>
+      <line x1="253" y1="216" x2="253" y2="272" stroke="#d5d5d5" stroke-width="1.15"/>
+      <line x1="278" y1="216" x2="278" y2="272" stroke="#d5d5d5" stroke-width="1.15"/>
+      <line x1="303" y1="216" x2="303" y2="272" stroke="#d5d5d5" stroke-width="1.15"/>
+      <line x1="328" y1="216" x2="328" y2="272" stroke="#d5d5d5" stroke-width="1.15"/>
+      <ellipse cx="240" cy="214" rx="116" ry="30" fill="#0e0805" stroke="#d5d5d5" stroke-width="2"/>
+      <ellipse cx="240" cy="214" rx="110" ry="28" fill="#e7e2d6" stroke="#3a2a22" stroke-width="0.7"/>
+      <circle cx="240" cy="214" r="2.1" fill="#6c3483"/>
+      <line x1="240" y1="274" x2="240" y2="310" stroke="#5a5a5a" stroke-width="1.2"/>
+      <rect x="228" y="310" width="24" height="7" fill="#161616" stroke="#3a3a3a" stroke-width="0.6"/>
+    </g>
+  <line x1="240" y1="214" x2="240" y2="148" stroke="#6a6a6a" stroke-width="1.4"/>
+  <!-- rack tom 10 x 13, star mount -->
+    <g>
+      <path d="M120 156 L120 196 A48 12 0 0 0 216 196 L216 156 Z" fill="url(#tm-shell)" stroke="#1a080c" stroke-width="1.15"/>
+      <clipPath id="tm-rack-l"><path d="M120 156 L120 196 A48 12 0 0 0 216 196 L216 156 Z"/></clipPath>
+      <g clip-path="url(#tm-rack-l)">
+      </g>
+      <line x1="132" y1="158" x2="132" y2="194" stroke="#d5d5d5" stroke-width="1.15"/>
+      <line x1="150" y1="158" x2="150" y2="194" stroke="#d5d5d5" stroke-width="1.15"/>
+      <line x1="168" y1="158" x2="168" y2="194" stroke="#d5d5d5" stroke-width="1.15"/>
+      <line x1="186" y1="158" x2="186" y2="194" stroke="#d5d5d5" stroke-width="1.15"/>
+      <line x1="204" y1="158" x2="204" y2="194" stroke="#d5d5d5" stroke-width="1.15"/>
+      <ellipse cx="168" cy="156" rx="48" ry="12" fill="#0e0805" stroke="#d5d5d5" stroke-width="1.8"/>
+      <ellipse cx="168" cy="156" rx="42" ry="10" fill="#e7e2d6" stroke="#3a2a22" stroke-width="0.7"/>
+      <polygon points="168,146 171,152 177,151 173,156 177,161 171,160 168,166 166,160 159,161 163,156 159,151 166,152" fill="#6c3483" stroke="#f2f2f2" stroke-width="0.7"/>
+    </g>
+  <!-- rack tom 11 x 14, star mount -->
+    <g>
+      <path d="M258 150 L258 194 A54 14 0 0 0 366 194 L366 150 Z" fill="url(#tm-shell)" stroke="#1a080c" stroke-width="1.15"/>
+      <clipPath id="tm-rack-r"><path d="M258 150 L258 194 A54 14 0 0 0 366 194 L366 150 Z"/></clipPath>
+      <g clip-path="url(#tm-rack-r)">
+      </g>
+      <line x1="271" y1="152" x2="271" y2="192" stroke="#d5d5d5" stroke-width="1.15"/>
+      <line x1="287" y1="152" x2="287" y2="192" stroke="#d5d5d5" stroke-width="1.15"/>
+      <line x1="304" y1="152" x2="304" y2="192" stroke="#d5d5d5" stroke-width="1.15"/>
+      <line x1="320" y1="152" x2="320" y2="192" stroke="#d5d5d5" stroke-width="1.15"/>
+      <line x1="337" y1="152" x2="337" y2="192" stroke="#d5d5d5" stroke-width="1.15"/>
+      <line x1="353" y1="152" x2="353" y2="192" stroke="#d5d5d5" stroke-width="1.15"/>
+      <ellipse cx="312" cy="150" rx="54" ry="14" fill="#0e0805" stroke="#d5d5d5" stroke-width="1.8"/>
+      <ellipse cx="312" cy="150" rx="48" ry="12" fill="#e7e2d6" stroke="#3a2a22" stroke-width="0.7"/>
+      <polygon points="312,138 315,146 322,144 317,150 322,156 315,154 312,162 310,154 302,156 307,150 302,144 310,146" fill="#6c3483" stroke="#f2f2f2" stroke-width="0.7"/>
+    </g>
+  <!-- snare -->
+    <g>
+      <line x1="89" y1="288" x2="74" y2="334" stroke="#d5d5d5" stroke-width="1.5"/>
+      <line x1="108" y1="290" x2="108" y2="334" stroke="#d5d5d5" stroke-width="1.5"/>
+      <line x1="127" y1="288" x2="142" y2="334" stroke="#d5d5d5" stroke-width="1.5"/>
+      <path d="M70 258 L70 286 A38 10 0 0 0 146 286 L146 258 Z" fill="url(#tm-chrome)" stroke="#222" stroke-width="1.15"/>
+      <clipPath id="tm-snare"><path d="M70 258 L70 286 A38 10 0 0 0 146 286 L146 258 Z"/></clipPath>
+      <g clip-path="url(#tm-snare)">
+      </g>
+      <line x1="79" y1="260" x2="79" y2="284" stroke="#d5d5d5" stroke-width="1.15"/>
+      <line x1="91" y1="260" x2="91" y2="284" stroke="#d5d5d5" stroke-width="1.15"/>
+      <line x1="102" y1="260" x2="102" y2="284" stroke="#d5d5d5" stroke-width="1.15"/>
+      <line x1="114" y1="260" x2="114" y2="284" stroke="#d5d5d5" stroke-width="1.15"/>
+      <line x1="125" y1="260" x2="125" y2="284" stroke="#d5d5d5" stroke-width="1.15"/>
+      <line x1="137" y1="260" x2="137" y2="284" stroke="#d5d5d5" stroke-width="1.15"/>
+      <ellipse cx="108" cy="258" rx="38" ry="10" fill="#0e0805" stroke="#d5d5d5" stroke-width="1.8"/>
+      <ellipse cx="108" cy="258" rx="32" ry="8" fill="#e7e2d6" stroke="#3a2a22" stroke-width="0.7"/>
+      <circle cx="108" cy="258" r="2.1" fill="#6c3483"/>
+    </g>
+  <!-- hi-hat -->
+    <g>
+      <line x1="40" y1="220" x2="40" y2="334" stroke="#6a6a6a" stroke-width="1.4"/>
+      <ellipse cx="40" cy="223" rx="26" ry="6" fill="url(#tm-cymbal)" stroke="#1a1208" stroke-width="1"/>
+      <ellipse cx="40" cy="223" rx="17" ry="4" fill="none" stroke="#5a4118" stroke-width="0.8"/>
+      <ellipse cx="40" cy="223" rx="4" ry="2" fill="#1a1208"/>
+      <ellipse cx="40" cy="218" rx="26" ry="6" fill="url(#tm-cymbal)" stroke="#1a1208" stroke-width="1"/>
+      <ellipse cx="40" cy="218" rx="17" ry="4" fill="none" stroke="#5a4118" stroke-width="0.8"/>
+      <ellipse cx="40" cy="218" rx="4" ry="2" fill="#1a1208"/>
+    </g>
+</svg>

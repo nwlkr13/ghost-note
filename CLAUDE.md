@@ -13,13 +13,25 @@ When committing meaningful changes, mirror to all three:
 
 Push order: local → git commit → git push origin main → upload changed files to Drive folder.
 
-## Phase 1 status (May 2026)
+## Phase status
 
-Scaffold complete. The visual archive renders 15 kits with:
-- Vinyl record card visual (default)
-- Isometric SVG illustration override (currently only Ludwig Classic Maple, kit #1)
+### Phase 2 — components and illustrations
 
-Component stubs exist for `KitCard`, `FilterBar`, `KitModal` — markup still inlined in `GhostNote.jsx`. Phase 2 will lift them out.
+In place. The archive still renders the same 15 kits.
+
+- `KitCard`, `FilterBar`, and `KitModal` are implemented in `src/components/`. `GhostNote.jsx` composes the card and the filter bar. The detail panel still opens inside the card, as it did in Phase 1.
+- Each kit has an isometric SVG in `src/assets/illustrations/`, referenced by `illustration` in `src/data/kits.js`. The vinyl record remains the fallback when `illustration` is absent.
+- Sample files are not part of this phase.
+
+### Phase 1 (May 2026)
+
+Scaffold complete. The visual archive rendered 15 kits with a vinyl-record card and one illustration (Ludwig Classic Maple, kit #1). Component files existed as stubs; the markup lived in `GhostNote.jsx`.
+
+## Roadmap
+
+- **Phase 3** — Playable kits. Drum-pad UI per card, Web Audio API or Tone.js, sample sets mapped from the character buckets in the sound roadmap below. Plus a play-along mode: the user loads a local audio file (MP3, WAV, and the like) and plays the kit over it. The file stays on the device and is never uploaded.
+- **Phase 4** — Achievements and gamification (kits played, eras unlocked, streaks, play-along challenges). Stored in the browser with `localStorage`. No accounts. No tracking.
+- **Later / exploratory** — A streaming-service partnership (Spotify or similar). Spotify's developer terms currently prohibit mixing or syncing Spotify audio with other audio, and the Web Playback SDK requires Premium. This is a business-development goal once the app has traction, not something to build against now.
 
 ## Sound roadmap (decided in Phase 1 planning, not yet built)
 
@@ -31,6 +43,8 @@ Component stubs exist for `KitCard`, `FilterBar`, `KitModal` — markup still in
 
 Bucket list (currently in kits.js header):
 `vintage-maple-warm`, `vintage-jazz-bronze`, `vintage-brass-snare`, `vintage-german-beech`, `vintage-japanese-rock`, `modern-maple-pro`, `modern-hybrid`, `metal-shell-snare`, `exotic-hardwood`, `cymbals-bell-bronze`.
+
+The bucket list, fidelity claim, and sourcing notes above are unchanged. Wiring those buckets to sample files is Phase 3, together with the drum-pad and play-along work.
 
 ## Design rules (enforced)
 

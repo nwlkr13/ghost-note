@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Ghost Note — Sonor Phonic (1978)
+  Isometric, geometric, dark aesthetic.
+  14 x 22 bass, two rack toms, two floor toms (14 and 16). Red satin beech shells. Square lugs. Chrome hardware, coated heads.
+-->
+<svg viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg" fill="none" role="img" aria-label="Sonor Phonic drum kit, isometric view">
+  <defs>
+    <radialGradient id="so-cymbal" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#d4ad57"/>
+      <stop offset="0.55" stop-color="#8a6627"/>
+      <stop offset="1" stop-color="#3d2c11"/>
+    </radialGradient>
+    <radialGradient id="so-floor" cx="0.5" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#000" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="so-chrome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a4a4a"/>
+      <stop offset="1" stop-color="#0d0d0d"/>
+    </linearGradient>
+    <linearGradient id="so-shell" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6a1818"/>
+      <stop offset="0.36" stop-color="#d05555"/>
+      <stop offset="0.6" stop-color="#8e1a1a"/>
+      <stop offset="1" stop-color="#2a0808"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="240" cy="332" rx="210" ry="20" fill="url(#so-floor)"/>
+  <!-- crash -->
+    <g>
+      <line x1="62" y1="114" x2="72" y2="334" stroke="#6a6a6a" stroke-width="1.4"/>
+      <line x1="62" y1="114" x2="62" y2="99" stroke="#6a6a6a" stroke-width="1.1"/>
+      <ellipse cx="62" cy="112" rx="30" ry="7" fill="url(#so-cymbal)" stroke="#1a1208" stroke-width="1"/>
+      <ellipse cx="62" cy="112" rx="23" ry="5" fill="none" stroke="#5a4118" stroke-width="0.8"/>
+      <ellipse cx="62" cy="112" rx="16" ry="4" fill="none" stroke="#5a4118" stroke-width="0.8"/>
+      <ellipse cx="62" cy="112" rx="5" ry="2" fill="#1a1208"/>
+    </g>
+  <!-- ride -->
+    <g>
+      <line x1="424" y1="144" x2="410" y2="334" stroke="#6a6a6a" stroke-width="1.4"/>
+      <line x1="424" y1="144" x2="424" y2="123" stroke="#6a6a6a" stroke-width="1.1"/>
+      <ellipse cx="424" cy="140" rx="44" ry="11" fill="url(#so-cymbal)" stroke="#1a1208" stroke-width="1"/>
+      <ellipse cx="424" cy="140" rx="33" ry="8" fill="none" stroke="#5a4118" stroke-width="0.8"/>
+      <ellipse cx="424" cy="140" rx="23" ry="6" fill="none" stroke="#5a4118" stroke-width="0.8"/>
+      <ellipse cx="424" cy="140" rx="7" ry="2" fill="#1a1208"/>
+    </g>
+  <!-- floor tom 14 x 14 -->
+    <g>
+      <line x1="82" y1="256" x2="71" y2="334" stroke="#d5d5d5" stroke-width="1.5"/>
+      <line x1="142" y1="256" x2="153" y2="334" stroke="#d5d5d5" stroke-width="1.5"/>
+      <path d="M64 206 L64 256 A48 12 0 0 0 160 256 L160 206 Z" fill="url(#so-shell)" stroke="#2a0808" stroke-width="1.15"/>
+      <clipPath id="so-floor-l"><path d="M64 206 L64 256 A48 12 0 0 0 160 256 L160 206 Z"/></clipPath>
+      <g clip-path="url(#so-floor-l)">
+      </g>
+      <rect x="72" y="210" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="72" y="244" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="86" y="210" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="86" y="244" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="101" y="210" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="101" y="244" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="115" y="210" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="115" y="244" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="130" y="210" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="130" y="244" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="144" y="210" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="144" y="244" width="8" height="8" fill="#f2f2f2"/>
+      <ellipse cx="112" cy="206" rx="48" ry="12" fill="#0e0805" stroke="#d5d5d5" stroke-width="1.8"/>
+      <ellipse cx="112" cy="206" rx="42" ry="10" fill="#e7e2d6" stroke="#3a2a22" stroke-width="0.7"/>
+      <circle cx="112" cy="206" r="2.1" fill="#e8e8e8"/>
+    </g>
+  <!-- floor tom 16 x 16 -->
+    <g>
+      <line x1="368" y1="270" x2="354" y2="334" stroke="#d5d5d5" stroke-width="1.5"/>
+      <line x1="440" y1="270" x2="454" y2="334" stroke="#d5d5d5" stroke-width="1.5"/>
+      <path d="M346 214 L346 270 A58 15 0 0 0 462 270 L462 214 Z" fill="url(#so-shell)" stroke="#2a0808" stroke-width="1.15"/>
+      <clipPath id="so-floor-r"><path d="M346 214 L346 270 A58 15 0 0 0 462 270 L462 214 Z"/></clipPath>
+      <g clip-path="url(#so-floor-r)">
+      </g>
+      <rect x="356" y="218" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="356" y="258" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="374" y="218" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="374" y="258" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="391" y="218" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="391" y="258" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="409" y="218" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="409" y="258" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="426" y="218" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="426" y="258" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="444" y="218" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="444" y="258" width="8" height="8" fill="#f2f2f2"/>
+      <ellipse cx="404" cy="214" rx="58" ry="15" fill="#0e0805" stroke="#d5d5d5" stroke-width="1.8"/>
+      <ellipse cx="404" cy="214" rx="52" ry="13" fill="#e7e2d6" stroke="#3a2a22" stroke-width="0.7"/>
+      <circle cx="404" cy="214" r="2.1" fill="#e8e8e8"/>
+    </g>
+  <!-- bass drum 14 x 22 -->
+    <g>
+      <path d="M140 214 L140 272 A112 29 0 0 0 364 272 L364 214 Z" fill="url(#so-shell)" stroke="#2a0808" stroke-width="1.15"/>
+      <clipPath id="so-bass"><path d="M140 214 L140 272 A112 29 0 0 0 364 272 L364 214 Z"/></clipPath>
+      <g clip-path="url(#so-bass)">
+      </g>
+      <rect x="163" y="218" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="163" y="260" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="187" y="218" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="187" y="260" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="212" y="218" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="212" y="260" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="236" y="218" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="236" y="260" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="260" y="218" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="260" y="260" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="284" y="218" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="284" y="260" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="309" y="218" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="309" y="260" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="333" y="218" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="333" y="260" width="8" height="8" fill="#f2f2f2"/>
+      <ellipse cx="252" cy="214" rx="112" ry="29" fill="#0e0805" stroke="#d5d5d5" stroke-width="2"/>
+      <ellipse cx="252" cy="214" rx="106" ry="27" fill="#e7e2d6" stroke="#3a2a22" stroke-width="0.7"/>
+      <circle cx="252" cy="214" r="2.1" fill="#f0f0f0"/>
+      <line x1="252" y1="272" x2="252" y2="308" stroke="#5a5a5a" stroke-width="1.2"/>
+      <rect x="240" y="308" width="24" height="7" fill="#161616" stroke="#3a3a3a" stroke-width="0.6"/>
+    </g>
+  <line x1="252" y1="214" x2="252" y2="150" stroke="#6a6a6a" stroke-width="1.4"/>
+  <!-- rack tom 8 x 12 -->
+    <g>
+      <path d="M158 164 L158 196 A40 10 0 0 0 238 196 L238 164 Z" fill="url(#so-shell)" stroke="#2a0808" stroke-width="1.15"/>
+      <clipPath id="so-rack-l"><path d="M158 164 L158 196 A40 10 0 0 0 238 196 L238 164 Z"/></clipPath>
+      <g clip-path="url(#so-rack-l)">
+      </g>
+      <rect x="164" y="168" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="164" y="184" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="179" y="168" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="179" y="184" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="194" y="168" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="194" y="184" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="209" y="168" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="209" y="184" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="224" y="168" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="224" y="184" width="8" height="8" fill="#f2f2f2"/>
+      <ellipse cx="198" cy="164" rx="40" ry="10" fill="#0e0805" stroke="#d5d5d5" stroke-width="1.8"/>
+      <ellipse cx="198" cy="164" rx="34" ry="8" fill="#e7e2d6" stroke="#3a2a22" stroke-width="0.7"/>
+      <circle cx="198" cy="164" r="2.1" fill="#f0f0f0"/>
+    </g>
+  <!-- rack tom 9 x 13 -->
+    <g>
+      <path d="M258 158 L258 194 A46 12 0 0 0 350 194 L350 158 Z" fill="url(#so-shell)" stroke="#2a0808" stroke-width="1.15"/>
+      <clipPath id="so-rack-r"><path d="M258 158 L258 194 A46 12 0 0 0 350 194 L350 158 Z"/></clipPath>
+      <g clip-path="url(#so-rack-r)">
+      </g>
+      <rect x="265" y="162" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="265" y="182" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="283" y="162" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="283" y="182" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="300" y="162" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="300" y="182" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="318" y="162" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="318" y="182" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="335" y="162" width="8" height="8" fill="#f2f2f2"/>
+      <rect x="335" y="182" width="8" height="8" fill="#f2f2f2"/>
+      <ellipse cx="304" cy="158" rx="46" ry="12" fill="#0e0805" stroke="#d5d5d5" stroke-width="1.8"/>
+      <ellipse cx="304" cy="158" rx="40" ry="10" fill="#e7e2d6" stroke="#3a2a22" stroke-width="0.7"/>
+      <circle cx="304" cy="158" r="2.1" fill="#f0f0f0"/>
+    </g>
+  <!-- snare -->
+    <g>
+      <line x1="132" y1="300" x2="118" y2="334" stroke="#d5d5d5" stroke-width="1.5"/>
+      <line x1="150" y1="302" x2="150" y2="334" stroke="#d5d5d5" stroke-width="1.5"/>
+      <line x1="168" y1="300" x2="182" y2="334" stroke="#d5d5d5" stroke-width="1.5"/>
+      <path d="M114 272 L114 298 A36 9 0 0 0 186 298 L186 272 Z" fill="url(#so-chrome)" stroke="#222" stroke-width="1.15"/>
+      <clipPath id="so-snare"><path d="M114 272 L114 298 A36 9 0 0 0 186 298 L186 272 Z"/></clipPath>
+      <g clip-path="url(#so-snare)">
+      </g>
+      <line x1="123" y1="274" x2="123" y2="296" stroke="#d5d5d5" stroke-width="1.15"/>
+      <line x1="134" y1="274" x2="134" y2="296" stroke="#d5d5d5" stroke-width="1.15"/>
+      <line x1="145" y1="274" x2="145" y2="296" stroke="#d5d5d5" stroke-width="1.15"/>
+      <line x1="155" y1="274" x2="155" y2="296" stroke="#d5d5d5" stroke-width="1.15"/>
+      <line x1="166" y1="274" x2="166" y2="296" stroke="#d5d5d5" stroke-width="1.15"/>
+      <line x1="177" y1="274" x2="177" y2="296" stroke="#d5d5d5" stroke-width="1.15"/>
+      <ellipse cx="150" cy="272" rx="36" ry="9" fill="#0e0805" stroke="#d5d5d5" stroke-width="1.8"/>
+      <ellipse cx="150" cy="272" rx="30" ry="7" fill="#e7e2d6" stroke="#3a2a22" stroke-width="0.7"/>
+      <circle cx="150" cy="272" r="2.1" fill="#f0f0f0"/>
+    </g>
+  <!-- hi-hat -->
+    <g>
+      <line x1="36" y1="230" x2="36" y2="334" stroke="#6a6a6a" stroke-width="1.4"/>
+      <ellipse cx="36" cy="233" rx="22" ry="5" fill="url(#so-cymbal)" stroke="#1a1208" stroke-width="1"/>
+      <ellipse cx="36" cy="233" rx="14" ry="3" fill="none" stroke="#5a4118" stroke-width="0.8"/>
+      <ellipse cx="36" cy="233" rx="4" ry="2" fill="#1a1208"/>
+      <ellipse cx="36" cy="228" rx="22" ry="5" fill="url(#so-cymbal)" stroke="#1a1208" stroke-width="1"/>
+      <ellipse cx="36" cy="228" rx="14" ry="3" fill="none" stroke="#5a4118" stroke-width="0.8"/>
+      <ellipse cx="36" cy="228" rx="4" ry="2" fill="#1a1208"/>
+    </g>
+</svg>

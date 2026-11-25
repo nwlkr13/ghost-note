@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Ghost Note — Leedy Broadway (1928)
+  Isometric, geometric, dark aesthetic.
+  5 x 14 antique snare. Nickel plate over brass: dull nickel shell, brass showing at the top and bottom edges. Claw hooks over a calfskin head. Separate-tension hardware, no modern turret lugs.
+-->
+<svg viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg" fill="none" role="img" aria-label="Leedy Broadway snare, isometric view">
+  <defs>
+    <radialGradient id="ld-cymbal" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#d4ad57"/>
+      <stop offset="0.55" stop-color="#8a6627"/>
+      <stop offset="1" stop-color="#3d2c11"/>
+    </radialGradient>
+    <radialGradient id="ld-floor" cx="0.5" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#000" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ld-chrome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a4a4a"/>
+      <stop offset="1" stop-color="#0d0d0d"/>
+    </linearGradient>
+    <linearGradient id="ld-shell" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d4cfc6"/>
+      <stop offset="0.45" stop-color="#8e8880"/>
+      <stop offset="1" stop-color="#3e3a36"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="240" cy="320" rx="180" ry="16" fill="url(#ld-floor)"/>
+  <!-- broadway snare 5 x 14 -->
+    <g>
+      <line x1="192" y1="226" x2="48" y2="334" stroke="#7a756e" stroke-width="1.5"/>
+      <line x1="240" y1="228" x2="240" y2="334" stroke="#7a756e" stroke-width="1.5"/>
+      <line x1="288" y1="226" x2="432" y2="334" stroke="#7a756e" stroke-width="1.5"/>
+      <path d="M90 124 L90 220 A150 39 0 0 0 390 220 L390 124 Z" fill="url(#ld-shell)" stroke="#4a463f" stroke-width="1.15"/>
+      <clipPath id="ld-snare"><path d="M90 124 L90 220 A150 39 0 0 0 390 220 L390 124 Z"/></clipPath>
+      <g clip-path="url(#ld-snare)">
+        <line x1="92" y1="129" x2="388" y2="129" stroke="#a87840" stroke-width="2.6"/>
+        <line x1="96" y1="193" x2="384" y2="193" stroke="#a87840" stroke-width="2.6"/>
+      </g>
+      <ellipse cx="240" cy="124" rx="150" ry="39" fill="#0e0805" stroke="#b7b1a8" stroke-width="2.3"/>
+      <ellipse cx="240" cy="124" rx="144" ry="37" fill="#e8d7b0" stroke="#6a5838" stroke-width="0.7"/>
+      <ellipse cx="240" cy="124" rx="79" ry="20" fill="none" stroke="#c2b08a" stroke-width="0.8" opacity="0.85"/>
+      <circle cx="240" cy="124" r="2.1" fill="#6e2f1a"/>
+      <line x1="130" y1="81" x2="146" y2="81" stroke="#c8c2b8" stroke-width="2.8"/>
+      <line x1="138" y1="81" x2="138" y2="130" stroke="#c8c2b8" stroke-width="2.8"/>
+      <line x1="171" y1="81" x2="187" y2="81" stroke="#c8c2b8" stroke-width="2.8"/>
+      <line x1="179" y1="81" x2="179" y2="130" stroke="#c8c2b8" stroke-width="2.8"/>
+      <line x1="212" y1="81" x2="228" y2="81" stroke="#c8c2b8" stroke-width="2.8"/>
+      <line x1="220" y1="81" x2="220" y2="130" stroke="#c8c2b8" stroke-width="2.8"/>
+      <line x1="252" y1="81" x2="268" y2="81" stroke="#c8c2b8" stroke-width="2.8"/>
+      <line x1="260" y1="81" x2="260" y2="130" stroke="#c8c2b8" stroke-width="2.8"/>
+      <line x1="293" y1="81" x2="309" y2="81" stroke="#c8c2b8" stroke-width="2.8"/>
+      <line x1="301" y1="81" x2="301" y2="130" stroke="#c8c2b8" stroke-width="2.8"/>
+      <line x1="334" y1="81" x2="350" y2="81" stroke="#c8c2b8" stroke-width="2.8"/>
+      <line x1="342" y1="81" x2="342" y2="130" stroke="#c8c2b8" stroke-width="2.8"/>
+      <line x1="150" y1="264" x2="330" y2="264" stroke="#d8d8d8" stroke-width="1" opacity="0.95"/>
+      <line x1="155" y1="267" x2="325" y2="267" stroke="#d8d8d8" stroke-width="1" opacity="0.95"/>
+      <line x1="160" y1="270" x2="320" y2="270" stroke="#d8d8d8" stroke-width="1" opacity="0.95"/>
+      <line x1="165" y1="273" x2="315" y2="273" stroke="#d8d8d8" stroke-width="1" opacity="0.95"/>
+      <line x1="170" y1="276" x2="310" y2="276" stroke="#d8d8d8" stroke-width="1" opacity="0.95"/>
+      <line x1="175" y1="279" x2="305" y2="279" stroke="#d8d8d8" stroke-width="1" opacity="0.95"/>
+    </g>
+</svg>

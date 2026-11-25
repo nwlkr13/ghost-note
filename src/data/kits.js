@@ -2,10 +2,12 @@
 // Extracted from GhostNote.jsx in Phase 1 scaffold.
 //
 // Optional fields:
-//   illustration  — URL/import of an isometric SVG (Phase 1 has Ludwig only)
-//   soundProfile  — character bucket for Phase 2 sample mapping. Buckets are deliberately
-//                   honest: they describe sonic *character*, not "this is the actual
-//                   recording of this exact kit." Curated buckets so far:
+//   illustration  — import of an isometric SVG in src/assets/illustrations/.
+//                   Every kit in this catalog has one. KitCard falls back to the
+//                   vinyl record when illustration is absent.
+//   soundProfile  — character bucket for sample mapping (see the sound roadmap).
+//                   Buckets are deliberately honest: they describe sonic *character*,
+//                   not "this is the actual recording of this exact kit." Curated buckets so far:
 //                     "vintage-maple-warm"   — fundamental, woody, calfskin era
 //                     "vintage-jazz-bronze"  — open, sizzly, calfskin
 //                     "vintage-brass-snare"  — bright crack, nickel-era snares
@@ -18,6 +20,20 @@
 //                     "cymbals-bell-bronze"  — traditional Turkish/Zildjian alloy
 
 import ludwigClassicMaple from "../assets/illustrations/ludwig-classic-maple.svg";
+import gretschRoundBadge from "../assets/illustrations/gretsch-round-badge.svg";
+import pearlFreeFloatingPiccolo from "../assets/illustrations/pearl-free-floating-piccolo.svg";
+import dwCollectorsMaple from "../assets/illustrations/dw-collectors-maple.svg";
+import sonorPhonic from "../assets/illustrations/sonor-phonic.svg";
+import tamaSuperstar from "../assets/illustrations/tama-superstar.svg";
+import zildjianASeries from "../assets/illustrations/zildjian-a-series.svg";
+import yamahaRecordingCustom from "../assets/illustrations/yamaha-recording-custom.svg";
+import mapexArmory from "../assets/illustrations/mapex-armory.svg";
+import nobleCooleyHorizon from "../assets/illustrations/noble-cooley-horizon.svg";
+import bradyJarrahPly from "../assets/illustrations/brady-jarrah-ply.svg";
+import craviottoSolidMaple from "../assets/illustrations/craviotto-solid-maple.svg";
+import rogersDynasonic from "../assets/illustrations/rogers-dynasonic.svg";
+import leedyBroadway from "../assets/illustrations/leedy-broadway.svg";
+import slingerlandRadioKing from "../assets/illustrations/slingerland-radio-king.svg";
 
 export const kits = [
   {
@@ -51,6 +67,7 @@ export const kits = [
       "The 'Round Badge' era (1950s–60s) is considered Gretsch's golden age. Buddy Rich and Charlie Watts both played these sets.",
     tags: ["vintage", "jazz", "collector"],
     color: "#d4a017",
+    illustration: gretschRoundBadge,
     soundProfile: "vintage-jazz-bronze",
   },
   {
@@ -67,6 +84,7 @@ export const kits = [
       "Pearl's Free-Floating system isolated the shell from the hardware, revolutionizing snare tuning and tone consistency.",
     tags: ["snare", "modern", "studio"],
     color: "#2980b9",
+    illustration: pearlFreeFloatingPiccolo,
     soundProfile: "metal-shell-snare",
   },
   {
@@ -83,6 +101,7 @@ export const kits = [
       "DW introduced True Pitch tension rods in the 90s — a half-turn of any rod changes pitch the same amount. Used by Neil Peart on his later tours.",
     tags: ["modern", "rock", "professional"],
     color: "#1a1a2e",
+    illustration: dwCollectorsMaple,
     soundProfile: "modern-maple-pro",
   },
   {
@@ -99,6 +118,7 @@ export const kits = [
       "German engineering at its peak — the Phonic series featured precision-machined bearing edges and became a studio standard across Europe.",
     tags: ["vintage", "studio", "european"],
     color: "#8e1a1a",
+    illustration: sonorPhonic,
     soundProfile: "vintage-german-beech",
   },
   {
@@ -115,6 +135,7 @@ export const kits = [
       "Simon Phillips and Stewart Copeland both played Tama in the late 70s. The Superstar line put Japanese drums on the world stage.",
     tags: ["vintage", "rock", "japanese"],
     color: "#6c3483",
+    illustration: tamaSuperstar,
     soundProfile: "vintage-japanese-rock",
   },
   {
@@ -131,6 +152,7 @@ export const kits = [
       "Zildjian is the oldest instrument manufacturer in the world. The secret alloy formula has been passed down for 400 years — only the family knows it.",
     tags: ["cymbals", "historic", "legendary"],
     color: "#b7950b",
+    illustration: zildjianASeries,
     soundProfile: "cymbals-bell-bronze",
   },
   {
@@ -147,6 +169,7 @@ export const kits = [
       "Steve Gadd recorded 'Aja' by Steely Dan and '50 Ways to Leave Your Lover' on Yamaha Recording Customs. Arguably the most recorded kit in history.",
     tags: ["studio", "jazz", "legendary"],
     color: "#1e8449",
+    illustration: yamahaRecordingCustom,
     soundProfile: "vintage-japanese-rock",
   },
   {
@@ -163,6 +186,7 @@ export const kits = [
       "Mapex pioneered the SONIClear bearing edge — a hybrid cut that blends attack and sustain, designed by acoustic engineers rather than craftsmen.",
     tags: ["modern", "hybrid", "value"],
     color: "#2e4057",
+    illustration: mapexArmory,
     soundProfile: "modern-hybrid",
   },
   {
@@ -179,6 +203,7 @@ export const kits = [
       "One of the oldest drum makers in America (est. 1854). Civil War toy drums evolved into the boutique kits used by Questlove and others.",
     tags: ["boutique", "american", "historic"],
     color: "#4a235a",
+    illustration: nobleCooleyHorizon,
     soundProfile: "modern-maple-pro",
   },
   {
@@ -195,6 +220,7 @@ export const kits = [
       "Brady uses Jarrah — a dense, heavy Australian hardwood with a crack like a gunshot. No other manufacturer uses it at scale.",
     tags: ["boutique", "australian", "snare"],
     color: "#922b21",
+    illustration: bradyJarrahPly,
     soundProfile: "exotic-hardwood",
   },
   {
@@ -211,6 +237,7 @@ export const kits = [
       "Johnny Craviotto builds drums from single-ply solid stave wood — no laminate. Each drum is essentially carved. Waiting list can exceed two years.",
     tags: ["boutique", "artisan", "collector"],
     color: "#1a5276",
+    illustration: craviottoSolidMaple,
     soundProfile: "vintage-maple-warm",
   },
   {
@@ -227,6 +254,7 @@ export const kits = [
       "The Dynasonic's internal strainer mechanism is unlike anything else — it tensions from inside the shell, producing a snare response players still chase today.",
     tags: ["vintage", "snare", "collector"],
     color: "#797d7f",
+    illustration: rogersDynasonic,
     soundProfile: "vintage-brass-snare",
   },
   {
@@ -243,6 +271,7 @@ export const kits = [
       "Leedy was the dominant drum brand before Ludwig. Gene Krupa's early recordings featured Leedy kits. The company was eventually absorbed by Slingerland.",
     tags: ["antique", "historic", "jazz"],
     color: "#6e2f1a",
+    illustration: leedyBroadway,
     soundProfile: "vintage-brass-snare",
   },
   {
@@ -259,6 +288,7 @@ export const kits = [
       "Gene Krupa helped design the Radio King snare. The solid maple shell (not ply) gives it a warmth still unmatched. One of the most copied snare drums ever made.",
     tags: ["antique", "jazz", "legendary"],
     color: "#1c2833",
+    illustration: slingerlandRadioKing,
     soundProfile: "vintage-maple-warm",
   },
 ];
