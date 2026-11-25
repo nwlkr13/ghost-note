@@ -3,10 +3,14 @@
 //
 // Optional fields:
 //   illustration  — import of an isometric SVG in src/assets/illustrations/.
-//                   Every kit in this catalog has one. KitCard falls back to the
-//                   vinyl record when illustration is absent. Drawings aim at the
-//                   historical instrument. Badge shapes only: no logos or lettering.
+//                   Every kit in this catalog has one. The card shows a rendered
+//                   still of the 3D model when one exists, and this SVG when WebGL
+//                   is unavailable or the still is missing. Vinyl is the last resort.
+//                   Badge shapes only: no logos or lettering.
 //                   Sources: docs/illustration-references.md
+//   build         — parametric 3D spec from src/data/builds.js. The generator in
+//                   src/three/kitFactory.js reads piece count, diameters, depths,
+//                   shell, finish, lugs, hoops, and hardware from this object.
 //   references    — short note plus the sources section for that drawing.
 //   soundProfile  — character bucket for sample mapping (see the sound roadmap).
 //                   Buckets are deliberately honest: they describe sonic *character*,
@@ -37,6 +41,7 @@ import craviottoSolidMaple from "../assets/illustrations/craviotto-solid-maple.s
 import rogersDynasonic from "../assets/illustrations/rogers-dynasonic.svg";
 import leedyBroadway from "../assets/illustrations/leedy-broadway.svg";
 import slingerlandRadioKing from "../assets/illustrations/slingerland-radio-king.svg";
+import { builds } from "./builds.js";
 
 export const kits = [
   {
@@ -355,6 +360,10 @@ export const kits = [
     soundProfile: "vintage-maple-warm",
   },
 ];
+
+kits.forEach((kit) => {
+  kit.build = builds[kit.id];
+});
 
 export const eras = ["All", "Pre-1940s", "1950s", "1960s", "1970s", "1980s", "1990s", "2010s"];
 export const origins = ["All", "USA", "Japan", "Germany", "Australia", "Taiwan"];
