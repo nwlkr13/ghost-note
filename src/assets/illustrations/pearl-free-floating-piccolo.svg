@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Ghost Note — Pearl Free-Floating piccolo (early 1980s)
+  Original isometric vector. Badge shapes only: no lettering, no logo artwork.
+  3 x 14 steel piccolo. Shell has no lugs and no badge. It sits in a die-cast chassis; short lugs bridge the bottom ring to the top die-cast hoop. Throw-off is on the chassis.
+-->
+<svg viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg" fill="none" role="img" aria-label="Chrome free-floating piccolo snare, isometric view">
+  <defs>
+    <radialGradient id="pf-cymbal" cx="0.5" cy="0.45" r="0.55">
+      <stop offset="0" stop-color="#c4a15a"/>
+      <stop offset="0.45" stop-color="#7a5a28"/>
+      <stop offset="1" stop-color="#3a2810"/>
+    </radialGradient>
+    <radialGradient id="pf-floor" cx="0.5" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#000" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="pf-chrome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8eaec"/>
+      <stop offset="0.45" stop-color="#8e949c"/>
+      <stop offset="1" stop-color="#2a2e32"/>
+    </linearGradient>
+    <linearGradient id="pf-brass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0d7a0"/>
+      <stop offset="0.45" stop-color="#b8883c"/>
+      <stop offset="1" stop-color="#5a3c18"/>
+    </linearGradient>
+    <linearGradient id="pf-shell" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7f8f8"/>
+      <stop offset="0.35" stop-color="#c5ccd2"/>
+      <stop offset="0.7" stop-color="#6e767e"/>
+      <stop offset="1" stop-color="#2c3238"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="240" cy="318" rx="170" ry="14" fill="url(#pf-floor)"/>
+  <!-- free-floating 3.5 x 14. Depth was not redrawn; the data depth is 3.5 inches. -->
+    <g>
+      <line x1="198" y1="188" x2="52" y2="336" stroke="#d8d8d8" stroke-width="1.6"/>
+      <line x1="240" y1="190" x2="240" y2="336" stroke="#d8d8d8" stroke-width="1.6"/>
+      <line x1="282" y1="188" x2="428" y2="336" stroke="#d8d8d8" stroke-width="1.6"/>
+      <path d="M90 174 L90 188 A150 39 0 0 0 390 188 L390 174 Z" fill="#b8bec4" stroke="#f4f4f4" stroke-width="1.2"/>
+      <ellipse cx="240" cy="174" rx="150" ry="39" fill="#d5d8dc" stroke="#ffffff" stroke-width="1.4"/>
+      <path d="M112 136 L112 170 A128 33 0 0 0 368 170 L368 136 Z" fill="url(#pf-shell)" stroke="#f4f6f8" stroke-width="1.15"/>
+      <clipPath id="pf-snare"><path d="M112 136 L112 170 A128 33 0 0 0 368 170 L368 136 Z"/></clipPath>
+      <g clip-path="url(#pf-snare)">
+      </g>
+      <rect x="121" y="126" width="4" height="60" fill="#f4f4f4"/>
+      <rect x="154" y="126" width="4" height="60" fill="#f4f4f4"/>
+      <rect x="188" y="126" width="4" height="60" fill="#f4f4f4"/>
+      <rect x="221" y="126" width="4" height="60" fill="#f4f4f4"/>
+      <rect x="255" y="126" width="4" height="60" fill="#f4f4f4"/>
+      <rect x="288" y="126" width="4" height="60" fill="#f4f4f4"/>
+      <rect x="322" y="126" width="4" height="60" fill="#f4f4f4"/>
+      <rect x="355" y="126" width="4" height="60" fill="#f4f4f4"/>
+      <ellipse cx="240" cy="128" rx="150" ry="39" fill="#121212" stroke="#ffffff" stroke-width="4"/>
+      <ellipse cx="240" cy="128" rx="140" ry="36" fill="#f3f1ea" stroke="#3a3228" stroke-width="0.6"/>
+      <rect x="364" y="151" width="16" height="5" fill="#d8d8d8" stroke="#333" stroke-width="0.4"/>
+      <line x1="380" y1="153" x2="392" y2="143" stroke="#d8d8d8" stroke-width="1.8"/>
+    </g>
+</svg>

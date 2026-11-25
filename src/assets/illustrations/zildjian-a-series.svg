@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Ghost Note — Traditional lathed cymbal set
+  Original isometric vector. Badge shapes only: no lettering, no logo artwork.
+  14 inch hi-hats, 17 inch crash, 20 inch ride. Traditional lathed bronze, raised bell. No lettering and no stamped mark.
+-->
+<svg viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg" fill="none" role="img" aria-label="Traditional lathed cymbals, isometric view">
+  <defs>
+    <radialGradient id="zi-cymbal" cx="0.5" cy="0.45" r="0.55">
+      <stop offset="0" stop-color="#c4a15a"/>
+      <stop offset="0.45" stop-color="#7a5a28"/>
+      <stop offset="1" stop-color="#3a2810"/>
+    </radialGradient>
+    <radialGradient id="zi-floor" cx="0.5" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#000" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="zi-chrome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8eaec"/>
+      <stop offset="0.45" stop-color="#8e949c"/>
+      <stop offset="1" stop-color="#2a2e32"/>
+    </linearGradient>
+    <linearGradient id="zi-brass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0d7a0"/>
+      <stop offset="0.45" stop-color="#b8883c"/>
+      <stop offset="1" stop-color="#5a3c18"/>
+    </linearGradient>
+
+  </defs>
+  <ellipse cx="240" cy="334" rx="200" ry="18" fill="url(#zi-floor)"/>
+  <!-- crash 17 -->
+    <g>
+      <line x1="230" y1="134" x2="246" y2="336" stroke="#5a5044" stroke-width="1.5"/>
+      <line x1="230" y1="113" x2="230" y2="133" stroke="#7a7a7a" stroke-width="1.2"/>
+      <ellipse cx="230" cy="128" rx="62" ry="15" fill="url(#zi-cymbal)" stroke="#1a1208" stroke-width="1.1"/>
+      <ellipse cx="230" cy="128" rx="50" ry="12" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="230" cy="128" rx="38" ry="9" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="230" cy="128" rx="26" ry="6" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="230" cy="128" rx="14" ry="3" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="230" cy="127" rx="10" ry="3" fill="#2a1c0c" stroke="#6a4a20" stroke-width="0.6"/>
+      <ellipse cx="230" cy="127" rx="4" ry="1" fill="#c4a15a"/>
+    </g>
+  <!-- ride 20 -->
+    <g>
+      <line x1="372" y1="205" x2="354" y2="336" stroke="#5a5044" stroke-width="1.5"/>
+      <line x1="372" y1="180" x2="372" y2="203" stroke="#7a7a7a" stroke-width="1.2"/>
+      <ellipse cx="372" cy="198" rx="74" ry="18" fill="url(#zi-cymbal)" stroke="#1a1208" stroke-width="1.1"/>
+      <ellipse cx="372" cy="198" rx="62" ry="15" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="372" cy="198" rx="50" ry="12" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="372" cy="198" rx="38" ry="9" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="372" cy="198" rx="26" ry="6" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="372" cy="198" rx="14" ry="3" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="372" cy="197" rx="12" ry="4" fill="#2a1c0c" stroke="#6a4a20" stroke-width="0.6"/>
+      <ellipse cx="372" cy="197" rx="4" ry="1" fill="#c4a15a"/>
+    </g>
+  <!-- hi-hat 14 -->
+    <g>
+      <line x1="92" y1="211" x2="92" y2="336" stroke="#8a8478" stroke-width="1.5"/>
+      <ellipse cx="92" cy="213" rx="48" ry="12" fill="url(#zi-cymbal)" stroke="#1a1208" stroke-width="1.1"/>
+      <ellipse cx="92" cy="213" rx="37" ry="9" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="92" cy="213" rx="25" ry="6" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="92" cy="213" rx="14" ry="3" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="92" cy="212" rx="8" ry="3" fill="#2a1c0c" stroke="#6a4a20" stroke-width="0.6"/>
+      <ellipse cx="92" cy="212" rx="3" ry="1" fill="#c4a15a"/>
+      <ellipse cx="92" cy="206" rx="48" ry="12" fill="url(#zi-cymbal)" stroke="#1a1208" stroke-width="1.1"/>
+      <ellipse cx="92" cy="206" rx="37" ry="9" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="92" cy="206" rx="25" ry="6" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="92" cy="206" rx="14" ry="3" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="92" cy="205" rx="8" ry="3" fill="#2a1c0c" stroke="#6a4a20" stroke-width="0.6"/>
+      <ellipse cx="92" cy="205" rx="3" ry="1" fill="#c4a15a"/>
+    </g>
+</svg>

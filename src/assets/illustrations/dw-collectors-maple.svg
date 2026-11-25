@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Ghost Note — DW Collector's Series, Black Galaxy (early 1990s)
+  Original isometric vector. Badge shapes only: no lettering, no logo artwork.
+  18 x 22 bass, 10 x 12 and 12 x 14 racks, 16 floor. Black galaxy speckled wrap, turret lugs top and bottom, triple-flange hoops, empty circular badge outline.
+-->
+<svg viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg" fill="none" role="img" aria-label="Black galaxy maple drum kit, isometric view">
+  <defs>
+    <radialGradient id="dw-cymbal" cx="0.5" cy="0.45" r="0.55">
+      <stop offset="0" stop-color="#c4a15a"/>
+      <stop offset="0.45" stop-color="#7a5a28"/>
+      <stop offset="1" stop-color="#3a2810"/>
+    </radialGradient>
+    <radialGradient id="dw-floor" cx="0.5" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#000" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="dw-chrome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8eaec"/>
+      <stop offset="0.45" stop-color="#8e949c"/>
+      <stop offset="1" stop-color="#2a2e32"/>
+    </linearGradient>
+    <linearGradient id="dw-brass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0d7a0"/>
+      <stop offset="0.45" stop-color="#b8883c"/>
+      <stop offset="1" stop-color="#5a3c18"/>
+    </linearGradient>
+    <linearGradient id="dw-shell" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1a24"/>
+      <stop offset="1" stop-color="#050508"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="240" cy="334" rx="200" ry="18" fill="url(#dw-floor)"/>
+  <!-- crash -->
+    <g>
+      <line x1="70" y1="125" x2="82" y2="336" stroke="#6a6a6a" stroke-width="1.5"/>
+      <line x1="70" y1="114" x2="70" y2="124" stroke="#7a7a7a" stroke-width="1.2"/>
+      <ellipse cx="70" cy="122" rx="34" ry="8" fill="url(#dw-cymbal)" stroke="#1a1208" stroke-width="1.1"/>
+      <ellipse cx="70" cy="122" rx="26" ry="6" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="70" cy="122" rx="18" ry="4" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="70" cy="122" rx="10" ry="2" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="70" cy="121" rx="5" ry="2" fill="#2a1c0c" stroke="#6a4a20" stroke-width="0.6"/>
+      <ellipse cx="70" cy="121" rx="2" ry="1" fill="#c4a15a"/>
+    </g>
+  <!-- ride -->
+    <g>
+      <line x1="416" y1="150" x2="402" y2="336" stroke="#6a6a6a" stroke-width="1.5"/>
+      <line x1="416" y1="135" x2="416" y2="149" stroke="#7a7a7a" stroke-width="1.2"/>
+      <ellipse cx="416" cy="146" rx="46" ry="11" fill="url(#dw-cymbal)" stroke="#1a1208" stroke-width="1.1"/>
+      <ellipse cx="416" cy="146" rx="35" ry="8" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="416" cy="146" rx="24" ry="6" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="416" cy="146" rx="13" ry="3" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="416" cy="145" rx="7" ry="2" fill="#2a1c0c" stroke="#6a4a20" stroke-width="0.6"/>
+      <ellipse cx="416" cy="145" rx="2" ry="1" fill="#c4a15a"/>
+    </g>
+  <!-- 16 floor -->
+    <g>
+      <line x1="362" y1="274" x2="347" y2="336" stroke="#d8d8d8" stroke-width="1.6"/>
+      <line x1="434" y1="274" x2="449" y2="336" stroke="#d8d8d8" stroke-width="1.6"/>
+      <path d="M340 220 L340 274 A58 15 0 0 0 456 274 L456 220 Z" fill="url(#dw-shell)" stroke="#222" stroke-width="1.15"/>
+      <clipPath id="dw-floor"><path d="M340 220 L340 274 A58 15 0 0 0 456 274 L456 220 Z"/></clipPath>
+      <g clip-path="url(#dw-floor)">
+        <circle cx="446" cy="267" r="1.5" fill="#d8d8ee" opacity="0.8"/>
+        <circle cx="432" cy="248" r="0.8" fill="#d8d8ee" opacity="0.8"/>
+        <circle cx="356" cy="235" r="0.8" fill="#d8d8ee" opacity="0.8"/>
+        <circle cx="386" cy="230" r="0.8" fill="#d8d8ee" opacity="0.8"/>
+        <circle cx="358" cy="238" r="1.5" fill="#d8d8ee" opacity="0.8"/>
+        <circle cx="388" cy="233" r="0.8" fill="#d8d8ee" opacity="0.8"/>
+        <circle cx="390" cy="236" r="0.8" fill="#d8d8ee" opacity="0.8"/>
+        <circle cx="428" cy="242" r="0.8" fill="#d8d8ee" opacity="0.8"/>
+        <circle cx="419" cy="230" r="1.5" fill="#d8d8ee" opacity="0.8"/>
+        <circle cx="411" cy="265" r="0.8" fill="#d8d8ee" opacity="0.8"/>
+        <circle cx="386" cy="230" r="0.8" fill="#d8d8ee" opacity="0.8"/>
+        <circle cx="376" cy="263" r="0.8" fill="#d8d8ee" opacity="0.8"/>
+        <circle cx="443" cy="263" r="1.5" fill="#d8d8ee" opacity="0.8"/>
+        <circle cx="396" cy="244" r="0.8" fill="#d8d8ee" opacity="0.8"/>
+        <circle cx="400" cy="250" r="0.8" fill="#d8d8ee" opacity="0.8"/>
+        <circle cx="434" cy="251" r="0.8" fill="#d8d8ee" opacity="0.8"/>
+        <circle cx="409" cy="262" r="1.5" fill="#d8d8ee" opacity="0.8"/>
+        <circle cx="381" cy="270" r="0.8" fill="#d8d8ee" opacity="0.8"/>
+      </g>
+      <rect x="353" y="223" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="353" y="260" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="365" y="223" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="365" y="260" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="377" y="223" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="377" y="260" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="389" y="223" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="389" y="260" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="401" y="223" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="401" y="260" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="413" y="223" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="413" y="260" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="425" y="223" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="425" y="260" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="437" y="223" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="437" y="260" width="6" height="11" fill="#d8d8d8"/>
+      <ellipse cx="398" cy="251" rx="14" ry="7" fill="none" stroke="#e6e6e6" stroke-width="1.4"/>
+      <ellipse cx="398" cy="220" rx="58" ry="15" fill="#101010" stroke="#d8d8d8" stroke-width="1.3"/>
+      <ellipse cx="398" cy="220" rx="55" ry="14" fill="none" stroke="#d8d8d8" stroke-width="0.7" opacity="0.7"/>
+      <ellipse cx="398" cy="220" rx="50" ry="13" fill="#e8e3d8" stroke="#3a3228" stroke-width="0.55"/>
+    </g>
+  <!-- 18 x 22 bass -->
+    <g>
+      <path d="M116 196 L116 274 A114 30 0 0 0 344 274 L344 196 Z" fill="url(#dw-shell)" stroke="#222" stroke-width="1.15"/>
+      <clipPath id="dw-bass"><path d="M116 196 L116 274 A114 30 0 0 0 344 274 L344 196 Z"/></clipPath>
+      <g clip-path="url(#dw-bass)">
+        <circle cx="202" cy="208" r="1.5" fill="#e4e4f4" opacity="0.8"/>
+        <circle cx="317" cy="251" r="0.8" fill="#e4e4f4" opacity="0.8"/>
+        <circle cx="166" cy="242" r="0.8" fill="#e4e4f4" opacity="0.8"/>
+        <circle cx="291" cy="226" r="0.8" fill="#e4e4f4" opacity="0.8"/>
+        <circle cx="209" cy="214" r="1.5" fill="#e4e4f4" opacity="0.8"/>
+        <circle cx="207" cy="212" r="0.8" fill="#e4e4f4" opacity="0.8"/>
+        <circle cx="185" cy="261" r="0.8" fill="#e4e4f4" opacity="0.8"/>
+        <circle cx="147" cy="223" r="0.8" fill="#e4e4f4" opacity="0.8"/>
+        <circle cx="268" cy="203" r="1.5" fill="#e4e4f4" opacity="0.8"/>
+        <circle cx="156" cy="232" r="0.8" fill="#e4e4f4" opacity="0.8"/>
+        <circle cx="185" cy="261" r="0.8" fill="#e4e4f4" opacity="0.8"/>
+        <circle cx="328" cy="262" r="0.8" fill="#e4e4f4" opacity="0.8"/>
+        <circle cx="260" cy="264" r="1.5" fill="#e4e4f4" opacity="0.8"/>
+        <circle cx="277" cy="211" r="0.8" fill="#e4e4f4" opacity="0.8"/>
+        <circle cx="234" cy="239" r="0.8" fill="#e4e4f4" opacity="0.8"/>
+        <circle cx="132" cy="208" r="0.8" fill="#e4e4f4" opacity="0.8"/>
+        <circle cx="262" cy="267" r="1.5" fill="#e4e4f4" opacity="0.8"/>
+        <circle cx="285" cy="220" r="0.8" fill="#e4e4f4" opacity="0.8"/>
+        <circle cx="164" cy="240" r="0.8" fill="#e4e4f4" opacity="0.8"/>
+        <circle cx="302" cy="236" r="0.8" fill="#e4e4f4" opacity="0.8"/>
+        <circle cx="173" cy="248" r="1.5" fill="#e4e4f4" opacity="0.8"/>
+        <circle cx="213" cy="218" r="0.8" fill="#e4e4f4" opacity="0.8"/>
+        <circle cx="236" cy="241" r="0.8" fill="#e4e4f4" opacity="0.8"/>
+        <circle cx="160" cy="236" r="0.8" fill="#e4e4f4" opacity="0.8"/>
+        <circle cx="196" cy="201" r="1.5" fill="#e4e4f4" opacity="0.8"/>
+        <circle cx="291" cy="226" r="0.8" fill="#e4e4f4" opacity="0.8"/>
+        <circle cx="266" cy="201" r="0.8" fill="#e4e4f4" opacity="0.8"/>
+        <circle cx="328" cy="262" r="0.8" fill="#e4e4f4" opacity="0.8"/>
+        <circle cx="247" cy="252" r="1.5" fill="#e4e4f4" opacity="0.8"/>
+        <circle cx="272" cy="207" r="0.8" fill="#e4e4f4" opacity="0.8"/>
+        <circle cx="185" cy="261" r="0.8" fill="#e4e4f4" opacity="0.8"/>
+        <circle cx="154" cy="229" r="0.8" fill="#e4e4f4" opacity="0.8"/>
+        <circle cx="164" cy="240" r="1.5" fill="#e4e4f4" opacity="0.8"/>
+        <circle cx="289" cy="224" r="0.8" fill="#e4e4f4" opacity="0.8"/>
+        <circle cx="175" cy="250" r="0.8" fill="#e4e4f4" opacity="0.8"/>
+        <circle cx="164" cy="240" r="0.8" fill="#e4e4f4" opacity="0.8"/>
+      </g>
+      <rect x="145" y="199" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="145" y="260" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="163" y="199" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="163" y="260" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="181" y="199" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="181" y="260" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="200" y="199" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="200" y="260" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="218" y="199" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="218" y="260" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="236" y="199" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="236" y="260" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="254" y="199" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="254" y="260" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="273" y="199" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="273" y="260" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="291" y="199" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="291" y="260" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="309" y="199" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="309" y="260" width="6" height="11" fill="#d8d8d8"/>
+      <ellipse cx="230" cy="248" rx="14" ry="7" fill="none" stroke="#e6e6e6" stroke-width="1.4"/>
+      <ellipse cx="230" cy="196" rx="114" ry="30" fill="#101010" stroke="#d8d8d8" stroke-width="1.3"/>
+      <ellipse cx="230" cy="196" rx="111" ry="29" fill="none" stroke="#d8d8d8" stroke-width="0.7" opacity="0.7"/>
+      <ellipse cx="230" cy="196" rx="106" ry="28" fill="#e8e3d8" stroke="#3a3228" stroke-width="0.55"/>
+      <line x1="230" y1="274" x2="230" y2="306" stroke="#5a5a5a" stroke-width="1.2"/>
+      <rect x="216" y="306" width="28" height="6" fill="#161616" stroke="#3a3a3a" stroke-width="0.5"/>
+    </g>
+  <line x1="200" y1="196" x2="168" y2="150" stroke="#8a8a8a" stroke-width="1.4"/>
+  <line x1="268" y1="196" x2="312" y2="156" stroke="#8a8a8a" stroke-width="1.4"/>
+  <!-- 10 x 12 -->
+    <g>
+      <path d="M124 148 L124 184 A40 10 0 0 0 204 184 L204 148 Z" fill="url(#dw-shell)" stroke="#222" stroke-width="1.15"/>
+      <clipPath id="dw-rack-l"><path d="M124 148 L124 184 A40 10 0 0 0 204 184 L204 148 Z"/></clipPath>
+      <g clip-path="url(#dw-rack-l)">
+        <circle cx="195" cy="178" r="1.5" fill="#d8d8ee" opacity="0.8"/>
+        <circle cx="186" cy="167" r="0.8" fill="#d8d8ee" opacity="0.8"/>
+        <circle cx="137" cy="159" r="0.8" fill="#d8d8ee" opacity="0.8"/>
+        <circle cx="156" cy="156" r="0.8" fill="#d8d8ee" opacity="0.8"/>
+        <circle cx="138" cy="160" r="1.5" fill="#d8d8ee" opacity="0.8"/>
+        <circle cx="158" cy="158" r="0.8" fill="#d8d8ee" opacity="0.8"/>
+        <circle cx="159" cy="159" r="0.8" fill="#d8d8ee" opacity="0.8"/>
+        <circle cx="183" cy="163" r="0.8" fill="#d8d8ee" opacity="0.8"/>
+        <circle cx="177" cy="156" r="1.5" fill="#d8d8ee" opacity="0.8"/>
+        <circle cx="172" cy="177" r="0.8" fill="#d8d8ee" opacity="0.8"/>
+      </g>
+      <rect x="132" y="151" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="132" y="170" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="144" y="151" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="144" y="170" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="155" y="151" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="155" y="170" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="167" y="151" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="167" y="170" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="178" y="151" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="178" y="170" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="190" y="151" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="190" y="170" width="6" height="11" fill="#d8d8d8"/>
+      <ellipse cx="164" cy="170" rx="14" ry="7" fill="none" stroke="#e6e6e6" stroke-width="1.4"/>
+      <ellipse cx="164" cy="148" rx="40" ry="10" fill="#101010" stroke="#d8d8d8" stroke-width="1.3"/>
+      <ellipse cx="164" cy="148" rx="37" ry="9" fill="none" stroke="#d8d8d8" stroke-width="0.7" opacity="0.7"/>
+      <ellipse cx="164" cy="148" rx="32" ry="8" fill="#e8e3d8" stroke="#3a3228" stroke-width="0.55"/>
+    </g>
+  <!-- 12 x 14 -->
+    <g>
+      <path d="M262 154 L262 198 A50 13 0 0 0 362 198 L362 154 Z" fill="url(#dw-shell)" stroke="#222" stroke-width="1.15"/>
+      <clipPath id="dw-rack-r"><path d="M262 154 L262 198 A50 13 0 0 0 362 198 L362 154 Z"/></clipPath>
+      <g clip-path="url(#dw-rack-r)">
+        <circle cx="312" cy="176" r="1.5" fill="#d8d8ee" opacity="0.8"/>
+        <circle cx="320" cy="187" r="0.8" fill="#d8d8ee" opacity="0.8"/>
+        <circle cx="289" cy="183" r="0.8" fill="#d8d8ee" opacity="0.8"/>
+        <circle cx="290" cy="184" r="0.8" fill="#d8d8ee" opacity="0.8"/>
+        <circle cx="311" cy="175" r="1.5" fill="#d8d8ee" opacity="0.8"/>
+        <circle cx="330" cy="163" r="0.8" fill="#d8d8ee" opacity="0.8"/>
+        <circle cx="320" cy="187" r="0.8" fill="#d8d8ee" opacity="0.8"/>
+        <circle cx="343" cy="180" r="0.8" fill="#d8d8ee" opacity="0.8"/>
+        <circle cx="327" cy="159" r="1.5" fill="#d8d8ee" opacity="0.8"/>
+        <circle cx="270" cy="158" r="0.8" fill="#d8d8ee" opacity="0.8"/>
+        <circle cx="291" cy="185" r="0.8" fill="#d8d8ee" opacity="0.8"/>
+        <circle cx="312" cy="176" r="0.8" fill="#d8d8ee" opacity="0.8"/>
+      </g>
+      <rect x="273" y="157" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="273" y="184" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="283" y="157" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="283" y="184" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="294" y="157" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="294" y="184" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="304" y="157" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="304" y="184" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="314" y="157" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="314" y="184" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="324" y="157" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="324" y="184" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="335" y="157" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="335" y="184" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="345" y="157" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="345" y="184" width="6" height="11" fill="#d8d8d8"/>
+      <ellipse cx="312" cy="181" rx="14" ry="7" fill="none" stroke="#e6e6e6" stroke-width="1.4"/>
+      <ellipse cx="312" cy="154" rx="50" ry="13" fill="#101010" stroke="#d8d8d8" stroke-width="1.3"/>
+      <ellipse cx="312" cy="154" rx="47" ry="12" fill="none" stroke="#d8d8d8" stroke-width="0.7" opacity="0.7"/>
+      <ellipse cx="312" cy="154" rx="42" ry="11" fill="#e8e3d8" stroke="#3a3228" stroke-width="0.55"/>
+    </g>
+  <!-- snare -->
+    <g>
+      <line x1="87" y1="290" x2="70" y2="336" stroke="#d8d8d8" stroke-width="1.5"/>
+      <line x1="104" y1="292" x2="104" y2="336" stroke="#d8d8d8" stroke-width="1.5"/>
+      <line x1="121" y1="290" x2="138" y2="336" stroke="#d8d8d8" stroke-width="1.5"/>
+      <path d="M66 258 L66 286 A38 10 0 0 0 142 286 L142 258 Z" fill="url(#dw-chrome)" stroke="#ccc" stroke-width="1.15"/>
+      <clipPath id="dw-snare"><path d="M66 258 L66 286 A38 10 0 0 0 142 286 L142 258 Z"/></clipPath>
+      <g clip-path="url(#dw-snare)">
+      </g>
+      <rect x="74" y="261" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="74" y="272" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="82" y="261" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="82" y="272" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="89" y="261" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="89" y="272" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="97" y="261" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="97" y="272" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="105" y="261" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="105" y="272" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="113" y="261" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="113" y="272" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="120" y="261" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="120" y="272" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="128" y="261" width="6" height="11" fill="#d8d8d8"/>
+      <rect x="128" y="272" width="6" height="11" fill="#d8d8d8"/>
+      <ellipse cx="104" cy="258" rx="38" ry="10" fill="#101010" stroke="#d8d8d8" stroke-width="1.3"/>
+      <ellipse cx="104" cy="258" rx="35" ry="9" fill="none" stroke="#d8d8d8" stroke-width="0.7" opacity="0.7"/>
+      <ellipse cx="104" cy="258" rx="30" ry="8" fill="#e8e3d8" stroke="#3a3228" stroke-width="0.55"/>
+    </g>
+  <!-- hi-hat -->
+    <g>
+      <line x1="38" y1="212" x2="38" y2="336" stroke="#6a6a6a" stroke-width="1.5"/>
+      <ellipse cx="38" cy="215" rx="24" ry="6" fill="url(#dw-cymbal)" stroke="#1a1208" stroke-width="1.1"/>
+      <ellipse cx="38" cy="215" rx="17" ry="4" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="38" cy="215" rx="9" ry="2" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="38" cy="214" rx="5" ry="2" fill="#2a1c0c" stroke="#6a4a20" stroke-width="0.6"/>
+      <ellipse cx="38" cy="214" rx="2" ry="1" fill="#c4a15a"/>
+      <ellipse cx="38" cy="210" rx="24" ry="6" fill="url(#dw-cymbal)" stroke="#1a1208" stroke-width="1.1"/>
+      <ellipse cx="38" cy="210" rx="17" ry="4" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="38" cy="210" rx="9" ry="2" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="38" cy="209" rx="5" ry="2" fill="#2a1c0c" stroke="#6a4a20" stroke-width="0.6"/>
+      <ellipse cx="38" cy="209" rx="2" ry="1" fill="#c4a15a"/>
+    </g>
+</svg>

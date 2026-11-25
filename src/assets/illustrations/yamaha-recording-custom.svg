@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Ghost Note — Yamaha 9000 Recording, real wood birch (mid-1970s)
+  Original isometric vector. Badge shapes only: no lettering, no logo artwork.
+  Catalog sizes: 14x22 bass, racks 8x10 9x12 10x13, floors 14 and 16. Early separate mini lugs, natural birch, wood bass hoops, rounded-rectangle badge outline, triple-flange tom hoops.
+-->
+<svg viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg" fill="none" role="img" aria-label="Natural birch recording drum kit, isometric view">
+  <defs>
+    <radialGradient id="ya-cymbal" cx="0.5" cy="0.45" r="0.55">
+      <stop offset="0" stop-color="#c4a15a"/>
+      <stop offset="0.45" stop-color="#7a5a28"/>
+      <stop offset="1" stop-color="#3a2810"/>
+    </radialGradient>
+    <radialGradient id="ya-floor" cx="0.5" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#000" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ya-chrome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8eaec"/>
+      <stop offset="0.45" stop-color="#8e949c"/>
+      <stop offset="1" stop-color="#2a2e32"/>
+    </linearGradient>
+    <linearGradient id="ya-brass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0d7a0"/>
+      <stop offset="0.45" stop-color="#b8883c"/>
+      <stop offset="1" stop-color="#5a3c18"/>
+    </linearGradient>
+    <linearGradient id="ya-shell" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0d8b0"/>
+      <stop offset="0.5" stop-color="#c4a574"/>
+      <stop offset="1" stop-color="#6a4c30"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="240" cy="334" rx="200" ry="18" fill="url(#ya-floor)"/>
+  <!-- crash -->
+    <g>
+      <line x1="56" y1="120" x2="64" y2="336" stroke="#6a6a6a" stroke-width="1.5"/>
+      <line x1="56" y1="112" x2="56" y2="120" stroke="#7a7a7a" stroke-width="1.2"/>
+      <ellipse cx="56" cy="118" rx="26" ry="6" fill="url(#ya-cymbal)" stroke="#1a1208" stroke-width="1.1"/>
+      <ellipse cx="56" cy="118" rx="20" ry="5" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="56" cy="118" rx="14" ry="3" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="56" cy="118" rx="7" ry="2" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="56" cy="117" rx="5" ry="2" fill="#2a1c0c" stroke="#6a4a20" stroke-width="0.6"/>
+      <ellipse cx="56" cy="117" rx="2" ry="1" fill="#c4a15a"/>
+    </g>
+  <!-- ride -->
+    <g>
+      <line x1="430" y1="140" x2="420" y2="336" stroke="#6a6a6a" stroke-width="1.5"/>
+      <line x1="430" y1="127" x2="430" y2="139" stroke="#7a7a7a" stroke-width="1.2"/>
+      <ellipse cx="430" cy="136" rx="38" ry="9" fill="url(#ya-cymbal)" stroke="#1a1208" stroke-width="1.1"/>
+      <ellipse cx="430" cy="136" rx="29" ry="7" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="430" cy="136" rx="20" ry="5" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="430" cy="136" rx="11" ry="3" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="430" cy="135" rx="6" ry="2" fill="#2a1c0c" stroke="#6a4a20" stroke-width="0.6"/>
+      <ellipse cx="430" cy="135" rx="2" ry="1" fill="#c4a15a"/>
+    </g>
+  <!-- 16 floor -->
+    <g>
+      <line x1="377" y1="258" x2="364" y2="336" stroke="#d8d8d8" stroke-width="1.6"/>
+      <line x1="439" y1="258" x2="452" y2="336" stroke="#d8d8d8" stroke-width="1.6"/>
+      <path d="M358 204 L358 258 A50 13 0 0 0 458 258 L458 204 Z" fill="url(#ya-shell)" stroke="#4a341c" stroke-width="1.15"/>
+      <clipPath id="ya-floor-r"><path d="M358 204 L358 258 A50 13 0 0 0 458 258 L458 204 Z"/></clipPath>
+      <g clip-path="url(#ya-floor-r)">
+        <path d="M366 210 Q408 216 450 211" fill="none" stroke="#5a3c22" stroke-width="1.15" opacity="0.45"/>
+        <path d="M366 221 Q408 227 450 222" fill="none" stroke="#5a3c22" stroke-width="1.15" opacity="0.45"/>
+        <path d="M366 231 Q408 237 450 232" fill="none" stroke="#5a3c22" stroke-width="1.15" opacity="0.45"/>
+        <path d="M366 242 Q408 248 450 243" fill="none" stroke="#5a3c22" stroke-width="1.15" opacity="0.45"/>
+      </g>
+      <rect x="370" y="206" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="370" y="249" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="380" y="206" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="380" y="249" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="391" y="206" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="391" y="249" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="401" y="206" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="401" y="249" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="411" y="206" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="411" y="249" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="421" y="206" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="421" y="249" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="432" y="206" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="432" y="249" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="442" y="206" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="442" y="249" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="392" y="228" width="32" height="10" fill="none" stroke="#e6e6e6" stroke-width="1.4"/>
+      <ellipse cx="408" cy="204" rx="50" ry="13" fill="#101010" stroke="#d8d8d8" stroke-width="1.3"/>
+      <ellipse cx="408" cy="204" rx="47" ry="12" fill="none" stroke="#d8d8d8" stroke-width="0.7" opacity="0.7"/>
+      <ellipse cx="408" cy="204" rx="42" ry="11" fill="#f4ead8" stroke="#3a3228" stroke-width="0.55"/>
+    </g>
+  <!-- bass drawn at the old 22-inch width; catalog bass is 20-inch -->
+    <g>
+      <path d="M148 214 L148 264 A100 26 0 0 0 348 264 L348 214 Z" fill="url(#ya-shell)" stroke="#4a341c" stroke-width="1.15"/>
+      <clipPath id="ya-bass"><path d="M148 214 L148 264 A100 26 0 0 0 348 264 L348 214 Z"/></clipPath>
+      <g clip-path="url(#ya-bass)">
+        <path d="M156 220 Q248 226 340 221" fill="none" stroke="#5a3c22" stroke-width="1.15" opacity="0.45"/>
+        <path d="M156 230 Q248 236 340 231" fill="none" stroke="#5a3c22" stroke-width="1.15" opacity="0.45"/>
+        <path d="M156 239 Q248 245 340 240" fill="none" stroke="#5a3c22" stroke-width="1.15" opacity="0.45"/>
+        <path d="M156 249 Q248 255 340 250" fill="none" stroke="#5a3c22" stroke-width="1.15" opacity="0.45"/>
+      </g>
+      <rect x="174" y="216" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="174" y="255" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="195" y="216" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="195" y="255" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="215" y="216" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="215" y="255" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="236" y="216" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="236" y="255" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="256" y="216" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="256" y="255" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="277" y="216" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="277" y="255" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="297" y="216" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="297" y="255" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="318" y="216" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="318" y="255" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="232" y="251" width="32" height="10" fill="none" stroke="#e6e6e6" stroke-width="1.4"/>
+      <ellipse cx="248" cy="214" rx="100" ry="26" fill="#c4a574" stroke="#1a120c" stroke-width="1.4"/>
+      <ellipse cx="248" cy="214" rx="93" ry="24" fill="none" stroke="#efe2cc" stroke-width="1.6"/>
+      <ellipse cx="248" cy="214" rx="86" ry="22" fill="#f4ead8" stroke="#5a4630" stroke-width="0.6"/>
+      <line x1="248" y1="264" x2="248" y2="296" stroke="#5a5a5a" stroke-width="1.2"/>
+      <rect x="234" y="296" width="28" height="6" fill="#161616" stroke="#3a3a3a" stroke-width="0.5"/>
+    </g>
+  <line x1="248" y1="214" x2="248" y2="146" stroke="#8a8a8a" stroke-width="1.4"/>
+  <!-- 9 x 12 -->
+    <g>
+      <path d="M206 146 L206 176 A34 9 0 0 0 274 176 L274 146 Z" fill="url(#ya-shell)" stroke="#4a341c" stroke-width="1.15"/>
+      <clipPath id="ya-t12"><path d="M206 146 L206 176 A34 9 0 0 0 274 176 L274 146 Z"/></clipPath>
+      <g clip-path="url(#ya-t12)">
+        <path d="M214 152 Q240 158 266 153" fill="none" stroke="#5a3c22" stroke-width="1.15" opacity="0.45"/>
+        <path d="M214 157 Q240 163 266 158" fill="none" stroke="#5a3c22" stroke-width="1.15" opacity="0.45"/>
+        <path d="M214 161 Q240 167 266 162" fill="none" stroke="#5a3c22" stroke-width="1.15" opacity="0.45"/>
+        <path d="M214 166 Q240 172 266 167" fill="none" stroke="#5a3c22" stroke-width="1.15" opacity="0.45"/>
+      </g>
+      <rect x="214" y="148" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="214" y="167" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="226" y="148" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="226" y="167" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="238" y="148" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="238" y="167" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="250" y="148" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="250" y="167" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="262" y="148" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="262" y="167" width="4" height="7" fill="#d8d8d8"/>
+      <ellipse cx="240" cy="146" rx="34" ry="9" fill="#101010" stroke="#d8d8d8" stroke-width="1.3"/>
+      <ellipse cx="240" cy="146" rx="31" ry="8" fill="none" stroke="#d8d8d8" stroke-width="0.7" opacity="0.7"/>
+      <ellipse cx="240" cy="146" rx="26" ry="7" fill="#f4ead8" stroke="#3a3228" stroke-width="0.55"/>
+    </g>
+  <!-- 10 x 13 -->
+    <g>
+      <path d="M272 158 L272 192 A40 10 0 0 0 352 192 L352 158 Z" fill="url(#ya-shell)" stroke="#4a341c" stroke-width="1.15"/>
+      <clipPath id="ya-t13"><path d="M272 158 L272 192 A40 10 0 0 0 352 192 L352 158 Z"/></clipPath>
+      <g clip-path="url(#ya-t13)">
+        <path d="M280 164 Q312 170 344 165" fill="none" stroke="#5a3c22" stroke-width="1.15" opacity="0.45"/>
+        <path d="M280 170 Q312 176 344 171" fill="none" stroke="#5a3c22" stroke-width="1.15" opacity="0.45"/>
+        <path d="M280 175 Q312 181 344 176" fill="none" stroke="#5a3c22" stroke-width="1.15" opacity="0.45"/>
+        <path d="M280 181 Q312 187 344 182" fill="none" stroke="#5a3c22" stroke-width="1.15" opacity="0.45"/>
+      </g>
+      <rect x="281" y="160" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="281" y="183" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="293" y="160" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="293" y="183" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="304" y="160" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="304" y="183" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="316" y="160" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="316" y="183" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="327" y="160" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="327" y="183" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="339" y="160" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="339" y="183" width="4" height="7" fill="#d8d8d8"/>
+      <ellipse cx="312" cy="158" rx="40" ry="10" fill="#101010" stroke="#d8d8d8" stroke-width="1.3"/>
+      <ellipse cx="312" cy="158" rx="37" ry="9" fill="none" stroke="#d8d8d8" stroke-width="0.7" opacity="0.7"/>
+      <ellipse cx="312" cy="158" rx="32" ry="8" fill="#f4ead8" stroke="#3a3228" stroke-width="0.55"/>
+    </g>
+  <!-- birch snare -->
+    <g>
+      <line x1="141" y1="304" x2="125" y2="336" stroke="#d8d8d8" stroke-width="1.5"/>
+      <line x1="156" y1="306" x2="156" y2="336" stroke="#d8d8d8" stroke-width="1.5"/>
+      <line x1="171" y1="304" x2="187" y2="336" stroke="#d8d8d8" stroke-width="1.5"/>
+      <path d="M122 274 L122 300 A34 9 0 0 0 190 300 L190 274 Z" fill="url(#ya-shell)" stroke="#4a341c" stroke-width="1.15"/>
+      <clipPath id="ya-snare"><path d="M122 274 L122 300 A34 9 0 0 0 190 300 L190 274 Z"/></clipPath>
+      <g clip-path="url(#ya-snare)">
+        <path d="M130 280 Q156 286 182 281" fill="none" stroke="#5a3c22" stroke-width="1.15" opacity="0.45"/>
+        <path d="M130 284 Q156 290 182 285" fill="none" stroke="#5a3c22" stroke-width="1.15" opacity="0.45"/>
+        <path d="M130 287 Q156 293 182 288" fill="none" stroke="#5a3c22" stroke-width="1.15" opacity="0.45"/>
+        <path d="M130 291 Q156 297 182 292" fill="none" stroke="#5a3c22" stroke-width="1.15" opacity="0.45"/>
+      </g>
+      <rect x="130" y="276" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="130" y="291" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="140" y="276" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="140" y="291" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="149" y="276" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="149" y="291" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="159" y="276" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="159" y="291" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="168" y="276" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="168" y="291" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="178" y="276" width="4" height="7" fill="#d8d8d8"/>
+      <rect x="178" y="291" width="4" height="7" fill="#d8d8d8"/>
+      <ellipse cx="156" cy="274" rx="34" ry="9" fill="#101010" stroke="#d8d8d8" stroke-width="1.3"/>
+      <ellipse cx="156" cy="274" rx="31" ry="8" fill="none" stroke="#d8d8d8" stroke-width="0.7" opacity="0.7"/>
+      <ellipse cx="156" cy="274" rx="26" ry="7" fill="#f4ead8" stroke="#3a3228" stroke-width="0.55"/>
+    </g>
+  <!-- hi-hat -->
+    <g>
+      <line x1="32" y1="228" x2="32" y2="336" stroke="#6a6a6a" stroke-width="1.5"/>
+      <ellipse cx="32" cy="231" rx="20" ry="5" fill="url(#ya-cymbal)" stroke="#1a1208" stroke-width="1.1"/>
+      <ellipse cx="32" cy="231" rx="14" ry="3" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="32" cy="231" rx="8" ry="2" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="32" cy="230" rx="5" ry="2" fill="#2a1c0c" stroke="#6a4a20" stroke-width="0.6"/>
+      <ellipse cx="32" cy="230" rx="2" ry="1" fill="#c4a15a"/>
+      <ellipse cx="32" cy="226" rx="20" ry="5" fill="url(#ya-cymbal)" stroke="#1a1208" stroke-width="1.1"/>
+      <ellipse cx="32" cy="226" rx="14" ry="3" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="32" cy="226" rx="8" ry="2" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="32" cy="225" rx="5" ry="2" fill="#2a1c0c" stroke="#6a4a20" stroke-width="0.6"/>
+      <ellipse cx="32" cy="225" rx="2" ry="1" fill="#c4a15a"/>
+    </g>
+</svg>

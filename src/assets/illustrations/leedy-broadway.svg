@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Ghost Note — Leedy professional snare, nickel over brass (late 1920s)
+  Original isometric vector. Badge shapes only: no lettering, no logo artwork.
+  5 x 14. Nickel-plated brass with a center bead, separate-tension tube lugs, extended flange hoops, calfskin, side throw-off. The Broadway name is the catalog model; late-1920s Leedy professionals used this hardware. No claw hooks and no lettering.
+-->
+<svg viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg" fill="none" role="img" aria-label="Late 1920s nickel over brass snare, isometric view">
+  <defs>
+    <radialGradient id="ld-cymbal" cx="0.5" cy="0.45" r="0.55">
+      <stop offset="0" stop-color="#c4a15a"/>
+      <stop offset="0.45" stop-color="#7a5a28"/>
+      <stop offset="1" stop-color="#3a2810"/>
+    </radialGradient>
+    <radialGradient id="ld-floor" cx="0.5" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#000" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ld-chrome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8eaec"/>
+      <stop offset="0.45" stop-color="#8e949c"/>
+      <stop offset="1" stop-color="#2a2e32"/>
+    </linearGradient>
+    <linearGradient id="ld-brass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0d7a0"/>
+      <stop offset="0.45" stop-color="#b8883c"/>
+      <stop offset="1" stop-color="#5a3c18"/>
+    </linearGradient>
+    <linearGradient id="ld-shell" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d4cfc6"/>
+      <stop offset="0.5" stop-color="#8e8880"/>
+      <stop offset="1" stop-color="#3a3834"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="240" cy="322" rx="170" ry="14" fill="url(#ld-floor)"/>
+  <!-- nickel over brass, separate tension -->
+    <g>
+      <line x1="199" y1="222" x2="52" y2="336" stroke="#7a756c" stroke-width="1.6"/>
+      <line x1="240" y1="224" x2="240" y2="336" stroke="#7a756c" stroke-width="1.6"/>
+      <line x1="281" y1="222" x2="428" y2="336" stroke="#7a756c" stroke-width="1.6"/>
+      <path d="M94 124 L94 214 A146 38 0 0 0 386 214 L386 124 Z" fill="url(#ld-shell)" stroke="#4a463f" stroke-width="1.15"/>
+      <clipPath id="ld-snare"><path d="M94 124 L94 214 A146 38 0 0 0 386 214 L386 124 Z"/></clipPath>
+      <g clip-path="url(#ld-snare)">
+        <line x1="95" y1="169" x2="385" y2="169" stroke="#f0ece4" stroke-width="2.4"/>
+      </g>
+      <rect x="132" y="127" width="7" height="84" fill="#d8d2c8"/>
+      <rect x="162" y="127" width="7" height="84" fill="#d8d2c8"/>
+      <rect x="192" y="127" width="7" height="84" fill="#d8d2c8"/>
+      <rect x="222" y="127" width="7" height="84" fill="#d8d2c8"/>
+      <rect x="252" y="127" width="7" height="84" fill="#d8d2c8"/>
+      <rect x="282" y="127" width="7" height="84" fill="#d8d2c8"/>
+      <rect x="312" y="127" width="7" height="84" fill="#d8d2c8"/>
+      <rect x="342" y="127" width="7" height="84" fill="#d8d2c8"/>
+      <ellipse cx="240" cy="186" rx="14" ry="7" fill="none" stroke="#efeae2" stroke-width="1.4"/>
+      <ellipse cx="240" cy="124" rx="149" ry="39" fill="none" stroke="#cfc8bc" stroke-width="2.4"/>
+      <ellipse cx="240" cy="124" rx="146" ry="38" fill="#141210" stroke="#cfc8bc" stroke-width="1.3"/>
+      <ellipse cx="240" cy="124" rx="138" ry="36" fill="#e7d4aa" stroke="#5a4630" stroke-width="0.6"/>
+      <ellipse cx="240" cy="124" rx="86" ry="22" fill="none" stroke="#b89a72" stroke-width="0.7" opacity="0.75"/>
+      <rect x="382" y="165" width="16" height="5" fill="#7a756c" stroke="#333" stroke-width="0.4"/>
+      <line x1="398" y1="167" x2="410" y2="157" stroke="#7a756c" stroke-width="1.8"/>
+    </g>
+</svg>

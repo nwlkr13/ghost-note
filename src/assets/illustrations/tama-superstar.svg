@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Ghost Note — Tama Superstar, cherry sunburst (1976)
+  Original isometric vector. Badge shapes only: no lettering, no logo artwork.
+  14x22 bass, 10x13 and 11x14 racks, 16 floor. Birch lacquer sunburst. Cast mighty lugs with a center block, triple-flange toms, a plain cast tom bracket. No crest and no lettering.
+-->
+<svg viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg" fill="none" role="img" aria-label="1976 cherry sunburst drum kit, isometric view">
+  <defs>
+    <radialGradient id="tm-cymbal" cx="0.5" cy="0.45" r="0.55">
+      <stop offset="0" stop-color="#c4a15a"/>
+      <stop offset="0.45" stop-color="#7a5a28"/>
+      <stop offset="1" stop-color="#3a2810"/>
+    </radialGradient>
+    <radialGradient id="tm-floor" cx="0.5" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#000" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="tm-chrome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8eaec"/>
+      <stop offset="0.45" stop-color="#8e949c"/>
+      <stop offset="1" stop-color="#2a2e32"/>
+    </linearGradient>
+    <linearGradient id="tm-brass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0d7a0"/>
+      <stop offset="0.45" stop-color="#b8883c"/>
+      <stop offset="1" stop-color="#5a3c18"/>
+    </linearGradient>
+    <linearGradient id="tm-shell" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1a080c"/>
+      <stop offset="0.22" stop-color="#6a2030"/>
+      <stop offset="0.5" stop-color="#e88898"/>
+      <stop offset="0.78" stop-color="#6a2030"/>
+      <stop offset="1" stop-color="#1a080c"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="240" cy="334" rx="200" ry="18" fill="url(#tm-floor)"/>
+  <!-- crash -->
+    <g>
+      <line x1="70" y1="129" x2="82" y2="336" stroke="#6a6a6a" stroke-width="1.5"/>
+      <line x1="70" y1="118" x2="70" y2="128" stroke="#7a7a7a" stroke-width="1.2"/>
+      <ellipse cx="70" cy="126" rx="34" ry="8" fill="url(#tm-cymbal)" stroke="#1a1208" stroke-width="1.1"/>
+      <ellipse cx="70" cy="126" rx="26" ry="6" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="70" cy="126" rx="18" ry="4" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="70" cy="126" rx="10" ry="2" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="70" cy="125" rx="5" ry="2" fill="#2a1c0c" stroke="#6a4a20" stroke-width="0.6"/>
+      <ellipse cx="70" cy="125" rx="2" ry="1" fill="#c4a15a"/>
+    </g>
+  <!-- ride -->
+    <g>
+      <line x1="418" y1="152" x2="404" y2="336" stroke="#6a6a6a" stroke-width="1.5"/>
+      <line x1="418" y1="137" x2="418" y2="151" stroke="#7a7a7a" stroke-width="1.2"/>
+      <ellipse cx="418" cy="148" rx="46" ry="11" fill="url(#tm-cymbal)" stroke="#1a1208" stroke-width="1.1"/>
+      <ellipse cx="418" cy="148" rx="35" ry="8" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="418" cy="148" rx="24" ry="6" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="418" cy="148" rx="13" ry="3" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="418" cy="147" rx="7" ry="2" fill="#2a1c0c" stroke="#6a4a20" stroke-width="0.6"/>
+      <ellipse cx="418" cy="147" rx="2" ry="1" fill="#c4a15a"/>
+    </g>
+  <!-- 16 floor -->
+    <g>
+      <line x1="364" y1="270" x2="349" y2="336" stroke="#d8d8d8" stroke-width="1.6"/>
+      <line x1="436" y1="270" x2="451" y2="336" stroke="#d8d8d8" stroke-width="1.6"/>
+      <path d="M342 214 L342 270 A58 15 0 0 0 458 270 L458 214 Z" fill="url(#tm-shell)" stroke="#1a080c" stroke-width="1.15"/>
+      <clipPath id="tm-floor"><path d="M342 214 L342 270 A58 15 0 0 0 458 270 L458 214 Z"/></clipPath>
+      <g clip-path="url(#tm-floor)">
+      </g>
+      <rect x="356" y="217" width="5" height="50" fill="#d8d8d8"/>
+      <rect x="354" y="238" width="9" height="8" fill="#f0f0f0" stroke="#555" stroke-width="0.4"/>
+      <rect x="368" y="217" width="5" height="50" fill="#d8d8d8"/>
+      <rect x="366" y="238" width="9" height="8" fill="#f0f0f0" stroke="#555" stroke-width="0.4"/>
+      <rect x="380" y="217" width="5" height="50" fill="#d8d8d8"/>
+      <rect x="378" y="238" width="9" height="8" fill="#f0f0f0" stroke="#555" stroke-width="0.4"/>
+      <rect x="392" y="217" width="5" height="50" fill="#d8d8d8"/>
+      <rect x="390" y="238" width="9" height="8" fill="#f0f0f0" stroke="#555" stroke-width="0.4"/>
+      <rect x="404" y="217" width="5" height="50" fill="#d8d8d8"/>
+      <rect x="402" y="238" width="9" height="8" fill="#f0f0f0" stroke="#555" stroke-width="0.4"/>
+      <rect x="416" y="217" width="5" height="50" fill="#d8d8d8"/>
+      <rect x="414" y="238" width="9" height="8" fill="#f0f0f0" stroke="#555" stroke-width="0.4"/>
+      <rect x="428" y="217" width="5" height="50" fill="#d8d8d8"/>
+      <rect x="426" y="238" width="9" height="8" fill="#f0f0f0" stroke="#555" stroke-width="0.4"/>
+      <rect x="440" y="217" width="5" height="50" fill="#d8d8d8"/>
+      <rect x="438" y="238" width="9" height="8" fill="#f0f0f0" stroke="#555" stroke-width="0.4"/>
+      <ellipse cx="400" cy="214" rx="58" ry="15" fill="#101010" stroke="#d8d8d8" stroke-width="1.3"/>
+      <ellipse cx="400" cy="214" rx="55" ry="14" fill="none" stroke="#d8d8d8" stroke-width="0.7" opacity="0.7"/>
+      <ellipse cx="400" cy="214" rx="50" ry="13" fill="#e8e3d8" stroke="#3a3228" stroke-width="0.55"/>
+    </g>
+  <!-- 14 x 22 bass -->
+    <g>
+      <path d="M128 208 L128 262 A112 29 0 0 0 352 262 L352 208 Z" fill="url(#tm-shell)" stroke="#1a080c" stroke-width="1.15"/>
+      <clipPath id="tm-bass"><path d="M128 208 L128 262 A112 29 0 0 0 352 262 L352 208 Z"/></clipPath>
+      <g clip-path="url(#tm-bass)">
+      </g>
+      <rect x="157" y="211" width="5" height="48" fill="#d8d8d8"/>
+      <rect x="155" y="231" width="9" height="8" fill="#f0f0f0" stroke="#555" stroke-width="0.4"/>
+      <rect x="175" y="211" width="5" height="48" fill="#d8d8d8"/>
+      <rect x="173" y="231" width="9" height="8" fill="#f0f0f0" stroke="#555" stroke-width="0.4"/>
+      <rect x="193" y="211" width="5" height="48" fill="#d8d8d8"/>
+      <rect x="191" y="231" width="9" height="8" fill="#f0f0f0" stroke="#555" stroke-width="0.4"/>
+      <rect x="211" y="211" width="5" height="48" fill="#d8d8d8"/>
+      <rect x="209" y="231" width="9" height="8" fill="#f0f0f0" stroke="#555" stroke-width="0.4"/>
+      <rect x="229" y="211" width="5" height="48" fill="#d8d8d8"/>
+      <rect x="227" y="231" width="9" height="8" fill="#f0f0f0" stroke="#555" stroke-width="0.4"/>
+      <rect x="247" y="211" width="5" height="48" fill="#d8d8d8"/>
+      <rect x="245" y="231" width="9" height="8" fill="#f0f0f0" stroke="#555" stroke-width="0.4"/>
+      <rect x="265" y="211" width="5" height="48" fill="#d8d8d8"/>
+      <rect x="263" y="231" width="9" height="8" fill="#f0f0f0" stroke="#555" stroke-width="0.4"/>
+      <rect x="283" y="211" width="5" height="48" fill="#d8d8d8"/>
+      <rect x="281" y="231" width="9" height="8" fill="#f0f0f0" stroke="#555" stroke-width="0.4"/>
+      <rect x="301" y="211" width="5" height="48" fill="#d8d8d8"/>
+      <rect x="299" y="231" width="9" height="8" fill="#f0f0f0" stroke="#555" stroke-width="0.4"/>
+      <rect x="319" y="211" width="5" height="48" fill="#d8d8d8"/>
+      <rect x="317" y="231" width="9" height="8" fill="#f0f0f0" stroke="#555" stroke-width="0.4"/>
+      <ellipse cx="240" cy="208" rx="112" ry="29" fill="#101010" stroke="#d8d8d8" stroke-width="1.3"/>
+      <ellipse cx="240" cy="208" rx="109" ry="28" fill="none" stroke="#d8d8d8" stroke-width="0.7" opacity="0.7"/>
+      <ellipse cx="240" cy="208" rx="104" ry="27" fill="#e8e3d8" stroke="#3a3228" stroke-width="0.55"/>
+      <line x1="240" y1="262" x2="240" y2="294" stroke="#5a5a5a" stroke-width="1.2"/>
+      <rect x="226" y="294" width="28" height="6" fill="#161616" stroke="#3a3a3a" stroke-width="0.5"/>
+    </g>
+  <line x1="200" y1="200" x2="168" y2="158" stroke="#9a9a9a" stroke-width="2.2"/>
+  <line x1="286" y1="200" x2="324" y2="152" stroke="#9a9a9a" stroke-width="2.2"/>
+  <rect x="156" y="152" width="14" height="8" fill="#c8c8c8" stroke="#555" stroke-width="0.4"/>
+  <rect x="312" y="146" width="16" height="8" fill="#c8c8c8" stroke="#555" stroke-width="0.4"/>
+  <!-- 10 x 13 -->
+    <g>
+      <path d="M116 150 L116 188 A48 12 0 0 0 212 188 L212 150 Z" fill="url(#tm-shell)" stroke="#1a080c" stroke-width="1.15"/>
+      <clipPath id="tm-rack-l"><path d="M116 150 L116 188 A48 12 0 0 0 212 188 L212 150 Z"/></clipPath>
+      <g clip-path="url(#tm-rack-l)">
+      </g>
+      <rect x="127" y="153" width="5" height="32" fill="#d8d8d8"/>
+      <rect x="125" y="165" width="9" height="8" fill="#f0f0f0" stroke="#555" stroke-width="0.4"/>
+      <rect x="141" y="153" width="5" height="32" fill="#d8d8d8"/>
+      <rect x="139" y="165" width="9" height="8" fill="#f0f0f0" stroke="#555" stroke-width="0.4"/>
+      <rect x="155" y="153" width="5" height="32" fill="#d8d8d8"/>
+      <rect x="153" y="165" width="9" height="8" fill="#f0f0f0" stroke="#555" stroke-width="0.4"/>
+      <rect x="169" y="153" width="5" height="32" fill="#d8d8d8"/>
+      <rect x="167" y="165" width="9" height="8" fill="#f0f0f0" stroke="#555" stroke-width="0.4"/>
+      <rect x="183" y="153" width="5" height="32" fill="#d8d8d8"/>
+      <rect x="181" y="165" width="9" height="8" fill="#f0f0f0" stroke="#555" stroke-width="0.4"/>
+      <rect x="197" y="153" width="5" height="32" fill="#d8d8d8"/>
+      <rect x="195" y="165" width="9" height="8" fill="#f0f0f0" stroke="#555" stroke-width="0.4"/>
+      <ellipse cx="164" cy="150" rx="48" ry="12" fill="#101010" stroke="#d8d8d8" stroke-width="1.3"/>
+      <ellipse cx="164" cy="150" rx="45" ry="11" fill="none" stroke="#d8d8d8" stroke-width="0.7" opacity="0.7"/>
+      <ellipse cx="164" cy="150" rx="40" ry="10" fill="#e8e3d8" stroke="#3a3228" stroke-width="0.55"/>
+    </g>
+  <!-- 11 x 14 -->
+    <g>
+      <path d="M270 144 L270 186 A54 14 0 0 0 378 186 L378 144 Z" fill="url(#tm-shell)" stroke="#1a080c" stroke-width="1.15"/>
+      <clipPath id="tm-rack-r"><path d="M270 144 L270 186 A54 14 0 0 0 378 186 L378 144 Z"/></clipPath>
+      <g clip-path="url(#tm-rack-r)">
+      </g>
+      <rect x="283" y="147" width="5" height="36" fill="#d8d8d8"/>
+      <rect x="281" y="161" width="9" height="8" fill="#f0f0f0" stroke="#555" stroke-width="0.4"/>
+      <rect x="294" y="147" width="5" height="36" fill="#d8d8d8"/>
+      <rect x="292" y="161" width="9" height="8" fill="#f0f0f0" stroke="#555" stroke-width="0.4"/>
+      <rect x="305" y="147" width="5" height="36" fill="#d8d8d8"/>
+      <rect x="303" y="161" width="9" height="8" fill="#f0f0f0" stroke="#555" stroke-width="0.4"/>
+      <rect x="316" y="147" width="5" height="36" fill="#d8d8d8"/>
+      <rect x="314" y="161" width="9" height="8" fill="#f0f0f0" stroke="#555" stroke-width="0.4"/>
+      <rect x="328" y="147" width="5" height="36" fill="#d8d8d8"/>
+      <rect x="326" y="161" width="9" height="8" fill="#f0f0f0" stroke="#555" stroke-width="0.4"/>
+      <rect x="339" y="147" width="5" height="36" fill="#d8d8d8"/>
+      <rect x="337" y="161" width="9" height="8" fill="#f0f0f0" stroke="#555" stroke-width="0.4"/>
+      <rect x="350" y="147" width="5" height="36" fill="#d8d8d8"/>
+      <rect x="348" y="161" width="9" height="8" fill="#f0f0f0" stroke="#555" stroke-width="0.4"/>
+      <rect x="361" y="147" width="5" height="36" fill="#d8d8d8"/>
+      <rect x="359" y="161" width="9" height="8" fill="#f0f0f0" stroke="#555" stroke-width="0.4"/>
+      <ellipse cx="324" cy="144" rx="54" ry="14" fill="#101010" stroke="#d8d8d8" stroke-width="1.3"/>
+      <ellipse cx="324" cy="144" rx="51" ry="13" fill="none" stroke="#d8d8d8" stroke-width="0.7" opacity="0.7"/>
+      <ellipse cx="324" cy="144" rx="46" ry="12" fill="#e8e3d8" stroke="#3a3228" stroke-width="0.55"/>
+    </g>
+  <!-- snare -->
+    <g>
+      <line x1="87" y1="288" x2="70" y2="336" stroke="#d8d8d8" stroke-width="1.5"/>
+      <line x1="104" y1="290" x2="104" y2="336" stroke="#d8d8d8" stroke-width="1.5"/>
+      <line x1="121" y1="288" x2="138" y2="336" stroke="#d8d8d8" stroke-width="1.5"/>
+      <path d="M66 256 L66 284 A38 10 0 0 0 142 284 L142 256 Z" fill="url(#tm-chrome)" stroke="#ccc" stroke-width="1.15"/>
+      <clipPath id="tm-snare"><path d="M66 256 L66 284 A38 10 0 0 0 142 284 L142 256 Z"/></clipPath>
+      <g clip-path="url(#tm-snare)">
+      </g>
+      <rect x="75" y="259" width="5" height="22" fill="#d8d8d8"/>
+      <rect x="73" y="266" width="9" height="8" fill="#f0f0f0" stroke="#555" stroke-width="0.4"/>
+      <rect x="83" y="259" width="5" height="22" fill="#d8d8d8"/>
+      <rect x="81" y="266" width="9" height="8" fill="#f0f0f0" stroke="#555" stroke-width="0.4"/>
+      <rect x="90" y="259" width="5" height="22" fill="#d8d8d8"/>
+      <rect x="88" y="266" width="9" height="8" fill="#f0f0f0" stroke="#555" stroke-width="0.4"/>
+      <rect x="98" y="259" width="5" height="22" fill="#d8d8d8"/>
+      <rect x="96" y="266" width="9" height="8" fill="#f0f0f0" stroke="#555" stroke-width="0.4"/>
+      <rect x="106" y="259" width="5" height="22" fill="#d8d8d8"/>
+      <rect x="104" y="266" width="9" height="8" fill="#f0f0f0" stroke="#555" stroke-width="0.4"/>
+      <rect x="114" y="259" width="5" height="22" fill="#d8d8d8"/>
+      <rect x="112" y="266" width="9" height="8" fill="#f0f0f0" stroke="#555" stroke-width="0.4"/>
+      <rect x="121" y="259" width="5" height="22" fill="#d8d8d8"/>
+      <rect x="119" y="266" width="9" height="8" fill="#f0f0f0" stroke="#555" stroke-width="0.4"/>
+      <rect x="129" y="259" width="5" height="22" fill="#d8d8d8"/>
+      <rect x="127" y="266" width="9" height="8" fill="#f0f0f0" stroke="#555" stroke-width="0.4"/>
+      <ellipse cx="104" cy="256" rx="38" ry="10" fill="#121212" stroke="#d8d8d8" stroke-width="4"/>
+      <ellipse cx="104" cy="256" rx="28" ry="7" fill="#e8e3d8" stroke="#3a3228" stroke-width="0.6"/>
+      <rect x="138" y="269" width="16" height="5" fill="#d8d8d8" stroke="#333" stroke-width="0.4"/>
+      <line x1="154" y1="271" x2="166" y2="261" stroke="#d8d8d8" stroke-width="1.8"/>
+    </g>
+  <!-- hi-hat -->
+    <g>
+      <line x1="40" y1="216" x2="40" y2="336" stroke="#6a6a6a" stroke-width="1.5"/>
+      <ellipse cx="40" cy="219" rx="24" ry="6" fill="url(#tm-cymbal)" stroke="#1a1208" stroke-width="1.1"/>
+      <ellipse cx="40" cy="219" rx="17" ry="4" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="40" cy="219" rx="9" ry="2" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="40" cy="218" rx="5" ry="2" fill="#2a1c0c" stroke="#6a4a20" stroke-width="0.6"/>
+      <ellipse cx="40" cy="218" rx="2" ry="1" fill="#c4a15a"/>
+      <ellipse cx="40" cy="214" rx="24" ry="6" fill="url(#tm-cymbal)" stroke="#1a1208" stroke-width="1.1"/>
+      <ellipse cx="40" cy="214" rx="17" ry="4" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="40" cy="214" rx="9" ry="2" fill="none" stroke="#4a3214" stroke-width="0.7" opacity="0.85"/>
+      <ellipse cx="40" cy="213" rx="5" ry="2" fill="#2a1c0c" stroke="#6a4a20" stroke-width="0.6"/>
+      <ellipse cx="40" cy="213" rx="2" ry="1" fill="#c4a15a"/>
+    </g>
+</svg>

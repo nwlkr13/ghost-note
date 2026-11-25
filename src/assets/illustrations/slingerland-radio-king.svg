@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Ghost Note — Slingerland one-piece maple snare (1936)
+  Original isometric vector. Badge shapes only: no lettering, no logo artwork.
+  5 x 14 steam-bent maple, one scarf joint, reinforcing rings, eight cigar lugs, double-flange nickel hoops, cloud-shaped badge outline with no lettering, three-point side strainer, calfskin.
+-->
+<svg viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg" fill="none" role="img" aria-label="1936 solid maple snare, isometric view">
+  <defs>
+    <radialGradient id="sl-cymbal" cx="0.5" cy="0.45" r="0.55">
+      <stop offset="0" stop-color="#c4a15a"/>
+      <stop offset="0.45" stop-color="#7a5a28"/>
+      <stop offset="1" stop-color="#3a2810"/>
+    </radialGradient>
+    <radialGradient id="sl-floor" cx="0.5" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#000" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sl-chrome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8eaec"/>
+      <stop offset="0.45" stop-color="#8e949c"/>
+      <stop offset="1" stop-color="#2a2e32"/>
+    </linearGradient>
+    <linearGradient id="sl-brass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0d7a0"/>
+      <stop offset="0.45" stop-color="#b8883c"/>
+      <stop offset="1" stop-color="#5a3c18"/>
+    </linearGradient>
+    <linearGradient id="sl-shell" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8c48a"/>
+      <stop offset="0.5" stop-color="#c48a48"/>
+      <stop offset="1" stop-color="#5a3818"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="240" cy="322" rx="170" ry="14" fill="url(#sl-floor)"/>
+  <!-- solid maple, cloud badge outline -->
+    <g>
+      <line x1="199" y1="224" x2="52" y2="336" stroke="#cfc8bc" stroke-width="1.6"/>
+      <line x1="240" y1="226" x2="240" y2="336" stroke="#cfc8bc" stroke-width="1.6"/>
+      <line x1="281" y1="224" x2="428" y2="336" stroke="#cfc8bc" stroke-width="1.6"/>
+      <path d="M92 120 L92 216 A148 38 0 0 0 388 216 L388 120 Z" fill="url(#sl-shell)" stroke="#3a2414" stroke-width="1.15"/>
+      <clipPath id="sl-snare"><path d="M92 120 L92 216 A148 38 0 0 0 388 216 L388 120 Z"/></clipPath>
+      <g clip-path="url(#sl-snare)">
+        <path d="M100 126 Q240 132 380 127" fill="none" stroke="#5a3818" stroke-width="1.15" opacity="0.4"/>
+        <path d="M100 147 Q240 153 380 148" fill="none" stroke="#5a3818" stroke-width="1.15" opacity="0.4"/>
+        <path d="M100 168 Q240 174 380 169" fill="none" stroke="#5a3818" stroke-width="1.15" opacity="0.4"/>
+        <path d="M100 189 Q240 195 380 190" fill="none" stroke="#5a3818" stroke-width="1.15" opacity="0.4"/>
+        <rect x="92" y="120" width="296" height="7" fill="#000" opacity="0.18"/>
+        <rect x="92" y="209" width="296" height="7" fill="#000" opacity="0.22"/>
+        <line x1="262" y1="121" x2="262" y2="215" stroke="#4a3420" stroke-width="1.6"/>
+      </g>
+      <rect x="131" y="123" width="5" height="90" fill="#cfc8bc"/>
+      <rect x="129" y="177" width="8" height="6" fill="#f2f2f2" stroke="#6a6a6a" stroke-width="0.5"/>
+      <rect x="162" y="123" width="5" height="90" fill="#cfc8bc"/>
+      <rect x="160" y="177" width="8" height="6" fill="#f2f2f2" stroke="#6a6a6a" stroke-width="0.5"/>
+      <rect x="192" y="123" width="5" height="90" fill="#cfc8bc"/>
+      <rect x="190" y="177" width="8" height="6" fill="#f2f2f2" stroke="#6a6a6a" stroke-width="0.5"/>
+      <rect x="223" y="123" width="5" height="90" fill="#cfc8bc"/>
+      <rect x="221" y="177" width="8" height="6" fill="#f2f2f2" stroke="#6a6a6a" stroke-width="0.5"/>
+      <rect x="253" y="123" width="5" height="90" fill="#cfc8bc"/>
+      <rect x="251" y="177" width="8" height="6" fill="#f2f2f2" stroke="#6a6a6a" stroke-width="0.5"/>
+      <rect x="284" y="123" width="5" height="90" fill="#cfc8bc"/>
+      <rect x="282" y="177" width="8" height="6" fill="#f2f2f2" stroke="#6a6a6a" stroke-width="0.5"/>
+      <rect x="314" y="123" width="5" height="90" fill="#cfc8bc"/>
+      <rect x="312" y="177" width="8" height="6" fill="#f2f2f2" stroke="#6a6a6a" stroke-width="0.5"/>
+      <rect x="345" y="123" width="5" height="90" fill="#cfc8bc"/>
+      <rect x="343" y="177" width="8" height="6" fill="#f2f2f2" stroke="#6a6a6a" stroke-width="0.5"/>
+      <path d="M214 188
+    C215 166 225 166 232 184
+    C236 163 244 163 248 184
+    C256 166 266 169 266 187
+    C257 199 223 199 214 188 Z" fill="#d2cdc2" stroke="#3a3630" stroke-width="1.2"/>
+      <ellipse cx="240" cy="120" rx="151" ry="39" fill="none" stroke="#cfc8bc" stroke-width="2.4"/>
+      <ellipse cx="240" cy="120" rx="148" ry="38" fill="#141210" stroke="#cfc8bc" stroke-width="1.3"/>
+      <ellipse cx="240" cy="120" rx="140" ry="36" fill="#ecdcb8" stroke="#5a4630" stroke-width="0.6"/>
+      <ellipse cx="240" cy="120" rx="87" ry="22" fill="none" stroke="#b89a72" stroke-width="0.7" opacity="0.75"/>
+      <polygon points="302,202 314,214 294,214" fill="none" stroke="#cfc8bc" stroke-width="1.5"/>
+      <line x1="314" y1="210" x2="328" y2="202" stroke="#cfc8bc" stroke-width="1.7"/>
+    </g>
+</svg>
